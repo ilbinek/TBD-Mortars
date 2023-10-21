@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 class CfgPatches {
-    class tbd_box_81mm_he {
+    class tbd_mortars_81mm_box {
         addonRootClass = "A3_Armor_F_Beta";
         requiredAddons[] = {"cba_main", "ace_interact_menu", "rhsusf_heavyweapons"};
         requiredVersion = 0.1;

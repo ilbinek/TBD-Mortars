@@ -5,7 +5,7 @@ class cfgVehicles {
         scope = 2;
 		author = "TBD Team";
         displayName = "$STR_TBD_MORTAR_81MM_BOX_HE";
-        model = QPATHTOF(TBD_MORTAR_81mm_BOX_HE\TBD_MORTAR_81mm_BOX_HE.p3d);
+        model = QPATHTOF(TBD_MORTAR_81mm_BOX_HE\TBD_MORTAR_81mm_BOX_HE);
         ace_cargo_size = 0.5;
         ace_cargo_canLoad = 1;
         transportMaxWeapons = 0;
@@ -571,14 +571,14 @@ class cfgVehicles {
 
                 class ACE_Round_1_Put_SMOKE: ACE_Round_1_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_1_Put_ILLUM: ACE_Round_1_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 1, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -601,14 +601,14 @@ class cfgVehicles {
 
                 class ACE_Round_2_Put_SMOKE: ACE_Round_2_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_2_Put_ILLUM: ACE_Round_2_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 2, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -631,14 +631,14 @@ class cfgVehicles {
 
                 class ACE_Round_3_Put_SMOKE: ACE_Round_3_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_3_Put_ILLUM: ACE_Round_3_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 3, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -661,14 +661,14 @@ class cfgVehicles {
 
                 class ACE_Round_4_Put_SMOKE: ACE_Round_4_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_4_Put_ILLUM: ACE_Round_4_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 4, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -691,14 +691,14 @@ class cfgVehicles {
 
                 class ACE_Round_5_Put_SMOKE: ACE_Round_5_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_5_Put_ILLUM: ACE_Round_5_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 5, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -721,14 +721,14 @@ class cfgVehicles {
 
                 class ACE_Round_6_Put_SMOKE: ACE_Round_6_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_6_Put_ILLUM: ACE_Round_6_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 6, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -751,14 +751,14 @@ class cfgVehicles {
 
                 class ACE_Round_7_Put_SMOKE: ACE_Round_7_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_7_Put_ILLUM: ACE_Round_7_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 7, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -781,14 +781,14 @@ class cfgVehicles {
 
                 class ACE_Round_8_Put_SMOKE: ACE_Round_8_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_8_Put_ILLUM: ACE_Round_8_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 8, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -811,14 +811,14 @@ class cfgVehicles {
 
                 class ACE_Round_9_Put_SMOKE: ACE_Round_9_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_9_Put_ILLUM: ACE_Round_9_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 9, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -841,14 +841,14 @@ class cfgVehicles {
 
                 class ACE_Round_10_Put_SMOKE: ACE_Round_10_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_10_Put_ILLUM: ACE_Round_10_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 10, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -871,14 +871,14 @@ class cfgVehicles {
 
                 class ACE_Round_11_Put_SMOKE: ACE_Round_11_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_11_Put_ILLUM: ACE_Round_11_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 11, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 
@@ -901,14 +901,14 @@ class cfgVehicles {
 
                 class ACE_Round_12_Put_SMOKE: ACE_Round_12_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_smoke)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)) )] call FUNC(loadMine));
                 };
 
                 class ACE_Round_12_Put_ILLUM: ACE_Round_12_Put_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL";
-                    condition = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
-                    statement = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
+                    condition = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(canLoadMine));
+                    statement = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)) )] call FUNC(loadMine));
                 };
             };
 		 };

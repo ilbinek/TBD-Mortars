@@ -11,7 +11,7 @@
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_BOX_ILLUM">
             <English>81mm Illumination Ammo box</English>
-            <Czech>81mm Box NASVĚTLOVACÍCH min</Czech>
+            <Czech>81mm Box NASVĚCOVACÍCH min</Czech>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_TAKE_OFF_CAP">
             <English>Take off</English>
@@ -53,6 +53,30 @@
         <Key ID="STR_TBD_MORTAR_81MM_LOAD_ILLUM_SHELL">
             <English>Load ILLUMINATION shell</English>
             <Czech>Schovat NASVĚCOVACÍ minu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_HE_SHELL">
+            <English>HE-Frag shell</English>
+            <Czech>TŘÍSTIVÁ mina</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_HE_SHELL_DECS">
+            <English>HE-Frag shell used in 81mm mortar</English>
+            <Czech>TŘÍSTIVÁ mina použita v 81mm minometu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_SMOKE_SHELL">
+            <English>Smoke shell</English>
+            <Czech>DÝMOVÁ mina použita v 81mm minometu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_SMOKE_SHELL_DESC">
+            <English>Smoke shell used in 81mm mortar</English>
+            <Czech>DÝMOVÁ mina použita v 81mm minometu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_ILLUM_SHELL">
+            <English>Illum shell</English>
+            <Czech>NASVĚCOVACÍ mina použita v 81mm minometu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_ILLUM_SHELL_DESC">
+            <English>Smoke shell used in 81mm mortar</English>
+            <Czech>DÝMOVÁ mina</Czech>
         </Key>
     </Package>
 </Project>
