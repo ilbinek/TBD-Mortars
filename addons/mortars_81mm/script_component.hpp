@@ -16,6 +16,6 @@
 #define TBD_MORTAR_81mm_BOX_HE tbd_mortar_81mm_box_he
 #define TBD_MORTAR_81mm_BOX_SMOKE tbd_mortar_81mm_box_smoke
 #define TBD_MORTAR_81mm_BOX_ILLUM tbd_mortar_81mm_box_illum
-#define TBD_MORTAR_81mm_HE tbd_mortar_81_shell_he
-#define TBD_MORTAR_81mm_SMOKE tbd_mortar_81_shell_smoke
-#define TBD_MORTAR_81mm_ILLUM tbd_mortar_81_shell_illum
+#define TBD_MORTAR_81mm_HE tbd_mortar_81mm_shell_he
+#define TBD_MORTAR_81mm_SMOKE tbd_mortar_81mm_shell_smoke
+#define TBD_MORTAR_81mm_ILLUM tbd_mortar_81mm_shell_illum
