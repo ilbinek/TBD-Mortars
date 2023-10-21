@@ -6,6 +6,7 @@ class cfgVehicles {
 		author = "TBD Team";
         displayName = "$STR_TBD_MORTAR_81MM_BOX_HE";
         model = QPATHTOF(TBD_MORTAR_81mm_BOX_HE\TBD_MORTAR_81mm_BOX_HE);
+        editorPreview = QPATHTOF(TBD_MORTAR_81mm_BOX_HE\data\preview.paa);
         ace_cargo_size = 0.5;
         ace_cargo_canLoad = 1;
         transportMaxWeapons = 0;
