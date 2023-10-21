@@ -1,0 +1,33 @@
+name = "TBD Mortars"
+author = "TBD Team"
+prefix = "tbd"
+mainprefix = "x"
+
+[files]
+include=["mod.cpp"]
+
+[version]
+major=0
+minor=1
+patch=0
+
+git_hash=0
+
+[hemtt.release]
+sign   =true
+archive=true
+
+[hemtt.launch]
+workshop = [
+    "450814997", # CBA_A3
+    "463939057", # ACE
+    "2369477168", # Advanced Developer Tools 
+    "843577117", # RHSUSAF
+]
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+    "C:\\Users\\sotir\\Documents\\Arma 3 - Other Profiles\\[MOR]%20ilbinek\\missions\\tempMissionMP.Stratis\\mission.sqm",
+]
