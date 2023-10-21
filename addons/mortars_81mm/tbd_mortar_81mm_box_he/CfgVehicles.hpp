@@ -582,7 +582,7 @@ class cfgVehicles {
                 };
             };
 
-            /*class ACE_Round_2_Put {
+            class ACE_Round_2_Put {
                 displayName = "$STR_TBD_MORTAR_81MM_STORE";
                 distance = 2;
                 showDisabled=0;
@@ -910,7 +910,7 @@ class cfgVehicles {
                     condition = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(canLoadMine));
                     statement = QUOTE( [ARR_3(_target, 12, QUOTE(QUOTE(TBD_MORTAR_81mm_illum)) )] call FUNC(loadMine));
                 };
-            };*/
+            };
 		 };
     };
 
