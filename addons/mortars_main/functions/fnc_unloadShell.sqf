@@ -29,7 +29,7 @@
 
 params ["_obj", "_turret", "_shell", "_source"];
 
-[5, [_obj, _turret, _shell, _source], {
+[GVAR(unloadTime), [_obj, _turret, _shell, _source], {
 	private _obj = _this#0#0;
 	private _turret = _this#0#1;
 	private _shell = _this#0#2;

@@ -25,5 +25,21 @@
             <English>Loading</English>
             <Czech>Nabíjení</Czech>
         </Key>
+         <Key ID="STR_TBD_MORTAR_LOADING_TIME">
+            <English>Time to load</English>
+            <Czech>Délka nabíjení</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_LOADING_TIME_DESC">
+            <English>Time that it takes to load a shell</English>
+            <Czech>Čas jak dlouho trvá nabití miny</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_UNLOADING_TIME">
+            <English>Time to unload</English>
+            <Czech>Délka vybíjení</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_UNLOADING_TIME_DESC">
+            <English>Time that it takes to unload a shell</English>
+            <Czech>Čas jak dlouho trvá vybití miny</Czech>
+        </Key>
     </Package>
 </Project>

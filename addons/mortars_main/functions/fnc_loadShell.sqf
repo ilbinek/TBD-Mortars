@@ -30,7 +30,7 @@ params ["_obj", "_turret", "_shell"];
 
 // start a second long timer and then continue
 // TODO Expose the timer settings in CBA settings
-[1, [_obj, _turret, _shell], {
+[GVAR(loadTime), [_obj, _turret, _shell], {
 	private _obj = _this#0#0;
 	private _turret = _this#0#1;
 	private _shell = _this#0#2;

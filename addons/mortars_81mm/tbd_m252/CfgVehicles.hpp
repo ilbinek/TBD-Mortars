@@ -23,6 +23,7 @@ class cfgVehicles {
                 showDisabled = 1;
                 priority = 5;
                 displayName = "$STR_TBD_MORTAR_81MM_LOAD";
+                icon = QPATHTOEF(mortars_main,data\load.paa);
 
                 class ACE_LoadRound_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";
@@ -56,6 +57,7 @@ class cfgVehicles {
                 showDisabled = 1;
                 priority = 5;
                 displayName = "$STR_TBD_MORTAR_81MM_UNLOAD";
+                icon = QPATHTOEF(mortars_main,data\unload.paa);
 
                 class ACE_UnloadRound_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";
