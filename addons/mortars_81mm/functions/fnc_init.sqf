@@ -19,7 +19,7 @@
 		> [_this] call tbd_mortars_81mm_fnc_init;
 
 	Public:
-		Yes
+		No
 
     0 - Empty
     1 - HE Shells

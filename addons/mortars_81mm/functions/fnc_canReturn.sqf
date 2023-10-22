@@ -14,13 +14,13 @@
         _nbr    - number    - Number of the tube
 
 	Returns:
-		Nothing
+		bool	- True if tube is empty
 
 	Examples:
 		> [_this, 5] call tbd_mortars_81mm_fnc_canReturn;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"

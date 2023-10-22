@@ -13,13 +13,13 @@
 		_mine	- string	- Mine class name
 
 	Returns:
-		Nothing
+		bool	- true if mine is nearby
 
 	Examples:
 		> ["tbd_mortar_81_shell_he"] call tklama_81mm_fnc_isMineNearby;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"
@@ -36,4 +36,4 @@ private _holder = objNull;
 } foreach _nearby;
 
 if (_mine in _magArray || !(isNull _holder)) exitWith {true};
-false;
+false

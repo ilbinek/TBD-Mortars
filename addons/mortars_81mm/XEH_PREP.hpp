@@ -9,5 +9,3 @@ PREP(isMineNearby);
 PREP(loadMine);
 PREP(openLid);
 PREP(takeMine);
-
-PREP(myFunction);

@@ -1,13 +1,14 @@
 #include "..\script_component.hpp"
 
 class CfgPatches {
-    class tbd_mortars_81mm_box {
+    class tbd_mortars_m252 {
         addonRootClass = "A3_Armor_F_Beta";
         requiredAddons[] = {"cba_main", "ace_interact_menu", "rhsusf_c_statics"};
         requiredVersion = 0.1;
-        weapons[] = {""};
-        units[] = {QUOTE(TBD_MORTAR_81mm_BOX_HE), QUOTE(TBD_MORTAR_81mm_BOX_SMOKE), QUOTE(TBD_MORTAR_81mm_BOX_ILLUM)};
+        weapons[] = {"rhs_mortar_81mm"};
+        units[] = {};
     };
 };
 
 #include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

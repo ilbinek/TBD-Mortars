@@ -19,7 +19,7 @@ class TBD_MORTAR_81mm_SMOKE: 8Rnd_82mm_Mo_shells {
 		initSpeed = 200;
 		mass = 70;
 		count = 1;
-		ammo = "rhs_ammo_d832du";
+		ammo = "Smoke_82mm_AMOS_White";
 		type = 256;
     };  
 };

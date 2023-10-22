@@ -78,5 +78,9 @@
             <English>Illumiation shell used in 81mm mortar</English>
             <Czech>NASVĚCOVACÍ mina použita v 81mm minometu</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_LOAD">
+            <English>Load shell</English>
+            <Czech>Nabít minu</Czech>
+        </Key>
     </Package>
 </Project>

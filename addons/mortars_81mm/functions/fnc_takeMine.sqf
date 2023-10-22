@@ -20,7 +20,7 @@
 		> [_this, 5] call tbd_mortars_81mm_fnc_takeMine;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"

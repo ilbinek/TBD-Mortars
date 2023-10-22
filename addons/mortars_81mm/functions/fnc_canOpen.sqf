@@ -14,13 +14,13 @@
         _nbr    - number    - Number of the lid  
 
 	Returns:
-		Nothing
+		bool	- True if the lid can be opened
 
 	Examples:
 		> [_this, 5] call tbd_mortars_81mm_fnc_canOpen;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"

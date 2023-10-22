@@ -14,13 +14,13 @@
         _nbr    - number    - Number of the mine  
 
 	Returns:
-		Nothing
+		bool	- True if the mine can be taken
 
 	Examples:
 		> [_this, 5] call tbd_mortars_81mm_fnc_canTake;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"

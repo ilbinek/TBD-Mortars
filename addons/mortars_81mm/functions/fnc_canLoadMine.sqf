@@ -15,13 +15,13 @@
 		_mine	- string	- Mine class name
 
 	Returns:
-		Nothing
+		bool	- True if the tube is empty and a mine to be loaded is nearby
 
 	Examples:
 		> [_this, 5, "tbd_mortar_81_shell_he"] call tbd_mortars_81mm_fnc_canLoadMine;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"

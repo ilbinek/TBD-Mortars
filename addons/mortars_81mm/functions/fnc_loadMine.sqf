@@ -21,7 +21,7 @@
 		> [_this, 5, "tbd_mortar_81_shell_he"] call tbd_mortars_81mm_fnc_loadMine;
 
 	Public:
-		Yes
+		No
 */
 
 #include "..\script_component.hpp"
@@ -47,11 +47,11 @@ if (_mine in _magazines) then {
 
 	if (!isNull _holder) then {
 		private _oldMags = magazinesAmmoCargo _holder;
-		private _i = _oldMags find ([_mine,1]);
+		private _i = _oldMags find ([_mine, 1]);
 		_oldMags set [_i, "usedRound"];
 		_oldMags = _oldMags - ["usedRound"];
 
-		if (count (weaponCargo _holder) == 0) then {_holder addWeaponCargoGlobal ['FakeWeapon',1];};
+		if (count (weaponCargo _holder) == 0) then {_holder addWeaponCargoGlobal ['FakeWeapon', 1];};
 		clearMagazineCargoGlobal (_holder);
 		{_holder addMagazineAmmoCargo [_x select 0, 1, _x select 1]} forEach _oldMags;
 		if (count (weaponCargo _holder - ['FakeWeapon']) == 0) then {clearWeaponCargoGlobal _holder};

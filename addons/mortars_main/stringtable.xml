@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="tbd_mortar">
+    <Package name="Translation">
+    <Key ID="STR_TBD_MORTAR_LOADING">
+            <English>Loading</English>
+            <Czech>Nabíjení</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_LOADING_ABORTED">
+            <English>Loading aborted</English>
+            <Czech>Nabíjení přerušeno</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_NO_SHELL">
+            <English>No shells found</English>
+            <Czech>Žádná mina nenalazena</Czech>
+        </Key>
+    </Package>
+</Project>

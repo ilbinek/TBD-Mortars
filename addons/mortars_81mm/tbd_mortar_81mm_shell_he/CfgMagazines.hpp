@@ -19,7 +19,7 @@ class CfgMagazines {
 		initSpeed = 200;
 		mass = 70;
 		count = 1;
-		ammo = "rhs_ammo_3vo18";
+		ammo = "rhs_m821_he";
 		type = 256;
 	};  
 };																																						
