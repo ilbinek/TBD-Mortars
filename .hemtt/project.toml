@@ -5,6 +5,7 @@ mainprefix = "x"
 
 [files]
 include=["mod.cpp"]
+exclude=["/.vscode/"]
 
 [version]
 major=0
