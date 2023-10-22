@@ -7,12 +7,13 @@ l
 		ilbinek
 
 	Description:
-		Loads a shell into the turret
+		Find the mortar turret owner and calls the unload function
 
 	Parameters:
         _obj    - object    - The mortar  
 		_turret - number    - The turret number
 		_shell  - string    - The shell className
+		_source - object    - The player that is unloading
 
 	Returns:
 		nothing
@@ -26,6 +27,6 @@ l
 
 #include "..\script_component.hpp"
 
-params ["_obj", "_turret", "_shell"];
+params ["_obj", "_turret", "_shell", "_source"];
 
-[_obj, _turret, _shell] remoteExec [QFUNC(remoteLoad), _obj turretOwner [_turret]];
+[_obj, _turret, _shell, _source] remoteExec [QFUNC(remoteUnload), _obj turretOwner [_turret]];

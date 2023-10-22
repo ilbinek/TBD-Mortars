@@ -18,7 +18,7 @@
 		bool	- true if the mortar is empty and the shell is nearby
 
 	Examples:
-		> [_this, 5] call tbd_mortars_main_fnc_checkCanLoadShell;
+		> [_this, 5, "tbd_mortar_81mm_shell_he"] call tbd_mortars_main_fnc_checkCanLoadShell;
 
 	Public:
 		Yes

@@ -82,5 +82,9 @@
             <English>Load shell</English>
             <Czech>Nabít minu</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTAR_81MM_UNLOAD">
+            <English>Unload shell</English>
+            <Czech>Vyndat minu</Czech>
+        </Key>
     </Package>
 </Project>
