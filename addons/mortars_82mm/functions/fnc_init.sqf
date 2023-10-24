@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_init.sqf
 
-	Name: tbd_mortars_81mm_fnc_init
+	Name: tbd_mortars_82mm_fnc_init
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this] call tbd_mortars_81mm_fnc_init;
+		> [_this] call tbd_mortars_82mm_fnc_init;
 
 	Public:
 		No
@@ -31,16 +31,13 @@
 
 params ["_box"];
 
-// set all 12 lids to closed
-for "_i" from 1 to 12 do {
-    private _str = format ["cap_%1", _i];
-    _box setVariable [_str, false, true];
-    _box animate[format ["cap_%1_stored_h", _i], 1, 0.2];
-};
+private _str = format ["top", _i];
+_box setVariable [_str, false, true];
+_box animate["top", 1, 0.2];
 
-if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_HE)) then {
+if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_HE)) then {
     // set all 12 slots as he
-    for "_i" from 1 to 12 do {
+    for "_i" from 1 to 5 do {
         private _n = format ["round_%1", _i];
         _box setVariable[_n, 1, true];
         _box animate [format ["mine_he_%1_h", _i], 0];
@@ -49,9 +46,9 @@ if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_HE)) then {
     };
 };
 
-if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_SMOKE)) then {
+if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_SMOKE)) then {
     // set all 12 slots as smoke
-    for "_i" from 1 to 12 do {
+    for "_i" from 1 to 5 do {
         _box setVariable[format ["round_%1", _i], 2, true];
         _box animate [format ["mine_he_%1_h", _i], 1];
         _box animate [format ["mine_smoke_%1_h", _i], 0];
@@ -59,9 +56,9 @@ if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_SMOKE)) then {
     };
 };
 
-if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_ILLUM)) then {
+if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_ILLUM)) then {
     // set all 12 slots as illum
-    for "_i" from 1 to 12 do {
+    for "_i" from 1 to 5 do {
         _box setVariable[format ["round_%1", _i], 3, true];
         _box animate [format ["mine_he_%1_h", _i], 1];
         _box animate [format ["mine_smoke_%1_h", _i], 1];

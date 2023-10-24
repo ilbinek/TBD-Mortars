@@ -7,11 +7,10 @@
 		ilbinek
 
 	Description:
-		Opens the lid on the 81mm ammo box
+		Opens the lid on the 82mm ammo box
 
 	Parameters:
         _box    - object    - The box
-        _nbr    - number    - Number of the lid  
 
 	Returns:
 		Nothing
@@ -25,8 +24,7 @@
 
 #include "..\script_component.hpp"
 
-params ["_box", "_nbr"];
+params ["_box"];
 
-_box animate[format ["cap_%1", _nbr], 1, 0.2];
-_box animate[format ["cap_%1_stored_h", _nbr], 0, 0.2];
-_box setVariable [format ["cap_%1", _nbr], true, true];
+_box animate["top", 1, 0.2];
+_box setVariable ["top", true, true];

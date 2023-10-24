@@ -20,7 +20,6 @@ class cfgVehicles {
                     initPhase = 0;
                     animPeriod = 3;
                 };
-                
             };
         };
 
@@ -28,25 +27,21 @@ class cfgVehicles {
             ///////////////////// Roof /////////////////////
             class openBox {
                 displayName = "$STR_TBD_MORTAR_82MM_OPEN";
-                condition = QUOTE( [ARR_2(_target, 1)] call FUNC(canOpen));
+                condition = QUOTE( [ARR_1(_target)] call FUNC(canOpen));
                 exceptions[] = {};
-                statement = QUOTE( [ARR_2(_target, 1)] call FUNC(openLid));
+                statement = QUOTE( [ARR_1(_target)] call FUNC(openLid));
                 distance = 2;
                 selection = "int_box_open";
             };
 
             class closeBox {
                 displayName = "$STR_TBD_MORTAR_82MM_CLOSE";
-                condition = QUOTE( [ARR_2(_target, 1)] call FUNC(canClose));
+                condition = QUOTE( [ARR_1(_target)] call FUNC(canClose));
                 exceptions[] = {};
-                statement = QUOTE( [ARR_2(_target, 1)] call FUNC(closeLid));
+                statement = QUOTE( [ARR_1(_target)] call FUNC(closeLid));
                 distance = 2;
                 selection = "int_box_close";
             };
-
-        
-
-           
 		 };
     };
 
