@@ -33,7 +33,7 @@ params ["_box"];
 
 private _str = format ["top", _i];
 _box setVariable [_str, false, true];
-_box animate["top", 1, 0.2];
+_box animate["top", 0, 0.2];
 
 if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_HE)) then {
     // set all 12 slots as he
