@@ -18,7 +18,8 @@ class cfgVehicles {
                 class top_source {
                     source = "user";  
                     initPhase = 0;
-                    animPeriod = 3;
+                    animPeriod = 1;
+                    sound="GenericDoorsSound";
                 };
             };
         };
