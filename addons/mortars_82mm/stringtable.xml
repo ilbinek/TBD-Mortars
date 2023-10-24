@@ -13,13 +13,13 @@
             <English>82mm Illumination Ammo box</English>
             <Czech>82mm Box NASVĚCOVACÍCH min</Czech>
         </Key>
-        <Key ID="STR_TBD_MORTAR_82MM_TAKE_OFF_CAP">
-            <English>Take off</English>
-            <Czech>Sundat</Czech>
+        <Key ID="STR_TBD_MORTAR_82MM_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
         </Key>
-        <Key ID="STR_TBD_MORTAR_82MM_PUT_ON_CAP">
-            <English>Put back on</English>
-            <Czech>Nasadit</Czech>
+        <Key ID="STR_TBD_MORTAR_82MM_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_TAKE_SHELL">
             <English>Take shell</English>

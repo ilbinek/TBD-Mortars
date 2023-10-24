@@ -13,14 +13,12 @@ class cfgVehicles {
         transportMaxMagazines = 0;
         transportMaxBackpacks = 0;
 
-		class Animations {
-            class AnimationSources {
-                class top_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                    sound="GenericDoorsSound";
-                };
+        class AnimationSources {
+            class top_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+                sound="GenericDoorsSound";
             };
         };
 
