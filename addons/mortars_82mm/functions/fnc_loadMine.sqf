@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_loadMine.sqf
 
-	Name: tbd_mortars_81mm_fnc_loadMine
+	Name: tbd_mortars_82mm_fnc_loadMine
 
 	Author(s):
 		ilbinek
@@ -18,7 +18,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5, "tbd_mortar_81_shell_he"] call tbd_mortars_81mm_fnc_loadMine;
+		> [_this, 5, "tbd_mortar_82_shell_he"] call tbd_mortars_82mm_fnc_loadMine;
 
 	Public:
 		No
@@ -60,7 +60,7 @@ if (_mine in _magazines) then {
 
 private _r = format ["round_%1", _nbr];
 switch (_mine) do {
-	case QUOTE(TBD_MORTAR_81mm_HE): {_box setVariable [_r, 1, true]; _box animate [format ["mine_he_%1_h", _nbr], 0];};
-	case QUOTE(TBD_MORTAR_81mm_SMOKE): {_box setVariable [_r, 2, true]; _box animate [format ["mine_smoke_%1_h", _nbr], 0];};
-	case QUOTE(TBD_MORTAR_81mm_ILLUM): {_box setVariable [_r, 3, true]; _box animate [format ["mine_illum_%1_h", _nbr], 0];};
+	case QUOTE(TBD_MORTAR_82mm_HE): {_box setVariable [_r, 1, true]; _box animate [format ["mine_he_%1_h", _nbr], 0];};
+	case QUOTE(TBD_MORTAR_82mm_SMOKE): {_box setVariable [_r, 2, true]; _box animate [format ["mine_smoke_%1_h", _nbr], 0];};
+	case QUOTE(TBD_MORTAR_82mm_ILLUM): {_box setVariable [_r, 3, true]; _box animate [format ["mine_illum_%1_h", _nbr], 0];};
 };
