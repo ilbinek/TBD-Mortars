@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_canLoadMine.sqf
 
-	Name: tbd_mortars_81mm_fnc_canLoadMine
+	Name: tbd_mortars_82mm_fnc_canLoadMine
 
 	Author(s):
 		ilbinek
@@ -18,7 +18,7 @@
 		bool	- True if the tube is empty and a mine to be loaded is nearby
 
 	Examples:
-		> [_this, 5, "tbd_mortar_81_shell_he"] call tbd_mortars_81mm_fnc_canLoadMine;
+		> [_this, 5, "tbd_mortar_82_shell_he"] call tbd_mortars_82mm_fnc_canLoadMine;
 
 	Public:
 		No

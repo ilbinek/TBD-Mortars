@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_canReturn.sqf
 
-	Name: tbd_mortars_81mm_fnc_canReturn
+	Name: tbd_mortars_82mm_fnc_canReturn
 
 	Author(s):
 		ilbinek
@@ -17,7 +17,7 @@
 		bool	- True if tube is empty
 
 	Examples:
-		> [_this, 5] call tbd_mortars_81mm_fnc_canReturn;
+		> [_this, 5] call tbd_mortars_82mm_fnc_canReturn;
 
 	Public:
 		No
@@ -27,8 +27,7 @@
 
 params ["_box", "_nbr"];
 
-private _cap = format["cap_%1", _nbr];
 private _rnd = format["round_%1", _nbr];
-private _ret = _box getVariable _cap && _box getVariable _rnd == 0;
+private _ret = _box getVariable "top" && _box getVariable _rnd == 0;
 
 _ret

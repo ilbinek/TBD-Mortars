@@ -1,4 +1,4 @@
-class cfgVehicles {
+class CfgVehicles {
     class NATO_Box_Base;
 
     class TBD_MORTAR_82mm_BOX_HE : NATO_Box_Base {
@@ -25,84 +25,81 @@ class cfgVehicles {
                 initPhase = 0;
                 animPeriod = 1;
             };
-
             class mine_1_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_2_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_3_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_4_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_5_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_smoke_1_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_smoke_2_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_smoke_3_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_smoke_4_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_smoke_5_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_illum_1_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_illum_2_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_illum_3_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_illum_4_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-                class mine_illum_5_source {
-                    source = "user";  
-                    initPhase = 0;
-                    animPeriod = 1;
-                };
-    
-
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_2_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_3_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_4_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_5_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_smoke_1_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_smoke_2_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_smoke_3_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_smoke_4_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_smoke_5_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_illum_1_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_illum_2_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_illum_3_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_illum_4_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_illum_5_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
         };
 
 		 class ACE_Actions {
@@ -134,7 +131,7 @@ class cfgVehicles {
 				exceptions[]={};
 				priority=5;
                 condition = QUOTE( [ARR_2(_target, 1)] call FUNC(canTake));
-                statement = QUOTE( [ARR_2(_target,  1)] call FUNC(takeMine));
+                statement = QUOTE( [ARR_2(_target, 1)] call FUNC(takeMine));
                 selection = "int_mine_1"; 
             };
 

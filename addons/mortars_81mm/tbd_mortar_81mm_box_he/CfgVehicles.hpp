@@ -1,4 +1,4 @@
-class cfgVehicles {
+class CfgVehicles {
     class NATO_Box_Base;
 
     class TBD_MORTAR_81mm_BOX_HE : NATO_Box_Base {
@@ -481,7 +481,7 @@ class cfgVehicles {
 				exceptions[]={};
 				priority=5;
                 condition = QUOTE( [ARR_2(_target, 1)] call FUNC(canTake));
-                statement = QUOTE( [ARR_2(_target,  1)] call FUNC(takeMine));
+                statement = QUOTE( [ARR_2(_target, 1)] call FUNC(takeMine));
                 selection = "int_mine_1"; 
             };
 

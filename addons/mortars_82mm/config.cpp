@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = 2.04;
-        requiredAddons[] = {"cba_main", "ace_interact_menu", "rhsusf_heavyweapons"};
+        requiredAddons[] = {"cba_main", "ace_interact_menu", "rhs_c_heavyweapons"};
     };
 };
 

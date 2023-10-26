@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_canClose.sqf
 
-	Name: tbd_mortars_81mm_fnc_canClose
+	Name: tbd_mortars_82mm_fnc_canClose
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		bool	- True if the lid can be closed
 
 	Examples:
-		> [_this, 5] call tbd_mortars_81mm_fnc_canClose;
+		> [_this, 5] call tbd_mortars_82mm_fnc_canClose;
 
 	Public:
 		No
