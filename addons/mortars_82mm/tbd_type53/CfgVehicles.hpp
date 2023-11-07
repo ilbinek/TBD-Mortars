@@ -7,7 +7,9 @@ class CfgVehicles {
     };
 
     class StaticMortar: StaticWeapon {};
-    class rhs_2b14_82mm_Base: StaticMortar {
+    class Mortar_01_base_F: StaticMortar {};
+    class vn_static_mortar_m29_base: Mortar_01_base_F {};
+    class vn_static_mortar_type53_base: vn_static_mortar_m29_base {
         artilleryScanner = 0; // turn off artillery computer
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up
         ace_artillerytables_showGunLaying = 1;  // "fix" rangetables not showing up
@@ -79,12 +81,6 @@ class CfgVehicles {
                     statement = QUOTE( [ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)), _player)] call EFUNC(mortars_main,unloadShell));
                     showDisabled = 0;
                 };
-            };
-        };
-
-        class Attributes {
-            class rhs_ammoslot_1 {
-                defaultValue = "0";
             };
         };
     };

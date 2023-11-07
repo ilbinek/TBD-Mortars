@@ -1,16 +1,14 @@
 class CfgVehicles {
 	class LandVehicle;
     class StaticWeapon: LandVehicle {
-        class Turrets {
-            class MainTurret;
+         class ACE_Actions {
+            class ACE_MainActions;
         };
-        class EventHandlers;
-        class ViewPilot;
-        class VehicleTransport;
     };
 
     class StaticMortar: StaticWeapon {};
-    class Mortar_01_base_F: StaticMortar {
+    class Mortar_01_base_F: StaticMortar {};
+    class I_G_Mortar_01_F: Mortar_01_base_F {
         artilleryScanner = 0; // turn off artillery computer
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up
         ace_artillerytables_showGunLaying = 1;  // "fix" rangetables not showing up
