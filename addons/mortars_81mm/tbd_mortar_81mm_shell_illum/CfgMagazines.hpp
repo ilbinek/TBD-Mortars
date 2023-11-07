@@ -12,14 +12,14 @@ class TBD_MORTAR_81mm_ILLUM: 8Rnd_82mm_Mo_shells {
 		scope = 2;
 		scopeArsenal = 2;
 		author = "TBD Team";       
-        displayName = "$STR_TBD_MORTAR_81MM_ILLUM_SHELL";        
+        displayName = QUOTE($STR_TBD_MORTAR_81MM_ILLUM_SHELL);        
         model = QPATHTOF(TBD_MORTAR_81mm_ILLUM\TBD_MORTAR_81mm_ILLUM);  
 		picture =  QPATHTOF(TBD_MORTAR_81mm_ILLUM\data\icon.paa);
-		descriptionShort = "$STR_TBD_MORTAR_81MM_ILLUM_SHELL_DESC";
+		descriptionShort = QUOTE($STR_TBD_MORTAR_81MM_ILLUM_SHELL_DESC);
 		initSpeed = 200;
 		mass = 70;
 		count = 1;
-		ammo = "Flare_82mm_AMOS_White";
+		ammo = QUOTE(TBD_MORTAR_81mm_SHELL_AMMO_ILLUM);
 		type = 256;
     };  
 };

@@ -12,14 +12,14 @@ class CfgMagazines {
 		scope = 2;
 		scopeArsenal = 2;
 		author = "TBD Team";       
-		displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";        
+		displayName = QUOTE($STR_TBD_MORTAR_81MM_HE_SHELL);        
 		model = QPATHTOF(TBD_MORTAR_81mm_HE\TBD_MORTAR_81mm_HE);
 		picture = QPATHTOF(TBD_MORTAR_81mm_HE\data\icon.paa);
-		descriptionShort = "$STR_TBD_MORTAR_81MM_HE_SHELL_DESC";
+		descriptionShort = QUOTE($STR_TBD_MORTAR_81MM_HE_SHELL_DESC);
 		initSpeed = 200;
 		mass = 70;
 		count = 1;
-		ammo = "rhs_m821_he";
+		ammo = QUOTE(TBD_MORTAR_81mm_SHELL_AMMO_HE);
 		type = 256;
 	};  
 };																																						
