@@ -5,7 +5,7 @@ mainprefix = "x"
 
 [files]
 include=["mod.cpp"]
-exclude=["/.vscode/"]
+exclude=[".vscode/**/*"]
 
 [version]
 major=0
@@ -25,6 +25,9 @@ workshop = [
     "2369477168", # Advanced Developer Tools 
     "843577117", # RHSUSAF
     "843425103", # RHSAFRF
+]
+dlc = [
+    "vn",
 ]
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
