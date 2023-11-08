@@ -1,10 +1,11 @@
 class CfgAmmo {
-	class ShotDeployCore;
-	class ShotDeployBase: ShotDeployCore {};
-	class Smoke_82mm_AMOS_White: ShotDeployBase {};
+	class SubmunitionCore;
+	class SubmunitionBase: SubmunitionCore {};
 
-	class TBD_MORTAR_81mm_SHELL_AMMO_SMOKE: Smoke_82mm_AMOS_White {
+	class TBD_MORTAR_81mm_SHELL_AMMO_SMOKE: SubmunitionBase {
 		model = QPATHTOF(TBD_MORTAR_81mm_SMOKE\TBD_MORTAR_81mm_SMOKE);
+		submunitionAmmo = "SmokeShellArty";
+		ace_rearm_caliber = 81;
 		submunitionAutoleveling = 1;
 		submunitionConeAngle[] = {120,220};
 		submunitionConeAngleHorizontal = 720;
