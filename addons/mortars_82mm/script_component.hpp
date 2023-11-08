@@ -18,3 +18,7 @@
 #define TBD_MORTAR_82mm_HE tbd_mortar_82mm_shell_he
 #define TBD_MORTAR_82mm_SMOKE tbd_mortar_82mm_shell_smoke
 #define TBD_MORTAR_82mm_ILLUM tbd_mortar_82mm_shell_illum
+
+#define TBD_MORTAR_82mm_SHELL_AMMO_HE tbd_mortar_82mm_shell_ammo_he
+#define TBD_MORTAR_82mm_SHELL_AMMO_SMOKE tbd_mortar_82mm_shell_ammo_smoke
+#define TBD_MORTAR_82mm_SHELL_AMMO_ILLUM tbd_mortar_82mm_shell_ammo_illum

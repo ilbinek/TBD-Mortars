@@ -1,25 +1,23 @@
 class CfgMagazines {
-class Default;
-class CA_Magazine: Default {};
+	class Default;
+	class CA_Magazine: Default {};
+	class VehicleMagazine: CA_Magazine {};
+	class 32Rnd_155mm_Mo_shells: VehicleMagazine {};
+	class 8Rnd_82mm_Mo_shells: 32Rnd_155mm_Mo_shells {};
 
-class VehicleMagazine: CA_Magazine {};
-
-class 32Rnd_155mm_Mo_shells: VehicleMagazine {};
-
-class 8Rnd_82mm_Mo_shells: 32Rnd_155mm_Mo_shells {};
-
-class TBD_MORTAR_82mm_SMOKE: 8Rnd_82mm_Mo_shells {
+	class TBD_MORTAR_82mm_SMOKE: 8Rnd_82mm_Mo_shells {
 		scope = 2;
 		scopeArsenal = 2;
-		author = "TBD Team";       
-        displayName = "$STR_TBD_MORTAR_82MM_SMOKE_SHELL";        
+		author = "TBD Team";
+        displayName = QUOTE($STR_TBD_MORTAR_82MM_SMOKE_SHELL);
+		displayNameShort = "TBD Smoke";
         model = QPATHTOF(TBD_MORTAR_82mm_SMOKE\TBD_MORTAR_82mm_SMOKE);
 		picture =  QPATHTOF(TBD_MORTAR_82mm_SMOKE\data\icon.paa);
-		descriptionShort = "$STR_TBD_MORTAR_82MM_SMOKE_SHELL_DESC";
-		initSpeed = 200;
+		descriptionShort = QUOTE($STR_TBD_MORTAR_82MM_SMOKE_SHELL_DESC);
+		initSpeed = 211;
 		mass = 70;
 		count = 1;
-		ammo = "rhs_ammo_d832du";
+		ammo = QUOTE(TBD_MORTAR_82mm_SHELL_AMMO_SMOKE);
 		type = 256;
     };  
 };

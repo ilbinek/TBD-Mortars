@@ -1,0 +1,175 @@
+/*
+    INCLUDE INHERITED ENTRIES: true
+    SHOW CLASSES ONLY: false
+    UNLOCALIZED TEXT: true
+    CONFIG PATH: bin\config.bin/CfgAmmo/tbd_mortar_82mm_shell_ammo_illum
+    SOURCE ADD-ON(S): tbd_mortar_82mm_shell_illum
+*/
+
+class tbd_mortar_82mm_shell_ammo_illum
+{
+    model = "\x\TBD\addons\mortars_82mm\tbd_mortar_82mm_shell_illum\tbd_mortar_82mm_shell_illum";
+    effectFlare = "CounterMeasureFlare";
+    aimAboveTarget[] = {30,60,120,180,240,300,360};
+    aimAboveDefault = 4;
+    triggerTime = -1;
+    triggerSpeedCoef = 1;
+    lightColor[] = {0.95,0.95,1,0.5};
+    smokeColor[] = {1,1,1,0.5};
+    intensity = 80000;
+    flareSize = 12;
+    timeToLive = 60;
+    ace_rearm_caliber = 82;
+    hit = 5;
+    indirectHit = 2;
+    indirectHitRange = 0.2;
+    cost = 100;
+    simulation = "shotIlluminating";
+    simulationStep = 0.05;
+    explosive = 0;
+    soundHit[] = {"",0,1};
+    brightness = 2;
+    size = 1;
+    deflecting = 60;
+    thrust = 0;
+    airFriction = 0;
+    sideairFriction = 0;
+    artilleryLock = 1;
+    soundFly[] = {"",3.16228e-005,1};
+    soundEngine[] = {"",0.0001,4};
+    visibleFire = 2;
+    audibleFire = 0.25;
+    visibleFireTime = 0;
+    access = 3;
+    underwaterHitRangeCoef = 1;
+    typicalSpeed = 900;
+    explosionForceCoef = 1;
+    isCraterOriented = 0;
+    proxyShape = "";
+    craterShape = "";
+    weaponType = "Default";
+    animated = 0;
+    shadow = 0;
+    maxSpeed = 0;
+    cartridge = "";
+    tracerColor[] = {0.7,0.7,0.5,0.04};
+    tracerColorR[] = {0.7,0.7,0.5,0.04};
+    supersonicCrackNear[] = {"",1,1};
+    supersonicCrackFar[] = {"",1,1};
+    soundFall[] = {"",1,1};
+    soundFakeFall[] = {"soundFall",1};
+    hitGroundSoft[] = {"soundHit",1};
+    hitGroundHard[] = {"soundHit",1};
+    hitMan[] = {"soundHit",1};
+    hitArmor[] = {"soundHit",1};
+    hitIron[] = {"soundHit",1};
+    hitBuilding[] = {"soundHit",1};
+    hitFoliage[] = {"soundHit",1};
+    hitWood[] = {"soundHit",1};
+    hitGlass[] = {"soundHit",1};
+    hitGlassArmored[] = {"soundHit",1};
+    hitConcrete[] = {"soundHit",1};
+    hitRubber[] = {"soundHit",1};
+    hitPlastic[] = {"soundHit",1};
+    hitDefault[] = {"soundHit",1};
+    hitMetal[] = {"soundHit",1};
+    hitMetalplate[] = {"soundHit",1};
+    hitTyre[] = {"soundHit",1};
+    hitWater[] = {"soundHit",1};
+    soundImpact[] = {"",1,1};
+    impactGroundSoft[] = {"soundImpact",1};
+    impactGroundHard[] = {"soundImpact",1};
+    impactMan[] = {"soundImpact",1};
+    impactIron[] = {"soundImpact",1};
+    impactArmor[] = {"soundImpact",1};
+    impactBuilding[] = {"soundImpact",1};
+    impactFoliage[] = {"soundImpact",1};
+    impactWood[] = {"soundImpact",1};
+    impactGlass[] = {"soundImpact",1};
+    impactGlassArmored[] = {"soundImpact",1};
+    impactConcrete[] = {"soundImpact",1};
+    impactRubber[] = {"soundImpact",1};
+    impactPlastic[] = {"soundImpact",1};
+    impactDefault[] = {"soundImpact",1};
+    impactMetal[] = {"soundImpact",1};
+    impactMetalplate[] = {"soundImpact",1};
+    impactTyre[] = {"soundImpact",1};
+    impactWater[] = {"soundImpact",1};
+    grenadeFireSound[] = {};
+    grenadeBurningSound[] = {};
+    deflectionSlowDown = 0.8;
+    explosionEffects = "ExplosionEffects";
+    craterEffects = "ImpactEffectsMedium";
+    craterWaterEffects = "ImpactEffectsWater";
+    effectsMissile = "ExplosionEffects";
+    effectsMissileInit = "";
+    effectsSmoke = "SmokeShellWhite";
+    effectsFire = "CannonFire";
+    effectFly = "";
+    mineJumpEffects = "";
+    waterEffectOffset = 0.45;
+    directionalExplosion = 0;
+    explosionAngle = 60;
+    explosionDir = "explosionDir";
+    explosionPos = "explosionPos";
+    explosionEffectsDir = "explosionDir";
+    minimumSafeZone = 0.1;
+    soundTrigger[] = {};
+    soundActivation[] = {};
+    soundDeactivation[] = {};
+    explosionSoundEffect = "";
+    minTimeToLive = 0;
+    irLock = 0;
+    airLock = 0;
+    laserLock = 0;
+    nvLock = 0;
+    hitOnWater = 0;
+    lockSeekRadius = 100;
+    manualControl = 0;
+    maxControlRange = 350;
+    maneuvrability = 1;
+    trackLead = 1;
+    trackOversteer = 1;
+    missileLockCone = 0;
+    weaponLockSystem = 0;
+    cmImmunity = 1;
+    lockType = 0;
+    maverickweaponIndexOffset = 0;
+    artilleryDispersion = 1;
+    artilleryCharge = 1;
+    autoSeekTarget = 0;
+    shootDistraction = -1;
+    explosionTime = 0;
+    fuseDistance = 0;
+    initTime = 0;
+    thrustTime = 1.5;
+    icon = "";
+    submunitionAmmo = "";
+    explosionType = "explosive";
+    mineTrigger = "RangeTrigger";
+    mineBoundingTime = 3;
+    mineBoundingDist = 3;
+    mineInconspicuousness = 10;
+    mineFloating = -1;
+    mineDiveSpeed = 1;
+    minePlaceDist = 0.5;
+    class HitEffects
+    {
+        vehicle = "ImpactMetal";
+        object = "ImpactConcrete";
+    };
+    suppressionRadiusBulletClose = -1;
+    suppressionRadiusHit = -1;
+    dangerRadiusBulletClose = -1;
+    dangerRadiusHit = -1;
+    caliber = 1;
+    whistleDist = 0;
+    whistleOnFire = 0;
+    class NVGMarkers
+    {
+    };
+    minDamageForCamShakeHit = 0.55;
+    class EventHandlers
+    {
+    };
+};
