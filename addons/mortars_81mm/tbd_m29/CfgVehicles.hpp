@@ -14,7 +14,6 @@ class cfgVehicles {
 
         class ACE_Actions {
             class ACE_LoadRound {
-                //["camo1","otochlaven","legsup","pohon","elev_handle","rot_handle","zbytek","legsdown","computer","otocvez","proxy:\ca\temp\proxies\d30\cargo.001","proxy:\a3\data_f\proxies\mortar\gunner.001"]
                 selection = "computer";
                 distance = 2.5;
                 condition = "alive _target";
@@ -26,24 +25,24 @@ class cfgVehicles {
                 class ACE_LoadRound_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";
                     icon = QPATHTOF(TBD_MORTAR_81mm_HE\data\icon.paa);
-                    condition = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call EFUNC(mortars_main,checkCanLoadShell));
-                    statement = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call EFUNC(mortars_main,loadShell));
+                    condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call EFUNC(mortars_main,checkCanLoadShell));
+                    statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call EFUNC(mortars_main,loadShell));
                     showDisabled = 0;
                 };
 
 				class ACE_LoadRound_SMOKE {
                     displayName = "$STR_TBD_MORTAR_81MM_SMOKE_SHELL";
                     icon = QPATHTOF(TBD_MORTAR_81mm_SMOKE\data\icon.paa);
-                    condition = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call EFUNC(mortars_main,checkCanLoadShell));
-                    statement = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call EFUNC(mortars_main,loadShell));
+                    condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call EFUNC(mortars_main,checkCanLoadShell));
+                    statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call EFUNC(mortars_main,loadShell));
                     showDisabled = 0;
                 };
 
 				class ACE_LoadRound_ILLUM {
                     displayName = "$STR_TBD_MORTAR_81MM_ILLUM_SHELL";
                     icon = QPATHTOF(TBD_MORTAR_81mm_ILLUM\data\icon.paa);
-                    condition = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call EFUNC(mortars_main,checkCanLoadShell));
-                    statement = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call EFUNC(mortars_main,loadShell));
+                    condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call EFUNC(mortars_main,checkCanLoadShell));
+                    statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call EFUNC(mortars_main,loadShell));
                     showDisabled = 0;
                 };
             };
@@ -60,24 +59,24 @@ class cfgVehicles {
                 class ACE_UnloadRound_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";
                     icon = QPATHTOF(TBD_MORTAR_81mm_HE\data\icon.paa);
-                    condition = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call EFUNC(mortars_main,checkCanUnloadShell));
-                    statement = QUOTE( [ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)), _player)] call EFUNC(mortars_main,unloadShell));
+                    condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call EFUNC(mortars_main,checkCanUnloadShell));
+                    statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)),_player)] call EFUNC(mortars_main,unloadShell));
                     showDisabled = 0;
                 };
 
 				class ACE_UnloadRound_SMOKE {
                     displayName = "$STR_TBD_MORTAR_81MM_SMOKE_SHELL";
                     icon = QPATHTOF(TBD_MORTAR_81mm_SMOKE\data\icon.paa);
-                    condition = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call EFUNC(mortars_main,checkCanUnloadShell));
-                    statement = QUOTE( [ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)), _player)] call EFUNC(mortars_main,unloadShell));
+                    condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call EFUNC(mortars_main,checkCanUnloadShell));
+                    statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)),_player)] call EFUNC(mortars_main,unloadShell));
                     showDisabled = 0;
                 };
 
 				class ACE_UnloadRound_ILLUM {
                     displayName = "$STR_TBD_MORTAR_81MM_ILLUM_SHELL";
                     icon = QPATHTOF(TBD_MORTAR_81mm_ILLUM\data\icon.paa);
-                    condition = QUOTE( [ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call EFUNC(mortars_main,checkCanUnloadShell));
-                    statement = QUOTE( [ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)), _player)] call EFUNC(mortars_main,unloadShell));
+                    condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call EFUNC(mortars_main,checkCanUnloadShell));
+                    statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)),_player)] call EFUNC(mortars_main,unloadShell));
                     showDisabled = 0;
                 };
             };
