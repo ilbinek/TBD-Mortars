@@ -103,7 +103,7 @@ class CfgVehicles {
         };
 
 		 class ACE_Actions {
-            ///////////////////// Roof /////////////////////
+            ///////////////////// Lid /////////////////////
             class openBox {
                 displayName = "$STR_TBD_MORTAR_82MM_OPEN";
                 condition = QUOTE([ARR_1(_target)] call FUNC(canOpen));
@@ -123,7 +123,7 @@ class CfgVehicles {
             };
 
 
-              ///////////////////// Take mines /////////////////////
+            ///////////////////// Take mines /////////////////////
             class ACE_Round_1_Take {
                 displayName = "$STR_TBD_MORTAR_82MM_TAKE_SHELL";
                 distance = 2;

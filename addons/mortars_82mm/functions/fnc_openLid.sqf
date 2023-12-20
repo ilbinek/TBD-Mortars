@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_openLid.sqf
 
-	Name: tbd_mortars_81mm_fnc_openLid
+	Name: tbd_mortars_82mm_fnc_openLid
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5] call tbd_mortars_81mm_fnc_openLid;
+		> [_this, 5] call tbd_mortars_82mm_fnc_openLid;
 
 	Public:
 		No

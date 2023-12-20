@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_isMineNearby.sqf
 
-	Name: tklama_81mm_fnc_isMineNearby
+	Name: tbd_mortars_82mm_fnc_isMineNearby
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		bool	- true if mine is nearby
 
 	Examples:
-		> ["tbd_mortar_81_shell_he"] call tklama_81mm_fnc_isMineNearby;
+		> ["tbd_mortar_82_shell_he"] call tbd_mortars_82mm_fnc_isMineNearby;
 
 	Public:
 		No

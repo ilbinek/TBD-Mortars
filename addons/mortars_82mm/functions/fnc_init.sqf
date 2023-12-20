@@ -7,7 +7,7 @@
 		ilbinek
 
 	Description:
-		Initializes the 81mm box
+		Initializes the 82mm box
 
 	Parameters:
         _box   - object    - The box

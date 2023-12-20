@@ -1,13 +1,13 @@
 /*
 	FILE: fnc_closeLid.sqf
 
-	Name: tbd_mortars_81mm_fnc_closeLid
+	Name: tbd_mortars_82mm_fnc_closeLid
 
 	Author(s):
 		ilbinek
 
 	Description:
-		Closes the box top on the 8mm ammo box
+		Closes the box top on the 82mm ammo box
 
 	Parameters:
         _box    - object    - The box
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5] call tbd_mortars_81mm_fnc_closeLid;
+		> [_this, 5] call tbd_mortars_82mm_fnc_closeLid;
 
 	Public:
 		No
