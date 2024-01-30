@@ -7,7 +7,12 @@ class CfgVehicles {
     };
 
     class StaticMortar: StaticWeapon {};
-    class Mortar_01_base_F: StaticMortar {};
+    class Mortar_01_base_F: StaticMortar {
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+            };
+        };
+    };
     class I_G_Mortar_01_F: Mortar_01_base_F {
         artilleryScanner = 0; // turn off artillery computer
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up
@@ -80,6 +85,12 @@ class CfgVehicles {
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)),_player)] call EFUNC(mortars_main,unloadShell));
                     showDisabled = 0;
                 };
+            };
+        };
+
+        class Turrets: Turrets {
+            class MainTurret: MainTurret {
+                magazines[] += {QUOTE(TBD_MORTAR_82mm_HE), QUOTE(TBD_MORTAR_82mm_SMOKE), QUOTE(TBD_MORTAR_82mm_ILLUM)};
             };
         };
     };
