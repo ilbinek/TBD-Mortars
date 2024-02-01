@@ -41,5 +41,38 @@
             <English>Time that it takes to unload a shell</English>
             <Czech>Čas jak dlouho trvá vybití miny</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_TAKE_SHELL">
+            <English>Take shell</English>
+            <Czech>Vzít minu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_STORE">
+            <English>Store shell</English>
+            <Czech>Schovat minu</Czech>
+            <Slovak>Uložiť minu</Slovak>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_LOAD">
+            <English>Load shell</English>
+            <Czech>Nabít minu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_UNLOAD">
+            <English>Unload shell</English>
+            <Czech>Vyndat minu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL">
+            <English>82mm HE-Frag shell</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL_DESC">
+            <English>HE-Frag shell used in 82mm mortar</English>
+            <Czech>TŘÍSTIVÁ mina použita v 82mm minometu</Czech>
+        </Key>
     </Package>
 </Project>
