@@ -86,5 +86,17 @@
             <English>Unload shell</English>
             <Czech>Vyndat minu</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARS_81MM_HE_SHORT">
+            <English>HE</English>
+            <Czech>TŘÍSTIVÁ</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_81MM_ILLUM_SHORT">
+            <English>ILLUM</English>
+            <Czech>NASVĚCOVACÍ</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_81MM_SMOKE_SHORT">
+            <English>SMOKE</English>
+            <Czech>Dým</Czech>
+        </Key>
     </Package>
 </Project>

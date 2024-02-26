@@ -10,7 +10,7 @@ class CfgMagazines {
 		scopeArsenal = 2;
 		author = "TBD Team";
         displayName = QUOTE($STR_TBD_MORTAR_81MM_SMOKE_SHELL);
-		displayNameShort = "TBD Smoke";
+		displayNameShort = CSTRING(SMOKE_SHORT);
         model = QPATHTOF(TBD_MORTAR_81mm_SMOKE\TBD_MORTAR_81mm_SMOKE);
 		picture =  QPATHTOF(TBD_MORTAR_81mm_SMOKE\data\icon.paa);
 		descriptionShort = QUOTE($STR_TBD_MORTAR_81MM_SMOKE_SHELL_DESC);
