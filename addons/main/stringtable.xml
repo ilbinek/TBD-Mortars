@@ -41,5 +41,13 @@
             <English>Time that it takes to unload a shell</English>
             <Czech>Čas jak dlouho trvá vybití miny</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARs_MAIN_DISABLE_ARTY_COMP">
+            <English>Disable artillery computer</English>
+            <Czech>Vypnout balistický počítač</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARs_MAIN_DISABLE_ARTY_COMP_DESC">
+            <English>Will disable the artillery computer in all mortars that are supported by the addon</English>
+            <Czech>Vypne balistický počítač ve všech mortarech které jsou tímto addonem podporovány</Czech>
+        </Key>
     </Package>
 </Project>

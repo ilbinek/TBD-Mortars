@@ -6,3 +6,6 @@ PREP(checkCanUnloadShell);
 PREP(unloadShell);
 PREP(remoteUnload);
 PREP(remoteUnloadID);
+PREP(addNearbyShell);
+PREP(isMineNearby);
+PREP(removeNearbyShell);
