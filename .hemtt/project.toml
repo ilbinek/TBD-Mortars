@@ -1,6 +1,6 @@
 name = "TBD Mortars"
 author = "TBD Team"
-prefix = "tbd"
+prefix = "tbd_mortars"
 mainprefix = "x"
 
 [files]
@@ -9,14 +9,14 @@ exclude=[".vscode/**/*"]
 
 [version]
 major=0
-minor=3
+minor=4
 patch=0
 
 git_hash=0
 
 [hemtt.release]
 sign   =true
-archive=true
+archive=false
 
 [hemtt.launch]
 workshop = [
@@ -27,10 +27,11 @@ workshop = [
     "843425103", # RHSAFRF
 ]
 
+mission = "mortartest.Stratis"
+
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
     "-noSplash",            # They do not need to be added to your list
     "-showScriptErrors",    # You can add additional parameters here
     "-debug",
-    "C:\\Users\\sotir\\Documents\\Arma 3 - Other Profiles\\[MOR]%20ilbinek\\missions\\tempMissionMP.Stratis\\mission.sqm",
 ]
