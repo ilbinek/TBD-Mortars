@@ -9,7 +9,7 @@ exclude=[".vscode/**/*"]
 
 [version]
 major=0
-minor=4
+minor=5
 patch=0
 
 git_hash=0
