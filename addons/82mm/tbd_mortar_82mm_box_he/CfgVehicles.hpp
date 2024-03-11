@@ -100,6 +100,31 @@ class CfgVehicles {
                 initPhase = 0;
                 animPeriod = 1;
             };
+            class mine_heat_1_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_heat_2_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_heat_3_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_heat_4_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
+            class mine_illum_5_source {
+                source = "user";  
+                initPhase = 0;
+                animPeriod = 1;
+            };
         };
 
 		 class ACE_Actions {
