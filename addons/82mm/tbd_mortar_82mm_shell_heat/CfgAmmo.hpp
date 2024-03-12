@@ -10,7 +10,7 @@ class CfgAmmo {
 	class TBD_MORTAR_82mm_SHELL_AMMO_CUMUL_SUB: ammo_Penetrator_Base {
 		model = QPATHTOF(TBD_MORTAR_82mm_HEAT\TBD_MORTAR_82mm_HEAT);
 		hit = 170;
-		caliber = 6;
+		caliber = 9;
 	};
 
 	class TBD_MORTAR_82mm_SHELL_AMMO_CUMUL: R_PG32V_F {
