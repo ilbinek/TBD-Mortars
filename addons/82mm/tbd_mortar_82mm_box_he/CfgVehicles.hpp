@@ -120,7 +120,7 @@ class CfgVehicles {
                 initPhase = 0;
                 animPeriod = 1;
             };
-            class mine_illum_5_source {
+            class mine_heat_5_source {
                 source = "user";  
                 initPhase = 0;
                 animPeriod = 1;
@@ -215,6 +215,12 @@ class CfgVehicles {
                     condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(canLoadMine));
                     statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(loadMine));
                 };
+
+                class ACE_Round_1_Put_CUMUL: ACE_Round_1_Put_HE {
+                    displayName = "$STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL";
+                    condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(canLoadMine));
+                    statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(loadMine));
+                };
             };
 
             class ACE_Round_2_Put {
@@ -244,6 +250,12 @@ class CfgVehicles {
                     displayName = "$STR_TBD_MORTAR_82MM_STORE_ILLUM_SHELL";
                     condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(canLoadMine));
                     statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(loadMine));
+                };
+
+                class ACE_Round_2_Put_CUMUL: ACE_Round_2_Put_HE {
+                    displayName = "$STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL";
+                    condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(canLoadMine));
+                    statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(loadMine));
                 };
             };
 
@@ -275,6 +287,12 @@ class CfgVehicles {
                     condition = QUOTE([ARR_3(_target,3,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(canLoadMine));
                     statement = QUOTE([ARR_3(_target,3,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(loadMine));
                 };
+
+                class ACE_Round_3_Put_CUMUL: ACE_Round_3_Put_HE {
+                    displayName = "$STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL";
+                    condition = QUOTE([ARR_3(_target,3,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(canLoadMine));
+                    statement = QUOTE([ARR_3(_target,3,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(loadMine));
+                };
             };
 
             class ACE_Round_4_Put {
@@ -304,6 +322,12 @@ class CfgVehicles {
                     displayName = "$STR_TBD_MORTAR_82MM_STORE_ILLUM_SHELL";
                     condition = QUOTE([ARR_3(_target,4,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(canLoadMine));
                     statement = QUOTE([ARR_3(_target,4,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(loadMine));
+                };
+
+                class ACE_Round_4_Put_CUMUL: ACE_Round_4_Put_HE {
+                    displayName = "$STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL";
+                    condition = QUOTE([ARR_3(_target,4,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(canLoadMine));
+                    statement = QUOTE([ARR_3(_target,4,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(loadMine));
                 };
             };
 
@@ -336,7 +360,11 @@ class CfgVehicles {
                     statement = QUOTE([ARR_3(_target,5,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)))] call FUNC(loadMine));
                 };
 
-            
+                class ACE_Round_5_Put_CUMUL: ACE_Round_5_Put_HE {
+                    displayName = "$STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL";
+                    condition = QUOTE([ARR_3(_target,5,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(canLoadMine));
+                    statement = QUOTE([ARR_3(_target,5,QUOTE(QUOTE(TBD_MORTAR_82mm_CUMUL)))] call FUNC(loadMine));
+                };
             };
 		 };
     };
@@ -347,5 +375,9 @@ class CfgVehicles {
 
     class TBD_MORTAR_82mm_BOX_ILLUM : TBD_MORTAR_82mm_BOX_HE {
         displayName = "$STR_TBD_MORTAR_82MM_BOX_ILLUM";
+    };
+
+    class TBD_MORTAR_82mm_BOX_CUMUL : TBD_MORTAR_82mm_BOX_HE {
+        displayName = "$STR_TBD_MORTAR_82MM_BOX_CUMUL";
     };
 };

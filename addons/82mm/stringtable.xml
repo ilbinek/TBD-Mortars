@@ -13,6 +13,10 @@
             <English>82mm Illumination Ammo box</English>
             <Czech>82mm Box NASVĚCOVACÍCH min</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_BOX_CUMUL">
+            <English>82mm Cumulative Ammo box</English>
+            <Czech>82mm Box KUMULATIVNÍCH min</Czech>
+        </Key>
         <Key ID="STR_TBD_MORTAR_82MM_OPEN">
             <English>Open</English>
             <Czech>Otevřít</Czech>
@@ -41,6 +45,10 @@
         <Key ID="STR_TBD_MORTAR_82MM_STORE_ILLUM_SHELL">
             <English>Store ILLUMINATION shell</English>
             <Czech>Schovat NASVĚCOVACÍ minu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL">
+            <English>Store CUMULATIVE shell</English>
+            <Czech>Schovat KUMULATIVNÍ minu</Czech>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_LOAD_HE_SHELL">
             <English>Load HE shell</English>
@@ -97,6 +105,14 @@
         <Key ID="STR_TBD_MORTARS_82MM_SMOKE_SHORT">
             <English>SMOKE</English>
             <Czech>Dým</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_82MM_CUMUL">
+            <English>82mm Cumulative shell</English>
+            <Czech>82mm Kumulativní mina</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_82MM_CUMUL_DESC">
+            <English>Cumulative</English>
+            <Czech>Kumulativní</Czech>
         </Key>
     </Package>
 </Project>

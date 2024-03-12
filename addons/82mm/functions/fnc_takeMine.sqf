@@ -38,6 +38,7 @@ switch (_box getVariable [_m, 0]) do {
 	case 1: {_mineClass = QUOTE(TBD_MORTAR_82mm_HE); _box animate [format ["mine_he_%1_h", _nbr], 1, true];};
 	case 2: {_mineClass = QUOTE(TBD_MORTAR_82mm_SMOKE); _box animate [format ["mine_smoke_%1_h", _nbr], 1, true];};
 	case 3: {_mineClass = QUOTE(TBD_MORTAR_82mm_ILLUM); _box animate [format ["mine_illum_%1_h", _nbr], 1, true];};
+	case 4: {_mineClass = QUOTE(TBD_MORTAR_82mm_CUMUL); _box animate [format ["mine_heat_%1_h", _nbr], 1, true];};
 };
 
 // Remove the mine from the box

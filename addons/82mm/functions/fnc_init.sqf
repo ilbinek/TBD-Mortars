@@ -42,6 +42,7 @@ if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_HE)) then {
         _box animate [format ["mine_he_%1_h", _i], 0];
         _box animate [format ["mine_smoke_%1_h", _i], 1];
         _box animate [format ["mine_illum_%1_h", _i], 1];
+        _box animate [format ["mine_heat_%1_h", _i], 1];
     };
 };
 
@@ -52,6 +53,7 @@ if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_SMOKE)) then {
         _box animate [format ["mine_he_%1_h", _i], 1];
         _box animate [format ["mine_smoke_%1_h", _i], 0];
         _box animate [format ["mine_illum_%1_h", _i], 1];
+        _box animate [format ["mine_heat_%1_h", _i], 1];
     };
 };
 
@@ -62,5 +64,18 @@ if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_ILLUM)) then {
         _box animate [format ["mine_he_%1_h", _i], 1];
         _box animate [format ["mine_smoke_%1_h", _i], 1];
         _box animate [format ["mine_illum_%1_h", _i], 0];
+        _box animate [format ["mine_heat_%1_h", _i], 1];
+    };
+};
+
+if (typeOf _box == QUOTE(TBD_MORTAR_82mm_BOX_CUMUL)) then {
+    // set all 12 slots as illum
+    for "_i" from 1 to 5 do {
+        _box setVariable[format ["round_%1", _i], 4, true];
+        _box animate [format ["mine_he_%1_h", _i], 1];
+        _box animate [format ["mine_smoke_%1_h", _i], 1];
+        _box animate [format ["mine_illum_%1_h", _i], 1];
+        _box animate [format ["mine_heat_%1_h", _i], 0];
+
     };
 };
