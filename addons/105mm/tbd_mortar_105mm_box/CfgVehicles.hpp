@@ -5,8 +5,8 @@ class CfgVehicles {
         scope = 2;
 		author = "TBD Team";
         displayName = "105mmbox";
-        model = QPATHTOF(TBD_MORTARS_105mm_BOX\TBD_MORTARS_105mm_BOX);
-        editorPreview = QPATHTOF(TBD_MORTARS_105mm_BOX\data\preview.paa);
+        model = QPATHTOF(TBD_MORTAR_105mm_BOX\TBD_MORTAR_105mm_BOX);
+        editorPreview = QPATHTOF(TBD_MORTAR_105mm_BOX\data\preview.paa);
         ace_cargo_size = 0.5;
         ace_cargo_canLoad = 1;
         transportMaxWeapons = 0;
