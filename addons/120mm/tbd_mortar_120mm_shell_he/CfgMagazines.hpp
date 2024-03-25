@@ -9,11 +9,11 @@
 		scope = 2;
 		scopeArsenal = 2;
 		author = "TBD Team";
-		displayName = "120mm OF-5 HE mortar shell - Charge 1";
-		displayNameShort = "120mm HE mortar shell - Charge 1";
+		displayName = CSTRING(HE_CH1);
+		displayNameShort = CSTRING(HE_CH1_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_1);
 		picture = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\data\icon_120mm_he.paa);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH1_DESC);
 		initSpeed = 350;
 		mass = 70;
 		count = 1;
@@ -21,45 +21,45 @@
 		type = 256;
 	};  
 	class TBD_MORTAR_120mm_SHELL_HE_CHARGE_2: TBD_MORTAR_120mm_SHELL_HE_CHARGE_1 {
-		displayName = "120mm OF-5 HE mortar shell - Charge 2";
-		displayNameShort = "120mm HE mortar shell - Charge 2";
+		displayName = CSTRING(HE_CH2);
+		displayNameShort = CSTRING(HE_CH2_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_2);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH2_DESC);
 		initSpeed = 50;
 	};  
 	class TBD_MORTAR_120mm_SHELL_HE_CHARGE_3: TBD_MORTAR_120mm_SHELL_HE_CHARGE_1 {
-		displayName = "120mm OF-5 HE mortar shell - Charge 3";
-		displayNameShort = "120mm HE mortar shell - Charge 3";
+		displayName = CSTRING(HE_CH3);
+		displayNameShort = CSTRING(HE_CH3_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_3);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH3_DESC);
 		initSpeed = 50;
 	};  
 	class TBD_MORTAR_120mm_SHELL_HE_CHARGE_4: TBD_MORTAR_120mm_SHELL_HE_CHARGE_1 {
-		displayName = "120mm OF-5 HE mortar shell - Charge 4";
-		displayNameShort = "120mm HE mortar shell - Charge 4";
+		displayName = CSTRING(HE_CH4);
+		displayNameShort = CSTRING(HE_CH4_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_4);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH4_DESC);
 		initSpeed = 50;
 	};  
 	class TBD_MORTAR_120mm_SHELL_HE_CHARGE_5: TBD_MORTAR_120mm_SHELL_HE_CHARGE_1 {
-		displayName = "120mm OF-5 HE mortar shell - Charge 5";
-		displayNameShort = "120mm HE mortar shell - Charge 5";
+		displayName = CSTRING(HE_CH5);
+		displayNameShort = CSTRING(HE_CH5_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_5);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH5_DESC);
 		initSpeed = 50;
 	};  
 	class TBD_MORTAR_120mm_SHELL_HE_CHARGE_6: TBD_MORTAR_120mm_SHELL_HE_CHARGE_1 {
-		displayName = "120mm OF-5 HE mortar shell - Charge 6";
-		displayNameShort = "120mm HE mortar shell - Charge 6";
+		displayName = CSTRING(HE_CH6);
+		displayNameShort = CSTRING(HE_CH6_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_6);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH6_DESC);
 		initSpeed = 50;
 	};  
 	class TBD_MORTAR_120mm_SHELL_HE_CHARGE_7: TBD_MORTAR_120mm_SHELL_HE_CHARGE_1 {
-		displayName = "120mm OF-5 HE mortar shell - Charge 7";
-		displayNameShort = "120mm HE mortar shell - Charge 7";
+		displayName = CSTRING(HE_CH7);
+		displayNameShort = CSTRING(HE_CH7_SHORT);
 		model = QPATHTOF(TBD_MORTAR_120mm_SHELL_HE\TBD_MORTAR_120mm_SHELL_HE_CHARGE_7);
-		descriptionShort = QUOTE($STR_TBD_MORTAR_120MM_HE_SHELL_DESC);
+		descriptionShort = CSTRING(HE_CH7_DESC);
 		initSpeed = 50;
 	};  
 };		

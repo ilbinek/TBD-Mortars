@@ -1,6 +1,102 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="tbd_mortar_81mm">
+<Project name="tbd_mortar_120mm">
     <Package name="Translation">
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1">
+            <English>120mm OF-5 HE mortar shell - Charge 1</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_SHORT">
+            <English>120mm HE Ch. 1</English>
+            <Czech>120mm HE Ch. 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 1 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 1 kroužky střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2">
+            <English>120mm OF-5 HE mortar shell - Charge 2</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_SHORT">
+            <English>120mm HE Ch. 2</English>
+            <Czech>120mm HE Ch. 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 2 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 2 kroužky střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3">
+            <English>120mm OF-5 HE mortar shell - Charge 3</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_SHORT">
+            <English>120mm HE Ch. 3</English>
+            <Czech>120mm HE Ch. 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 3 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 3 kroužky střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4">
+            <English>120mm OF-5 HE mortar shell - Charge 4</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_SHORT">
+            <English>120mm HE Ch. 4</English>
+            <Czech>120mm HE Ch. 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 4 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 4 kroužky střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5">
+            <English>120mm OF-5 HE mortar shell - Charge 5</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_SHORT">
+            <English>120mm HE Ch. 5</English>
+            <Czech>120mm HE Ch. 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 5 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 5 kroužky střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6">
+            <English>120mm OF-5 HE mortar shell - Charge 6</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_SHORT">
+            <English>120mm HE Ch. 6</English>
+            <Czech>120mm HE Ch. 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 6 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 6 kroužky střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7">
+            <English>120mm OF-5 HE mortar shell - Charge 7</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 7</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_SHORT">
+            <English>120mm HE Ch. 7</English>
+            <Czech>120mm HE Ch. 7</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as MP-43 and 2B11. This shell is loaded with 7 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako MP-43 a 2B11. Tato mina je připravená s 7 kroužky střelného prachu</Czech>
+        </Key>
 
+        <Key ID="STR_TBD_MORTARS_120mm_BOX_HE">
+            <English>120mm HE shells Box</English>
+            <Czech>120mm Tříštivé Miny Box</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+        </Key>
     </Package>
 </Project>
