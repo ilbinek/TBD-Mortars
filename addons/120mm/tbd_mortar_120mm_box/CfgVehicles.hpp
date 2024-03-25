@@ -6,7 +6,7 @@ class CfgVehicles {
 		author = "TBD Team";
         displayName = CSTRING(BOX_HE);
         model = QPATHTOF(TBD_MORTAR_120mm_BOX\TBD_MORTAR_120mm_BOX);
-        editorPreview = QPATHTOF(TBD_MORTAR_120mm_BOX\data\preview.paa);
+        editorPreview = QPATHTOF(TBD_MORTAR_120mm_BOX\data\120boxpreview.paa);
         ace_cargo_size = 0.5;
         ace_cargo_canLoad = 1;
         transportMaxWeapons = 0;

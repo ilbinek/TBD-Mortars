@@ -10,8 +10,8 @@ ambient[] = { 0.7, 0.7, 0.7, 0.7 };
 diffuse[] = { 0.7, 0.7, 0.7, 0.7  };
 forcedDiffuse[] = { 0, 0, 0, 1 };
 emmisive[] = { 0, 0, 0, 1 };
-specular[] = { 1, 1, 1, 1 };
-specularPower = 50;
+specular[] = { 0.7, 0.7, 0.7, 0.7 };
+specularPower = 30;
 PixelShaderID = "Super";
 VertexShaderID = "Super";
 class Stage1
