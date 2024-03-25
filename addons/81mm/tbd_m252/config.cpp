@@ -5,7 +5,7 @@ class CfgPatches {
         addonRootClass = "A3_Armor_F_Beta";
         requiredAddons[] = {"cba_main", "ace_interaction", "rhsusf_c_statics"};
         skipWhenMissingDependencies = 1;
-        requiredVersion = 0.1;
+        requiredVersion = 0.5;
         weapons[] = {"rhs_mortar_81mm"};
         units[] = {};
     };
