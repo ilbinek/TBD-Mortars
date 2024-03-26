@@ -51,6 +51,36 @@ class CfgVehicles {
                 distance = 2;
                 selection = "int_cover";
             };
+
+            class TakeMine1 {
+                displayName = CSTRING(TAKE_MINE_HE);
+                condition = QUOTE([ARR_2(_target,1)] call FUNC(canTake));
+                exceptions[] = {};
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call FUNC(takeMine));
+                distance = 2;
+                selection = "int_mine_1";
+            };
+
+            class TakeMine2: TakeMine1 {
+                condition = QUOTE([ARR_2(_target,2)] call FUNC(canTake));
+                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call FUNC(takeMine));
+                selection = "int_mine_2";
+            };
+
+            class PutMine1 {
+                displayName = CSTRING(PUT_MINE_HE);
+                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call FUNC(canPut));
+                exceptions[] = {};
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call FUNC(putMine));
+                distance = 2;
+                selection = "int_mine_1";
+            };
+
+            class PutMine2: PutMine1 {
+                condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call FUNC(canPut));
+                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call FUNC(putMine));
+                selection = "int_mine_2";
+            };
         };
     };
 };

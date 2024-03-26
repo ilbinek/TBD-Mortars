@@ -26,6 +26,3 @@
 #define TBD_MORTAR_120mm_SHELL_HE_CHARGE_7 tbd_mortar_120mm_shell_he_charge_7
 
 #define TBD_MORTAR_120mm_SHELL_AMMO_HE tbd_mortar_120mm_shell_ammo_he
-
-
-

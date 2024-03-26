@@ -98,5 +98,41 @@
             <English>Open</English>
             <Czech>Otevřít</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_TAKE_MINE_HE">
+            <English>Take HE</English>
+            <Czech>Vzít třístivou</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_PUT_MINE_HE">
+            <English>Put HE</English>
+            <Czech>Schovat třístivou</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_1">
+            <English>Change charge count to 1</English>
+            <Czech>Změnit množství střelného prachu na 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_2">
+            <English>Change charge count to 2</English>
+            <Czech>Změnit množství střelného prachu na 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_3">
+            <English>Change charge count to 3</English>
+            <Czech>Změnit množství střelného prachu na 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_4">
+            <English>Change charge count to 4</English>
+            <Czech>Změnit množství střelného prachu na 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_5">
+            <English>Change charge count to 5</English>
+            <Czech>Změnit množství střelného prachu na 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_6">
+            <English>Change charge count to 6</English>
+            <Czech>Změnit množství střelného prachu na 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_7">
+            <English>Change charge count to 7</English>
+            <Czech>Změnit množství střelného prachu na 7</Czech>
+        </Key>
     </Package>
 </Project>
