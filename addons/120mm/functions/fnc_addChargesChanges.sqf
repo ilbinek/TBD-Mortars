@@ -24,191 +24,41 @@
 		No
 */
 
-
 #include "..\script_component.hpp"
+
+#define ADD_ACTION(var1,var2) [\
+	_x,\
+	"CONTAINER",\
+	LLSTRING(DOUBLES(charge_change,var1)),\
+	nil,\
+	"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",\
+	{true},\
+	{\
+		params ["_unit", "", "_item", "_slot"];\
+		switch _slot do {\
+			case "UNIFORM_CONTAINER": {\
+				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToUniform QUOTE(DOUBLES(var2,var1))}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+			};\
+			case "VEST_CONTAINER": {\
+				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToVest QUOTE(DOUBLES(var2,var1))}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+			};\
+			case "BACKPACK_CONTAINER": {\
+				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToBackpack QUOTE(DOUBLES(var2,var1))}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+			};\
+		};\
+	},\
+	true,\
+	[]\
+] call CBA_fnc_addItemContextMenuOption;
 
 private _arr = [QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1)];
 
 {
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_1),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
-
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_2),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
-
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_3),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
-
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_4),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
-
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_5),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
-
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_6),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
-
-	[
-		_x,
-		"CONTAINER",
-		LLSTRING(charge_change_7),
-		nil,
-		"\a3\ui_f\data\igui\cfg\simpletasks\types\destroy_ca.paa",
-		{true},
-		{
-			params ["_unit", "", "", "_slot"];
-			systemChat str(_unit);
-			switch _slot do {
-				case "UNIFORM_CONTAINER": {
-					_unit addItemToUniform QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7);
-				};
-				case "VEST_CONTAINER": {
-					_unit addItemToVest QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7);
-				};
-				case "BACKPACK_CONTAINER": {
-					_unit addItemToBackpack QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7);
-				};
-			};
-		},
-		true,
-		[]
-	] call CBA_fnc_addItemContextMenuOption;
+	ADD_ACTION(1,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
+	ADD_ACTION(2,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
+	ADD_ACTION(3,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
+	ADD_ACTION(4,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
+	ADD_ACTION(5,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
+	ADD_ACTION(6,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
+	ADD_ACTION(7,TBD_MORTAR_120mm_SHELL_HE_CHARGE)
 } forEach _arr;

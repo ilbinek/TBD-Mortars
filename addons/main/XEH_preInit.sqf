@@ -22,6 +22,14 @@ ADDON = true;
 	[0,120,5]
 ] call CBA_fnc_addSetting;
 
+[
+	QGVAR(chargeChangeTime),
+	"TIME",
+	[LLSTRING(charge_change_time), LLSTRING(charge_change_time_desc)],
+	QUOTE(ADDON_NICE),
+	[0,120,5]
+] call CBA_fnc_addSetting;
+
 /*
 [
 	QGVAR(disableArtyComp),

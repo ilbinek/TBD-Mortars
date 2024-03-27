@@ -134,5 +134,9 @@
             <English>Change charge count to 7</English>
             <Czech>Změnit množství střelného prachu na 7</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE">
+            <English>Changing charges</English>
+            <Czech>Měním střelný prach</Czech>
+        </Key>
     </Package>
 </Project>

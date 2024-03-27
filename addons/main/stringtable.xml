@@ -49,5 +49,13 @@
             <English>Will disable the artillery computer in all mortars that are supported by the addon</English>
             <Czech>Vypne balistický počítač ve všech mortarech které jsou tímto addonem podporovány</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME">
+            <English>Time it takes to change charges</English>
+            <Czech>Čas který zabere změna střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME_DESC">
+            <English>How long it takes to change the number of propelant rings on a shell</English>
+            <Czech>Čas který zabere změnit množství střelného prachu v na minách</Czech>
+        </Key>
     </Package>
 </Project>
