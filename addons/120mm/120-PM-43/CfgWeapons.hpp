@@ -43,10 +43,5 @@ class CfgWeapons {
 			maxRange=2;
 			maxRangeProbab=0.0099999998;
 		};
-		
-		class Single2: Single1 {
-			displayName="120-PM-43 mortar ch. 1";
-			
-		};
 	};
 };

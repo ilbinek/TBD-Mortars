@@ -116,11 +116,11 @@ class CfgVehicles {
                 showDisabled = 1;
                 priority = 5;
                 displayName = CSTRING(LOAD);
-                icon = QMORTPATH(main,data\load.paa);
+                icon = QPATHTOF(data\load.paa);
 
                 class LoadHECh1 {
                     displayName = CSTRING(HE_CHARGE_1);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -128,7 +128,7 @@ class CfgVehicles {
 
                 class LoadHECh2 {
                     displayName = CSTRING(HE_CHARGE_2);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -136,7 +136,7 @@ class CfgVehicles {
 
                 class LoadHECh3 {
                     displayName = CSTRING(HE_CHARGE_3);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -144,7 +144,7 @@ class CfgVehicles {
 
                 class LoadHECh4 {
                     displayName = CSTRING(HE_CHARGE_4);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -152,7 +152,7 @@ class CfgVehicles {
 
                 class LoadHECh5 {
                     displayName = CSTRING(HE_CHARGE_5);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -160,7 +160,7 @@ class CfgVehicles {
 
                 class LoadHECh6 {
                     displayName = CSTRING(HE_CHARGE_6);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -168,7 +168,7 @@ class CfgVehicles {
 
                 class LoadHECh7 {
                     displayName = CSTRING(HE_CHARGE_7);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call MORTFUNC(checkCanLoadShell));
                     statement = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call MORTFUNC(loadShell));
                     showDisabled = 0;
@@ -182,11 +182,11 @@ class CfgVehicles {
                 showDisabled = 1;
                 priority = 5;
                 displayName = CSTRING(UNLOAD);
-                icon = QMORTPATH(main,data\unload.paa);
+                icon = QPATHTOF(data\unload.paa);
 
                 class UnloadHECh1 {
                     displayName = CSTRING(HE_CHARGE_1);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_1)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
@@ -194,7 +194,7 @@ class CfgVehicles {
 
                 class UnloadHECh2 {
                     displayName = CSTRING(HE_CHARGE_2);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_2)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
@@ -202,7 +202,7 @@ class CfgVehicles {
 
                 class UnloadHECh3 {
                     displayName = CSTRING(HE_CHARGE_3);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_3)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
@@ -210,7 +210,7 @@ class CfgVehicles {
 
                 class UnloadHECh4 {
                     displayName = CSTRING(HE_CHARGE_4);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_4)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
@@ -218,7 +218,7 @@ class CfgVehicles {
 
                 class UnloadHECh5 {
                     displayName = CSTRING(HE_CHARGE_5);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_5)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
@@ -226,7 +226,7 @@ class CfgVehicles {
 
                 class UnloadHECh6 {
                     displayName = CSTRING(HE_CHARGE_6);
-                    icon = QPATHTOF(120mm,tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_6)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
@@ -234,7 +234,7 @@ class CfgVehicles {
 
                 class UnloadHECh7 {
                     displayName = CSTRING(HE_CHARGE_7);
-                    icon = QMORTPATH(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
+                    icon = QPATHTOF(tbd_mortar_120mm_shell_he\data\icon_120mm_he.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)))] call MORTFUNC(checkCanUnloadShell));
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_120mm_SHELL_HE_CHARGE_7)),_player)] call MORTFUNC(unloadShell));
                     showDisabled = 0;
