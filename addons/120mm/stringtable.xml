@@ -138,5 +138,45 @@
             <English>Changing charges</English>
             <Czech>Měním střelný prach</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_NAME">
+            <English>120-PM-43</English>
+            <Czech>120-PM-43</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_LOAD">
+            <English>Load</English>
+            <Czech>Nabít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_UNLOAD">
+            <English>Unload</English>
+            <Czech>Vybít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_1">
+            <English>HE Charge 1</English>
+            <Czech>Tříštivá nálož 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_2">
+            <English>HE Charge 2</English>
+            <Czech>Tříštivá nálož 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_3">
+            <English>HE Charge 3</English>
+            <Czech>Tříštivá nálož 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_4">
+            <English>HE Charge 4</English>
+            <Czech>Tříštivá nálož 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_5">
+            <English>HE Charge 5</English>
+            <Czech>Tříštivá nálož 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_6">
+            <English>HE Charge 6</English>
+            <Czech>Tříštivá nálož 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_7">
+            <English>HE Charge 7</English>
+            <Czech>Tříštivá nálož 7</Czech>
+        </Key>
     </Package>
 </Project>

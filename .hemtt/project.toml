@@ -25,9 +25,10 @@ workshop = [
     "2369477168", # Advanced Developer Tools 
     "843577117", # RHSUSAF
     "843425103", # RHSAFRF
+    "3203941036", #120-PM-43
 ]
 
-mission = "mortartest.Stratis"
+#mission = "mortartest.Stratis"
 
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
