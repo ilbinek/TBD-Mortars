@@ -1,17 +1,13 @@
 class CfgVehicles {
-    class All;
-    class AllVehicles : All {};
-    class Land : AllVehicles {};
-    class LandVehicle : Land {};
+    class LandVehicle;
     class StaticWeapon : LandVehicle {
         class Turrets;
-		class MainTurret;
-    	class EventHandlers;
     };
     class StaticMortar : StaticWeapon {
         class Turrets {
             class MainTurret;
         };
+        class ACE_Actions;
     };
 
     class TBD_120mm_PM_43 : StaticMortar {
@@ -31,7 +27,7 @@ class CfgVehicles {
         ace_dragging_canDrag = 1;
         ace_dragging_dragPosition[] = {0, 1.2, 0};
 
-        class ACE_Actions {
+        class ACE_Actions: ACE_Actions {
             class TBD_LoadShell {
                 selection = "usti hlavne";
                 distance = 2.5;

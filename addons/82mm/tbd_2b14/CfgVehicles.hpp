@@ -1,12 +1,9 @@
 class CfgVehicles {
-	class LandVehicle;
-    class StaticWeapon: LandVehicle {
-        class ACE_Actions {
-            class ACE_MainActions;
-        };
+    class StaticWeapon;
+    class StaticMortar: StaticWeapon {
+        class ACE_Actions;
     };
 
-    class StaticMortar: StaticWeapon {};
     class rhs_2b14_82mm_Base: StaticMortar {
         artilleryScanner = 0; // turn off artillery computer
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up

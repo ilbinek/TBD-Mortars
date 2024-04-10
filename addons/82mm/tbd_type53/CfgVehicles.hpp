@@ -1,20 +1,15 @@
 class CfgVehicles {
-	class LandVehicle;
-    class StaticWeapon: LandVehicle {
-        class ACE_Actions {
-            class ACE_MainActions;
-        };
+    class Mortar_01_base_F;
+    class vn_static_mortar_m29_base: Mortar_01_base_F {
+        class ACE_Actions;
     };
-
-    class StaticMortar: StaticWeapon {};
-    class Mortar_01_base_F: StaticMortar {};
-    class vn_static_mortar_m29_base: Mortar_01_base_F {};
+    
     class vn_static_mortar_type53_base: vn_static_mortar_m29_base {
         artilleryScanner = 0; // turn off artillery computer
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up
         ace_artillerytables_showGunLaying = 1;  // "fix" rangetables not showing up
 
-        class ACE_Actions {
+        class ACE_Actions: ACE_Actions {
             class ACE_LoadRound {
                 selection = "usti hlavne";
                 distance = 2.5;

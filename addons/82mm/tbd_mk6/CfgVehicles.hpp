@@ -1,24 +1,15 @@
 class CfgVehicles {
-	class LandVehicle;
-    class StaticWeapon: LandVehicle {
-         class ACE_Actions {
-            class ACE_MainActions;
-        };
+    class StaticMortar;
+    class Mortar_01_base_F: StaticMortar {
+        class ACE_Actions;
     };
 
-    class StaticMortar: StaticWeapon {};
-    class Mortar_01_base_F: StaticMortar {
-        class Turrets: Turrets {
-            class MainTurret: MainTurret {
-            };
-        };
-    };
     class I_G_Mortar_01_F: Mortar_01_base_F {
         artilleryScanner = 0; // turn off artillery computer
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up
         ace_artillerytables_showGunLaying = 1;  // "fix" rangetables not showing up
 
-        class ACE_Actions {
+        class ACE_Actions: ACE_Actions {
             class ACE_LoadRound {
                 selection = "usti hlavne";
                 distance = 2.5;
@@ -85,12 +76,6 @@ class CfgVehicles {
                     statement = QUOTE([ARR_4(_target,0,QUOTE(QUOTE(TBD_MORTAR_82mm_ILLUM)),_player)] call EFUNC(main,unloadShell));
                     showDisabled = 0;
                 };
-            };
-        };
-
-        class Turrets: Turrets {
-            class MainTurret: MainTurret {
-                magazines[] += {QUOTE(TBD_MORTAR_82mm_HE), QUOTE(TBD_MORTAR_82mm_SMOKE), QUOTE(TBD_MORTAR_82mm_ILLUM)};
             };
         };
     };
