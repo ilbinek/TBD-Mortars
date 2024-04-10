@@ -1,6 +1,198 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="tbd_mortar_81mm">
+<Project name="tbd_mortar_105mm">
     <Package name="Translation">
 
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH1">
+            <English>105mm HE howitzwer round - Charge 1</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH1_SHORT">
+            <English>105mm HE Ch. 1</English>
+            <Czech>105mm HE Ch. 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH1_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 1 propellant charge</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 1 paketom střelného prachu</Czech>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2">
+            <English>105mm HE howitzwer round - Charge 2</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2_SHORT">
+            <English>105mm HE Ch. 2</English>
+            <Czech>105mm HE Ch. 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 2 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 2 paketami střelného prachu</Czech>
+        </Key>
+        
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH3">
+            <English>105mm HE howitzwer round - Charge 3</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH3_SHORT">
+            <English>105mm HE Ch. 3</English>
+            <Czech>105mm HE Ch. 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH3_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 3 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 3 paketami střelného prachu</Czech>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH4">
+            <English>105mm HE howitzwer round - Charge 4</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH4_SHORT">
+            <English>105mm HE Ch. 4</English>
+            <Czech>105mm HE Ch. 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH4_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 4 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 4 paketami střelného prachu</Czech>
+        </Key>
+
+<Key ID="STR_TBD_MORTARS_105mm_HE_CH5">
+            <English>105mm HE howitzwer round - Charge 5</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH5_SHORT">
+            <English>105mm HE Ch. 5</English>
+            <Czech>105mm HE Ch. 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH5_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 5 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 5 paketami střelného prachu</Czech>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH6">
+            <English>105mm HE howitzwer round - Charge 6</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH6_SHORT">
+            <English>105mm HE Ch. 6</English>
+            <Czech>105mm HE Ch. 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH6_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 6 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 6 paketami střelného prachu</Czech>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH7">
+            <English>105mm HE howitzwer round - Charge 7</English>
+            <Czech>105mm OF-5 HE minometná mina - Náplň 7</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH7_SHORT">
+            <English>105mm HE Ch. 7</English>
+            <Czech>105mm HE Ch. 7</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH7_DESC">
+            <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 7 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 7 paketami střelného prachu</Czech>
+        </Key>
+
+
+
+
+
+
+
+
+
+        <Key ID="STR_TBD_MORTARS_105mm_BOX_HE">
+            <English>105mm HE Box</English>
+            <Czech>Bedna s 105mm mamou Ilbineka</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_TAKE_MINE_HE">
+            <English>Take HE tube</English>
+            <Czech>Vzít trubku</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PUT_MINE_HE">
+            <English>Return HE tube</English>
+            <Czech>Schovat třístivou</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_1">
+            <English>Change charge count to 1</English>
+            <Czech>Změnit množství střelného prachu na 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_2">
+            <English>Change charge count to 2</English>
+            <Czech>Změnit množství střelného prachu na 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_3">
+            <English>Change charge count to 3</English>
+            <Czech>Změnit množství střelného prachu na 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_4">
+            <English>Change charge count to 4</English>
+            <Czech>Změnit množství střelného prachu na 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_5">
+            <English>Change charge count to 5</English>
+            <Czech>Změnit množství střelného prachu na 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_6">
+            <English>Change charge count to 6</English>
+            <Czech>Změnit množství střelného prachu na 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_7">
+            <English>Change charge count to 7</English>
+            <Czech>Změnit množství střelného prachu na 7</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE">
+            <English>Changing charges</English>
+            <Czech>Měním střelný prach</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_NAME">
+            <English>M119</English>
+            <Czech>M119</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LOAD">
+            <English>Load</English>
+            <Czech>Nabít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_UNLOAD">
+            <English>Unload</English>
+            <Czech>Vybít</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_1">
+            <English>HE Charge 1</English>
+            <Czech>Tříštivá nálož 1</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_2">
+            <English>HE Charge 2</English>
+            <Czech>Tříštivá nálož 2</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_3">
+            <English>HE Charge 3</English>
+            <Czech>Tříštivá nálož 3</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_4">
+            <English>HE Charge 4</English>
+            <Czech>Tříštivá nálož 4</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_5">
+            <English>HE Charge 5</English>
+            <Czech>Tříštivá nálož 5</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_6">
+            <English>HE Charge 6</English>
+            <Czech>Tříštivá nálož 6</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_7">
+            <English>HE Charge 7</English>
+            <Czech>Tříštivá nálož 7</Czech>
+        </Key>
     </Package>
 </Project>

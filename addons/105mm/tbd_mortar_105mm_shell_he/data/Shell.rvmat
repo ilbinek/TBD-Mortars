@@ -7,8 +7,8 @@
 #define _ARMA_
 
 //Class armor_f_gamma : MBT_01\Data\MBT_01_body.rvmat{
-ambient[] = {0.7,0.7,0.7,0.7};
-diffuse[] = {0.7,0.7,0.7,0.7};
+ambient[] = {0.85,0.85,0.85,0.85};
+diffuse[] = {0.85,0.85,0.85,0.85};
 forcedDiffuse[] = {0,0,0,1};
 emmisive[] = {0,0,0,1};
 specular[] = {1,1,1,1};
