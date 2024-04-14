@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 
 class CfgPatches {
-    class tbd_mortars_2b14 {
+    class tbd_mortars_120_pm_43 {
         addonRootClass = "A3_Armor_F_Beta";
         requiredAddons[] = {"cba_main", "ace_interaction", "TBD_120mm_PM_43"};
         skipWhenMissingDependencies = 1;
