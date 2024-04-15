@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="tbd_mortar_105mm">
     <Package name="Translation">
-
-
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH1">
             <English>105mm HE howitzwer round - Charge 1</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 1</Czech>
+            <Czech>105mm HE minometná mina - Náplň 1</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH1_SHORT">
             <English>105mm HE Ch. 1</English>
@@ -18,7 +16,7 @@
 
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH2">
             <English>105mm HE howitzwer round - Charge 2</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 2</Czech>
+            <Czech>105mm HE minometná mina - Náplň 2</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH2_SHORT">
             <English>105mm HE Ch. 2</English>
@@ -31,7 +29,7 @@
         
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH3">
             <English>105mm HE howitzwer round - Charge 3</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 3</Czech>
+            <Czech>105mm HE minometná mina - Náplň 3</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH3_SHORT">
             <English>105mm HE Ch. 3</English>
@@ -41,10 +39,9 @@
             <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 3 propellant charges</English>
             <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 3 paketami střelného prachu</Czech>
         </Key>
-
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH4">
             <English>105mm HE howitzwer round - Charge 4</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 4</Czech>
+            <Czech>105mm HE minometná mina - Náplň 4</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH4_SHORT">
             <English>105mm HE Ch. 4</English>
@@ -54,10 +51,9 @@
             <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 4 propellant charges</English>
             <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 4 paketami střelného prachu</Czech>
         </Key>
-
-<Key ID="STR_TBD_MORTARS_105mm_HE_CH5">
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH5">
             <English>105mm HE howitzwer round - Charge 5</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 5</Czech>
+            <Czech>105mm HE minometná mina - Náplň 5</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH5_SHORT">
             <English>105mm HE Ch. 5</English>
@@ -70,7 +66,7 @@
 
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH6">
             <English>105mm HE howitzwer round - Charge 6</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 6</Czech>
+            <Czech>105mm HE minometná mina - Náplň 6</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH6_SHORT">
             <English>105mm HE Ch. 6</English>
@@ -83,7 +79,7 @@
 
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH7">
             <English>105mm HE howitzwer round - Charge 7</English>
-            <Czech>105mm OF-5 HE minometná mina - Náplň 7</Czech>
+            <Czech>105mm HE minometná mina - Náplň 7</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_HE_CH7_SHORT">
             <English>105mm HE Ch. 7</English>
@@ -93,18 +89,9 @@
             <English>105mm High Explosive round used in 105mm howitzers such as the M119. This round is loaded with 7 propellant charges</English>
             <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 7 paketami střelného prachu</Czech>
         </Key>
-
-
-
-
-
-
-
-
-
         <Key ID="STR_TBD_MORTARS_105mm_BOX_HE">
             <English>105mm HE Box</English>
-            <Czech>Bedna s 105mm mamou Ilbineka</Czech>
+            <Czech>105mm bedna s tříštivou municí</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_CLOSE">
             <English>Close</English>

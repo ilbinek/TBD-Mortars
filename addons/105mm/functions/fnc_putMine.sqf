@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_putMine.sqf
 
-	Name: tbd_mortars_120mm_fnc_putMine
+	Name: tbd_mortars_105mm_fnc_putMine
 
 	Author(s):
 		ilbinek
@@ -18,29 +18,18 @@
 		Nothing
 
 	Examples:
-		> [_this, 5, tbd_mortar_120mm_shell_he_charge_7] call tbd_mortars_120mm_fnc_putMine;
+		> [_this, 5, tbd_mortars_105mm_tube] call tbd_mortars_105mm_fnc_putMine;
 
 	Public:
 		No
 */
 
 #include "..\script_component.hpp"
-
+systemChat "FUCK YOU";
 params ["_box", "_nbr", "_mineClass"];
-
+systemChat format["tbd_mortars_105mm_fnc_putMine - _box: %1, _nbr: %2, _mineClass: %3", _box, _nbr, _mineClass];
 if !([_box, _nbr, _mineClass] call FUNC(canPut)) exitWith {};
-
-// Find the closest mine
-// Get the partial classname
-_mineClass = _mineClass select [0, count _mineClass - 1];
-
-private _mine = "";
-
-	private _shell = format["%1%2", _mineClass, _i];
-	if ([_shell] call EFUNC(main,isMineNearby)) exitWith {_mine = _shell};
-
-
-if (_mine == "") exitWith {};
+systemChat "tbd_mortars_105mm_fnc_putMine - canPut passed";
 
 // Set the box to the mine
 _box setVariable [format["round_%1", _nbr], 1, true];
@@ -51,19 +40,19 @@ _box animateSource [_b, 0, true];
 // Remove the mine
 // Check player inventory first
 private _magazines = magazines player;
-if (_mine in _magazines) then {
+if (_mineClass in _magazines) then {
 	// Mine is in players inventory, remove it from it and add it to the box
-	player removeItem _mine;
+	player removeItem _mineClass;
 } else {
 	private _nearby = nearestObjects [player, ["GroundWeaponHolder"], 3];
 	private _holder = objNull;
 	{
-		if (_mine in magazineCargo _x) exitWith {_holder = _x};
+		if (_mineClass in magazineCargo _x) exitWith {_holder = _x};
 	} forEach _nearby;
 
 	if (!isNull _holder) then {
 		private _oldMags = magazinesAmmoCargo _holder;
-		private _i = _oldMags find ([_mine, 1]);
+		private _i = _oldMags find ([_mineClass, 1]);
 		_oldMags set [_i, "usedRound"];
 		_oldMags = _oldMags - ["usedRound"];
 
