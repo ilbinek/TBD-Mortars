@@ -4,5 +4,5 @@
 
 ADDON = true;
 
-[QUOTE(TBD_MORTAR_105mm_BOX), "init", {_this call FUNC(init)}] call CBA_fnc_addClassEventHandler;
+[QUOTE(TBD_MORTARS_105mm_BOX), "init", {_this call FUNC(init)}] call CBA_fnc_addClassEventHandler;
 

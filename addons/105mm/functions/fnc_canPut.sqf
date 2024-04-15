@@ -18,7 +18,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5, TBD_MORTAR_105mm_TUBE] call tbd_mortars_120mm_fnc_canPut;
+		> [_this, 5, TBD_MORTARS_105mm_TUBE] call tbd_mortars_120mm_fnc_canPut;
 
 	Public:
 		No

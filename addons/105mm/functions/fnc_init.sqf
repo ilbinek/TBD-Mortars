@@ -29,7 +29,7 @@ params ["_box"];
 _box setVariable ["opened", false, true];
 _box animateSource ["cover_source", 0];
 
-if (typeOf _box == QUOTE(TBD_MORTAR_105mm_BOX)) then {
+if (typeOf _box == QUOTE(TBD_MORTARS_105mm_BOX)) then {
 	for "_i" from 1 to 2 do {
 		private _n = format ["round_%1", _i];
 		_box setVariable[_n, 1, true];
