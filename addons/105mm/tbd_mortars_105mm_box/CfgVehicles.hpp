@@ -23,12 +23,12 @@ class CfgVehicles {
                 animPeriod = 1;
                 sound="GenericDoorsSound";
             };
-            class tube_1_source {
+            class mine_1_source {
                 source = "user";  
                 initPhase = 0;
                 animPeriod = 1;
             };
-            class tube_2_source {
+            class mine_2_source {
                 source = "user";  
                 initPhase = 0;
                 animPeriod = 1;
