@@ -25,11 +25,8 @@
 */
 
 #include "..\script_component.hpp"
-systemChat "FUCK YOU";
 params ["_box", "_nbr", "_mineClass"];
-systemChat format["tbd_mortars_105mm_fnc_putMine - _box: %1, _nbr: %2, _mineClass: %3", _box, _nbr, _mineClass];
 if !([_box, _nbr, _mineClass] call FUNC(canPut)) exitWith {};
-systemChat "tbd_mortars_105mm_fnc_putMine - canPut passed";
 
 // Set the box to the mine
 _box setVariable [format["round_%1", _nbr], 1, true];

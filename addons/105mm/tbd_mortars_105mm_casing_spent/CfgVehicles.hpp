@@ -1,9 +1,8 @@
 class CfgVehicles {
 
-class NATO_Box_Base;
+    class NATO_Box_Base;
 
-    class TBD_MORTARS_105mm_CASING_SPENT : NATO_Box_Base
- {
+    class TBD_MORTARS_105mm_CASING_SPENT : NATO_Box_Base {
         scope = 2;
 		author = "TBD Team";
         displayName = "A spent 105mm HE casing";
@@ -15,14 +14,5 @@ class NATO_Box_Base;
         transportMaxWeapons = 0;
         transportMaxMagazines = 0;
         transportMaxBackpacks = 0;
-
-		
     };
-
 };
-
-
-
-
-
-   

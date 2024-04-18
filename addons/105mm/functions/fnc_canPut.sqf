@@ -31,8 +31,5 @@ private _rnd = format["round_%1", _nbr];
 if (!(_box getVariable ["opened", false])) exitWith {false};
 if (_box getVariable [_rnd, 0] != 0) exitWith {false};
 
-private _ret = false;
-
-if ([_mineClass] call EFUNC(main,isMineNearby)) exitWith {_ret = true};
-
-_ret
+if ([_mineClass] call EFUNC(main,isMineNearby)) exitWith {true};
+false

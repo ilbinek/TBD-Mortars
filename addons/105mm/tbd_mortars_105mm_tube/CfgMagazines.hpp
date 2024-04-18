@@ -17,13 +17,9 @@ class CfgMagazines
         editorPreview = QPATHTOF(TBD_MORTARS_105mm_TUBE\data\tube.jpg);
 		picture = QPATHTOF(TBD_MORTARS_105mm_TUBE\data\tube.paa);
 		descriptionShort = "A tube containing a single 105mm He shell and a single casing";
-        mass = 100;
+        mass = 200;
 		count = 1;
 		//ammo = QUOTE(TBD_MORTAR_120mm_SHELL_AMMO_HE);
 		type = 256;
 	};
 };
-
-
-
-

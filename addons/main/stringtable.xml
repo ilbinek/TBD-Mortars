@@ -39,7 +39,7 @@
         </Key>
         <Key ID="STR_TBD_MORTAR_UNLOADING_TIME_DESC">
             <English>Time that it takes to unload a shell</English>
-            <Czech>Čas jak dlouho trvá vybití miny</Czech>
+            <Czech>Čas, jak dlouho trvá vybití miny</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARs_MAIN_DISABLE_ARTY_COMP">
             <English>Disable artillery computer</English>
@@ -51,11 +51,35 @@
         </Key>
         <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME">
             <English>Time it takes to change charges</English>
-            <Czech>Čas který zabere změna střelného prachu</Czech>
+            <Czech>Čas, který zabere změna střelného prachu</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME_DESC">
             <English>How long it takes to change the number of propelant rings on a shell</English>
-            <Czech>Čas který zabere změnit množství střelného prachu v na minách</Czech>
+            <Czech>Čas, který zabere změnit množství střelného prachu v na minách</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_UNPACK_105_TIME">
+            <English>Time it takes to unpack 105mm tube</English>
+            <Czech>Čas, který zabere rozbalení 105mm munice</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_UNPACK_105_TIME_DESC">
+            <English>How long it takes to unpack the 105mm tube into a shell and propellant casing</English>
+            <Czech>Čas, který zabere rozbalení 105mm minuce na minu a střelného prachu</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_PACK_105_TIME">
+            <English>Time it takes to pack 105mm tube</English>
+            <Czech>Čas, který zabere zabalení 105mm munice</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_PACK_105_TIME_DESC">
+            <English>How long it takes to pack the 105mm shell and propellant casing into a tube</English>
+            <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do trubice</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_ASSEMBLE_105_TIME">
+            <English>Time it takes to assemble 105mm shell</English>
+            <Czech>Čas, který zabere spojení 105mm munice</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_ASSEMBLE_105_TIME_DESC">
+            <English>How long it takes to assemble the 105mm shell and propellant casing into a live shell</English>
+            <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do ostré minice</Czech>
         </Key>
     </Package>
 </Project>

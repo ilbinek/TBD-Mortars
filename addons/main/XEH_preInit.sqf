@@ -30,6 +30,30 @@ ADDON = true;
 	[0,120,5]
 ] call CBA_fnc_addSetting;
 
+[
+	QGVAR(unpack105Time),
+	"TIME",
+	[LLSTRING(unpack_105_time), LLSTRING(unpack_105_time_desc)],
+	QUOTE(ADDON_NICE),
+	[0,120,5]
+] call CBA_fnc_addSetting;
+
+[
+	QGVAR(assemble105Time),
+	"TIME",
+	[LLSTRING(assemble_105_time), LLSTRING(assemble_105_time_desc)],
+	QUOTE(ADDON_NICE),
+	[0,120,5]
+] call CBA_fnc_addSetting;
+
+[
+	QGVAR(pack105Time),
+	"TIME",
+	[LLSTRING(pack_105_time), LLSTRING(pack_105_time_desc)],
+	QUOTE(ADDON_NICE),
+	[0,120,5]
+] call CBA_fnc_addSetting;
+
 /*
 [
 	QGVAR(disableArtyComp),
