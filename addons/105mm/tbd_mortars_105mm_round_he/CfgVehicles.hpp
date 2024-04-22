@@ -1,11 +1,13 @@
 class CfgVehicles {
-    class ReammoBox_F;
-    class NATO_Box_Base: ReammoBox_F {
-        class ACE_Actions;
-    };
-    class TBD_ArmaMagic1: ReammoBox_F {
+    class ThingX;
+    class ReammoBox_F: ThingX {
         class ACE_Actions {
             class ACE_MainActions;
+        };
+    };
+    class NATO_Box_Base: ReammoBox_F {
+        class ACE_Actions: ACE_Actions {
+            /* class ACE_MainActions {}; this is inherited */
         };
     };
 
@@ -22,10 +24,10 @@ class CfgVehicles {
         transportMaxBackpacks = 0;
         class ACE_Actions: ACE_Actions {
             class ACE_MainActions: ACE_MainActions {
-                class TBD_MORTARS_105mm_ROUND_HE_CHARGE_1_DISASSEMBLE {
+                class TBD_MORTARS_105mm_ROUND_HE_CHARGE_DISASSEMBLE {
                     displayName = CSTRING(disassemble);
                     condition = "true";
-                    statement = QUOTE(systemChat 'Disassemble mortar round';);
+                    statement = QUOTE([ARR_1(_target)] call FUNC(disassemble));
                     distance = 2;
                 };
             };

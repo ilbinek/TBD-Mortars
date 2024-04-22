@@ -8,3 +8,4 @@ PREP(takeMine);
 PREP(canPut);
 PREP(putMine);
 PREP(addChargesChanges);
+PREP(disassemble);
