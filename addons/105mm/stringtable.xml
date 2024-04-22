@@ -233,8 +233,14 @@
             <English>Assembling</English>
             <Czech>Montuji</Czech>
         </Key>
-
-
+        <Key ID="STR_TBD_MORTARS_105mm_disassemble">
+            <English>Disassemble</English>
+            <Czech>Rozmontovat</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_disassembling">
+            <English>Disassembling</English>
+            <Czech>Rozmontovávám</Czech>
+        </Key>
 
 
 

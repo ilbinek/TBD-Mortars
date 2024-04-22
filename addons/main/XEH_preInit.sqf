@@ -54,6 +54,14 @@ ADDON = true;
 	[0,120,5]
 ] call CBA_fnc_addSetting;
 
+[
+	QGVAR(disassemble105Time),
+	"TIME",
+	[LLSTRING(disassemble_105_time), LLSTRING(disassemble_105_time_desc)],
+	QUOTE(ADDON_NICE),
+	[0,120,5]
+] call CBA_fnc_addSetting;
+
 /*
 [
 	QGVAR(disableArtyComp),

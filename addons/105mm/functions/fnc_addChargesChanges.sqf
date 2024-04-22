@@ -34,13 +34,13 @@
 		params ["_unit", "", "_item", "_slot"];\
 		switch _slot do {\
 			case "UNIFORM_CONTAINER": {\
-				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToUniform QUOTE(DOUBLES(var2,var1))}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToUniform QUOTE(DOUBLES(var2,var1));}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item;}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 			case "VEST_CONTAINER": {\
-				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToVest QUOTE(DOUBLES(var2,var1))}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToVest QUOTE(DOUBLES(var2,var1));}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item;}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 			case "BACKPACK_CONTAINER": {\
-				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToBackpack QUOTE(DOUBLES(var2,var1))}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(charge_change), EGVAR(main,chargeChangeTime), {true}, {params ["_args"]; _args params ["_unit"]; _unit addItemToBackpack QUOTE(DOUBLES(var2,var1));}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item;}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 		};\
 	},\
@@ -83,13 +83,13 @@
 		params ["_unit", "", "_item", "_slot"];\
 		switch _slot do {\
 			case "UNIFORM_CONTAINER": {\
-				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromUniform QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromUniform QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry; playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), player];}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 			case "VEST_CONTAINER": {\
-				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromVest QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromVest QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry; playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), player];}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 			case "BACKPACK_CONTAINER": {\
-				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromBackpack QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromBackpack QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry; playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), player];}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 		};\
 	},\
@@ -114,6 +114,7 @@
 					_args params ["_unit"];
 					_unit addItemToUniform QUOTE(TBD_MORTARS_105mm_SHELL_HE);
 					_unit addItemToUniform QUOTE(TBD_MORTARS_105mm_CASING_CHARGE_7);
+					playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\unpack_tube.ogg), player];
 				}, {
 					params ["_args"];
 					_args params ["_unit", "_item"];
@@ -126,6 +127,7 @@
 					_args params ["_unit"];
 					_unit addItemToVest QUOTE(TBD_MORTARS_105mm_SHELL_HE);
 					_unit addItemToVest QUOTE(TBD_MORTARS_105mm_CASING_CHARGE_7);
+					playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\unpack_tube.ogg), player];
 				}, {
 					params ["_args"];
 					_args params ["_unit", "_item"];
@@ -138,6 +140,7 @@
 					_args params ["_unit"];
 					_unit addItemToBackpack QUOTE(TBD_MORTARS_105mm_SHELL_HE);
 					_unit addItemToBackpack QUOTE(TBD_MORTARS_105mm_CASING_CHARGE_7);
+					playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\unpack_tube.ogg), player];
 				}, {
 					params ["_args"];
 					_args params ["_unit", "_item"];

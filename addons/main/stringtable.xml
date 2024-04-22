@@ -81,5 +81,13 @@
             <English>How long it takes to assemble the 105mm shell and propellant casing into a live shell</English>
             <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do ostré minice</Czech>
         </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_DISASSEMBLE_105_TIME">
+            <English>Time it takes to disassemble 105mm shell</English>
+            <Czech>Čas, který zabere rozspojení 105mm munice</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_DISASSEMBLE_105_TIME_DESC">
+            <English>How long it takes to disassemble the 105mm a live shell into propellant casing and shell</English>
+            <Czech>Čas, který zabere rozpojení 105mm ostré minice do miny a střelného prachu</Czech>
+        </Key>
     </Package>
 </Project>
