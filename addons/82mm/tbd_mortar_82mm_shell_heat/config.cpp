@@ -8,7 +8,7 @@ class CfgPatches
 		requiredVersion = 0.5;
 		weapons[] = {""};
 		units[] = {""};
-		magazines[] = {QUOTE(TBD_MORTAR_82mm_SMOKE)};
+		magazines[] = {QUOTE(TBD_MORTAR_82mm_CUMUL)};
 	};
 };
 

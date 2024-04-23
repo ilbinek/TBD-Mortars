@@ -225,9 +225,9 @@
             <English>Assemble HE shell, charge 7</English>
             <Czech>Smontovat tříšťivou minu s nábojkou 7</Czech>
         </Key>
-        <Key ID="STR_TBD_MORTARS_105mm_assembling">
-            <English>Assembling</English>
-            <Czech>Montuji</Czech>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble">
+            <English>Assemble</English>
+            <Czech>Smontovat</Czech>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_assembling">
             <English>Assembling</English>
@@ -323,6 +323,14 @@
         <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_7">
             <English>HE Charge 7</English>
             <Czech>Tříštivá nálož 7</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_SHORT">
+            <English>105mm HE</English>
+            <Czech>105mm HE</Czech>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_DESC">
+            <English>105mm HE used in the M119</English>
+            <Czech>105mm mina použita v M119</Czech>
         </Key>
     </Package>
 </Project>

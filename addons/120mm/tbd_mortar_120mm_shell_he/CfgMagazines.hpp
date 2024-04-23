@@ -1,4 +1,4 @@
-	class CfgMagazines {
+class CfgMagazines {
 	class Default;
 	class CA_Magazine: Default {};
 	class VehicleMagazine: CA_Magazine {};

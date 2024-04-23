@@ -21,7 +21,3 @@ class CfgMagazines
 		type = 256;
 	};
 };
-
-
-
-

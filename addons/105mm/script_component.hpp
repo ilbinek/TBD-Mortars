@@ -2,7 +2,7 @@
 #define COMPONENT 105mm
 #include "\x\cba\addons\main\script_macros_common.hpp"
 
-#define DISABLE_COMPILE_CACHE
+//#define DISABLE_COMPILE_CACHE
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
@@ -36,4 +36,11 @@
 #define TBD_MORTARS_105mm_ROUND_HE_CHARGE_5 tbd_mortars_105mm_round_he_charge_5
 #define TBD_MORTARS_105mm_ROUND_HE_CHARGE_6 tbd_mortars_105mm_round_he_charge_6
 #define TBD_MORTARS_105mm_ROUND_HE_CHARGE_7 tbd_mortars_105mm_round_he_charge_7
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_1 tbd_mortars_105mm_round_he_charge_mag_1
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_2 tbd_mortars_105mm_round_he_charge_mag_2
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_3 tbd_mortars_105mm_round_he_charge_mag_3
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_4 tbd_mortars_105mm_round_he_charge_mag_4
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_5 tbd_mortars_105mm_round_he_charge_mag_5
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_6 tbd_mortars_105mm_round_he_charge_mag_6
+#define TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_7 tbd_mortars_105mm_round_he_charge_mag_7
 #define TBD_MORTARS_105mm_TUBE tbd_mortars_105mm_tube
