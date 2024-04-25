@@ -60,7 +60,7 @@ if (_mine in _magazines) then {
 
 private _r = format ["round_%1", _nbr];
 switch (_mine) do {
-	case QUOTE(TBD_MORTAR_81mm_HE): {_box setVariable [_r, 1, true]; _box animate [format ["mine_he_%1_h", _nbr], 0];};
-	case QUOTE(TBD_MORTAR_81mm_SMOKE): {_box setVariable [_r, 2, true]; _box animate [format ["mine_smoke_%1_h", _nbr], 0];};
-	case QUOTE(TBD_MORTAR_81mm_ILLUM): {_box setVariable [_r, 3, true]; _box animate [format ["mine_illum_%1_h", _nbr], 0];};
+	case QUOTE(TBD_MORTAR_81mm_HE): {_box setVariable [_r, 1, true]; _box animateSource [format ["mine_%1_source", _nbr], 0];};
+	case QUOTE(TBD_MORTAR_81mm_SMOKE): {_box setVariable [_r, 2, true]; _box animateSource [format ["mine_smoke_%1_source", _nbr], 0];};
+	case QUOTE(TBD_MORTAR_81mm_ILLUM): {_box setVariable [_r, 3, true]; _box animateSource [format ["mine_illum_%1_source", _nbr], 0];};
 };

@@ -35,7 +35,7 @@ params ["_box"];
 for "_i" from 1 to 12 do {
     private _str = format ["cap_%1", _i];
     _box setVariable [_str, false, true];
-    _box animate[format ["cap_%1_stored_h", _i], 1, 0.2];
+    _box animateSource [format ["cap_%1_stored_source", _i], 1, 0.2];
 };
 
 if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_HE)) then {
@@ -43,9 +43,9 @@ if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_HE)) then {
     for "_i" from 1 to 12 do {
         private _n = format ["round_%1", _i];
         _box setVariable[_n, 1, true];
-        _box animate [format ["mine_he_%1_h", _i], 0];
-        _box animate [format ["mine_smoke_%1_h", _i], 1];
-        _box animate [format ["mine_illum_%1_h", _i], 1];
+        _box animateSource [format ["mine_%1_source", _i], 0];
+        _box animateSource [format ["mine_smoke_%1_source", _i], 1];
+        _box animateSource [format ["mine_illum_%1_source", _i], 1];
     };
 };
 
@@ -53,9 +53,9 @@ if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_SMOKE)) then {
     // set all 12 slots as smoke
     for "_i" from 1 to 12 do {
         _box setVariable[format ["round_%1", _i], 2, true];
-        _box animate [format ["mine_he_%1_h", _i], 1];
-        _box animate [format ["mine_smoke_%1_h", _i], 0];
-        _box animate [format ["mine_illum_%1_h", _i], 1];
+        _box animateSource [format ["mine_%1_source", _i], 1];
+        _box animateSource [format ["mine_smoke_%1_source", _i], 0];
+        _box animateSource [format ["mine_illum_%1_source", _i], 1];
     };
 };
 
@@ -63,8 +63,8 @@ if (typeOf _box == QUOTE(TBD_MORTAR_81mm_BOX_ILLUM)) then {
     // set all 12 slots as illum
     for "_i" from 1 to 12 do {
         _box setVariable[format ["round_%1", _i], 3, true];
-        _box animate [format ["mine_he_%1_h", _i], 1];
-        _box animate [format ["mine_smoke_%1_h", _i], 1];
-        _box animate [format ["mine_illum_%1_h", _i], 0];
+        _box animateSource [format ["mine_%1_source", _i], 1];
+        _box animateSource [format ["mine_smoke_%1_source", _i], 1];
+        _box animateSource [format ["mine_illum_%1_source", _i], 0];
     };
 };

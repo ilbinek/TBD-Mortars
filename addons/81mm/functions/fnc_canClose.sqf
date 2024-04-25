@@ -27,8 +27,9 @@
 
 params ["_box", "_nbr"];
 
-private _text = format ["cap_%1", _nbr];
+private _text = format ["cap_%1_source", _nbr];
+private _text2 = format ["cap_%1", _nbr];
 
-private _ret = (_box animationphase _text > 0.1) && (_box getVariable _text);
+private _ret = (_box animationSourcePhase _text > 0.1) && (_box getVariable _text2);
 
 _ret

@@ -37,9 +37,9 @@ private _mineClass = "";
 
 
 switch (_box getVariable [_m, 0]) do {
-	case 1: {_mineClass = QUOTE(TBD_MORTAR_81mm_HE); _box animate [format ["mine_he_%1_h", _nbr], 1];};
-	case 2: {_mineClass = QUOTE(TBD_MORTAR_81mm_SMOKE); _box animate [format ["mine_smoke_%1_h", _nbr], 1];};
-	case 3: {_mineClass = QUOTE(TBD_MORTAR_81mm_ILLUM); _box animate [format ["mine_illum_%1_h", _nbr], 1];};
+	case 1: {_mineClass = QUOTE(TBD_MORTAR_81mm_HE); _box animateSource [format ["mine_%1_source", _nbr], 1, true];};
+	case 2: {_mineClass = QUOTE(TBD_MORTAR_81mm_SMOKE); _box animateSource [format ["mine_smoke_%1_source", _nbr], 1, true];};
+	case 3: {_mineClass = QUOTE(TBD_MORTAR_81mm_ILLUM); _box animateSource [format ["mine_illum_%1_source", _nbr], 1, true];};
 };
 
 // Remove the mine from the box
