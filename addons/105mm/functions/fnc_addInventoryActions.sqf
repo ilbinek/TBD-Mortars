@@ -1,21 +1,22 @@
 /*
-	FILE: fnc_addChargesChanges.sqf
+	FILE: fnc_addInventoryActions.sqf
 
-	Name: tbd_mortars_105mm_fnc_addChargesChanges
+	Name: tbd_mortars_105mm_fnc_addInventoryActions
 
 	Author(s):
 		ilbinek
 
 	Description:
-		Determines if a mine can be taken
+		Adds inventory actions for 105mm stuff
 
 	Parameters:
+		Nothing
 
 	Returns:
 		Nothing
 
 	Examples:
-		> call tbd_mortars_105mm_fnc_addChargesChanges;
+		> call tbd_mortars_105mm_fnc_addInventoryActions;
 
 	Public:
 		No
@@ -81,15 +82,48 @@
 	],\
 	{\
 		params ["_unit", "", "_item", "_slot"];\
+		playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), _unit];\
 		switch _slot do {\
 			case "UNIFORM_CONTAINER": {\
-				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromUniform QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry; playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), player];}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromUniform QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry;}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 			case "VEST_CONTAINER": {\
-				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromVest QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry; playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), player];}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromVest QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry;}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 			case "BACKPACK_CONTAINER": {\
-				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromBackpack QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry; playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\create_round.ogg), player];}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+				[LLSTRING(assembling), EGVAR(main,assemble105time), {true}, {params ["_args"]; _args params ["_unit"]; _unit removeItemFromBackpack QUOTE(var2); private _shell = QUOTE(DOUBLES(TBD_MORTARS_105mm_ROUND_HE_CHARGE,var1)) createVehicle (getPos _unit); [_unit, _shell] call ace_dragging_fnc_startCarry;}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item}, [_unit, _item]] call CBA_fnc_progressBar;\
+			};\
+		};\
+	},\
+	true,\
+	[]\
+] call CBA_fnc_addItemContextMenuOption;
+
+// HE packing
+#define ADD_ACTION_HE_PACK(var1) [\
+	_class,\
+	"CONTAINER",\
+	LLSTRING(DOUBLES(pack,var1)),\
+	nil,\
+	"\a3\ui_f\data\igui\cfg\simpletasks\types\box_ca.paa",\
+	[\
+		{true},\
+		{\
+			[QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,isMineNearby);\
+		}\
+	],\
+	{\
+		params ["_unit", "", "_item", "_slot"];\
+		playSound3D [QPATHTOF(TBD_MORTARS_105mm_TUBE\sounds\pack_tube.ogg), _unit];\
+		switch _slot do {\
+			case "UNIFORM_CONTAINER": {\
+				[LLSTRING(pack), EGVAR(main,pack105Time), {true}, {params ["_args"]; _args params ["_unit"]; if !([QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,isMineNearby)) exitWith {}; [QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,removeNearbyShell); [QUOTE(TBD_MORTARS_105mm_TUBE)] call EFUNC(main,addNearbyShell);}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToUniform _item;}, [_unit, _item]] call CBA_fnc_progressBar;\
+			};\
+			case "VEST_CONTAINER": {\
+				[LLSTRING(pack), EGVAR(main,pack105Time), {true}, {params ["_args"]; _args params ["_unit"]; if !([QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,isMineNearby)) exitWith {}; [QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,removeNearbyShell); [QUOTE(TBD_MORTARS_105mm_TUBE)] call EFUNC(main,addNearbyShell)}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToVest _item;}, [_unit, _item]] call CBA_fnc_progressBar;\
+			};\
+			case "BACKPACK_CONTAINER": {\
+				[LLSTRING(pack), EGVAR(main,pack105Time), {true}, {params ["_args"]; _args params ["_unit"]; if !([QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,isMineNearby)) exitWith {}; [QUOTE(DOUBLES(TBD_MORTARS_105mm_CASING_CHARGE,var1))] call EFUNC(main,removeNearbyShell); [QUOTE(TBD_MORTARS_105mm_TUBE)] call EFUNC(main,addNearbyShell);}, {params ["_args"]; _args params ["_unit", "_item"]; _unit addItemToBackpack _item;}, [_unit, _item]] call CBA_fnc_progressBar;\
 			};\
 		};\
 	},\
@@ -163,7 +197,7 @@ ADD_ACTION(6,TBD_MORTARS_105mm_CASING_CHARGE)
 ADD_ACTION(7,TBD_MORTARS_105mm_CASING_CHARGE)
 
 // HE loadable shell creation
-private _class = QUOTE(TBD_MORTARS_105mm_SHELL_HE);
+_class = QUOTE(TBD_MORTARS_105mm_SHELL_HE);
 ADD_ACTION_CREATE_SHELL(1,TBD_MORTARS_105mm_CASING_CHARGE_1)
 ADD_ACTION_CREATE_SHELL(2,TBD_MORTARS_105mm_CASING_CHARGE_2)
 ADD_ACTION_CREATE_SHELL(3,TBD_MORTARS_105mm_CASING_CHARGE_3)
@@ -171,3 +205,10 @@ ADD_ACTION_CREATE_SHELL(4,TBD_MORTARS_105mm_CASING_CHARGE_4)
 ADD_ACTION_CREATE_SHELL(5,TBD_MORTARS_105mm_CASING_CHARGE_5)
 ADD_ACTION_CREATE_SHELL(6,TBD_MORTARS_105mm_CASING_CHARGE_6)
 ADD_ACTION_CREATE_SHELL(7,TBD_MORTARS_105mm_CASING_CHARGE_7)
+ADD_ACTION_HE_PACK(1)
+ADD_ACTION_HE_PACK(2)
+ADD_ACTION_HE_PACK(3)
+ADD_ACTION_HE_PACK(4)
+ADD_ACTION_HE_PACK(5)
+ADD_ACTION_HE_PACK(6)
+ADD_ACTION_HE_PACK(7)

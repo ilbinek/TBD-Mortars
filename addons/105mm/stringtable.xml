@@ -141,6 +141,46 @@
             <Czech>Rozbalit</Czech>
             <Russian>Распаковать</Russian>
         </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK">
+            <English>Packing</English>
+            <Czech>Zabaluji</Czech>
+            <Russian>Упакую</Russian>
+        </Key>  
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_1">
+            <English>Pack with Ch. 1</English>
+            <Czech>Zabalit s Ch. 1</Czech>
+            <Russian>Упаковать с зарядом 1</Russian>
+        </Key>        
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_2">
+            <English>Pack with Ch. 2</English>
+            <Czech>Zabalit s Ch. 2</Czech>
+            <Russian>Упаковать с зарядом 2</Russian>
+        </Key>        
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_3">
+            <English>Pack with Ch. 3</English>
+            <Czech>Zabalit s Ch. 3</Czech>
+            <Russian>Упаковать с зарядом 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_5">
+            <English>Pack with Ch. 5</English>
+            <Czech>Zabalit s Ch. 5</Czech>
+            <Russian>Упаковать с зарядом 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_6">
+            <English>Pack with Ch. 6</English>
+            <Czech>Zabalit s Ch. 6</Czech>
+            <Russian>Упаковать с зарядом 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_7">
+            <English>Pack with Ch. 7</English>
+            <Czech>Zabalit s Ch. 7</Czech>
+            <Russian>Упаковать с зарядом 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_4">
+            <English>Pack with Ch. 4</English>
+            <Czech>Zabalit s Ch. 4</Czech>
+            <Russian>Упаковать с зарядом 4</Russian>
+        </Key>
         <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_1">
             <English>105mm casing, charge 1</English>
             <Czech>105mm nábojka, nálož 1</Czech>

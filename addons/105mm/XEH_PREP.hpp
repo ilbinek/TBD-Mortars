@@ -7,5 +7,5 @@ PREP(canTake);
 PREP(takeMine);
 PREP(canPut);
 PREP(putMine);
-PREP(addChargesChanges);
+PREP(addInventoryActions);
 PREP(disassemble);

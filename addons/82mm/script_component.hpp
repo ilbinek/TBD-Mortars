@@ -2,7 +2,7 @@
 #define COMPONENT 82mm
 #include "\x\cba\addons\main\script_macros_common.hpp"
 
-#define DISABLE_COMPILE_CACHE
+//#define DISABLE_COMPILE_CACHE
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
