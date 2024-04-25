@@ -26,6 +26,6 @@
 
 params ["_box"];
 
-private _ret = (_box animationphase "top" > 0.1) && (_box getVariable "top");
+private _ret = (_box animationSourcePhase "top_source" > 0.1) && (_box getVariable "top");
 
 _ret

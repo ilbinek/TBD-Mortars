@@ -26,5 +26,5 @@
 
 params ["_box"];
 
-_box animate["top", 1];
+_box animateSource["top_source", 1];
 _box setVariable ["top", true, true];
