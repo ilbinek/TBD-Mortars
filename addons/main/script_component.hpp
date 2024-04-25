@@ -1,7 +1,7 @@
 #define PREFIX TBD_MORTARS
 #define COMPONENT main
 #define ADDON_NICE TBD Mortars Main
-#include "\x\cba\addons\main\script_macros_common.hpp"
+#include "\x\tbd_mortars\addons\main\script_mod.hpp"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP

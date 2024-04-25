@@ -1,6 +1,6 @@
 #define PREFIX TBD_MORTARS
 #define COMPONENT 120mm
-#include "\x\cba\addons\main\script_macros_common.hpp"
+#include "\x\tbd_mortars\addons\main\script_mod.hpp"
 
 //#define DISABLE_COMPILE_CACHE
 

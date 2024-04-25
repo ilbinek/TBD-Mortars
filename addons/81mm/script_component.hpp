@@ -1,8 +1,6 @@
 #define PREFIX TBD_MORTARS
 #define COMPONENT 81mm
-#include "\x\cba\addons\main\script_macros_common.hpp"
-
-//#define DISABLE_COMPILE_CACHE
+#include "\x\tbd_mortars\addons\main\script_mod.hpp"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
