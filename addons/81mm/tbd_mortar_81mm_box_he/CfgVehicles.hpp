@@ -13,7 +13,6 @@ class CfgVehicles {
         transportMaxMagazines = 0;
         transportMaxBackpacks = 0;
 
-		class Animations {
             class AnimationSources {
                 class cap_1_source {
                     source = "user";  
@@ -318,7 +317,6 @@ class CfgVehicles {
                     animPeriod = 1;
                 };
             };
-        };
 
 		 class ACE_Actions {
             ///////////////////// Caps /////////////////////

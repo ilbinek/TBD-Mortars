@@ -4,99 +4,123 @@
         <Key ID="STR_TBD_MORTAR_81MM_BOX_HE">
             <English>81mm HE-Frag Ammo box</English>
             <Czech>81mm Box TŘÍSTIVÝCH min</Czech>
+            <Russian>Ящик 81мм ОФ мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_BOX_SMOKE">
             <English>81mm Smoke Ammo box</English>
             <Czech>81mm Box DÝMOVÁCH min</Czech>
+            <Russian>Ящик 81мм дымовых мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_BOX_ILLUM">
             <English>81mm Illumination Ammo box</English>
             <Czech>81mm Box NASVĚCOVACÍCH min</Czech>
+            <Russian>Ящик 81мм осв. мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_TAKE_OFF_CAP">
             <English>Take off</English>
             <Czech>Sundat</Czech>
+            <Russian>Снять</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_PUT_ON_CAP">
             <English>Put back on</English>
             <Czech>Nasadit</Czech>
+            <Russian>Надеть</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_TAKE_SHELL">
             <English>Take shell</English>
             <Czech>Vzít minu</Czech>
+            <Russian>Забрать мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_STORE">
             <English>Store shell</English>
             <Czech>Schovat minu</Czech>
-            <Slovak>Uložiť minu</Slovak>
+            <Russian>Вернуть мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_STORE_HE_SHELL">
             <English>Store HE shell</English>
             <Czech>Schovat TŘÍŠTIVOU minu</Czech>
+            <Russian>Вернуть ОФ мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_STORE_SMOKE_SHELL">
             <English>Store SMOKE shell</English>
             <Czech>Schovat DÝMOVOU minu</Czech>
+            <Russian>Вернуть дымовую мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_STORE_ILLUM_SHELL">
             <English>Store ILLUMINATION shell</English>
             <Czech>Schovat NASVĚCOVACÍ minu</Czech>
+            <Russian>Вернуть осв. мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_LOAD_HE_SHELL">
             <English>Load HE shell</English>
             <Czech>Nabít TŘÍŠTIVOU minu</Czech>
+            <Russian>Зарядить ОФ мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_LOAD_SMOKE_SHELL">
             <English>Load SMOKE shell</English>
             <Czech>Schovat DÝMOVOU minu</Czech>
+            <Russian>Зарядить дымовую мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_LOAD_ILLUM_SHELL">
             <English>Load ILLUMINATION shell</English>
             <Czech>Schovat NASVĚCOVACÍ minu</Czech>
+            <Russian>Зарядить осв. мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_HE_SHELL">
             <English>81mm HE-Frag shell</English>
             <Czech>81mm TŘÍSTIVÁ mina</Czech>
+            <Russian>81мм ОФ мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_HE_SHELL_DESC">
             <English>HE-Frag shell used in 81mm mortar</English>
             <Czech>TŘÍSTIVÁ mina použita v 81mm minometu</Czech>
+            <Russian>ОФ мина для 81мм миномётов</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_SMOKE_SHELL">
             <English>81mm Smoke shell</English>
             <Czech>81mm DÝMOVÁ mina</Czech>
+            <Russian>81мм дымовая мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_SMOKE_SHELL_DESC">
             <English>Smoke shell used in 81mm mortar</English>
             <Czech>DÝMOVÁ mina použita v 81mm minometu</Czech>
+            <Russian>Дымовая мина для 81мм миномётов</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_ILLUM_SHELL">
             <English>81mm Illumination shell</English>
             <Czech>81mm NASVĚCOVACÍ mina</Czech>
+            <Russian>81мм осв. мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_ILLUM_SHELL_DESC">
             <English>Illumiation shell used in 81mm mortar</English>
             <Czech>NASVĚCOVACÍ mina použita v 81mm minometu</Czech>
+            <Russian>Осв. мина для 81мм миномётов</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_LOAD">
             <English>Load shell</English>
             <Czech>Nabít minu</Czech>
+            <Russian>Зарядить мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_81MM_UNLOAD">
             <English>Unload shell</English>
             <Czech>Vyndat minu</Czech>
+            <Russian>Разрядить мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_81MM_HE_SHORT">
             <English>HE</English>
             <Czech>TŘÍSTIVÁ</Czech>
+            <Russian>ОФ</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_81MM_ILLUM_SHORT">
             <English>ILLUM</English>
             <Czech>NASVĚCOVACÍ</Czech>
+            <Russian>Осв.</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_81MM_SMOKE_SHORT">
             <English>SMOKE</English>
             <Czech>Dým</Czech>
+            <Russian>Дымовая</Russian>
+
         </Key>
     </Package>
 </Project>

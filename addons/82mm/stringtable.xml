@@ -4,115 +4,143 @@
         <Key ID="STR_TBD_MORTAR_82MM_BOX_HE">
             <English>82mm HE-Frag Ammo box</English>
             <Czech>82mm Box TŘÍSTIVÝCH min</Czech>
+            <Russian>Ящик 82мм ОФ мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_BOX_SMOKE">
             <English>82mm Smoke Ammo box</English>
             <Czech>82mm Box DÝMOVÁCH min</Czech>
+            <Russian>Ящик 82мм дымовых мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_BOX_ILLUM">
             <English>82mm Illumination Ammo box</English>
             <Czech>82mm Box NASVĚCOVACÍCH min</Czech>
+            <Russian>Ящик 82мм осв. мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_BOX_CUMUL">
             <English>82mm Cumulative Ammo box</English>
             <Czech>82mm Box KUMULATIVNÍCH min</Czech>
+            <Russian>Ящик 82мм кумулятивных мин</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_OPEN">
             <English>Open</English>
             <Czech>Otevřít</Czech>
+            <Russian>Открыть</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_CLOSE">
             <English>Close</English>
             <Czech>Zavřít</Czech>
+            <Russian>Закрыть</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_TAKE_SHELL">
             <English>Take shell</English>
             <Czech>Vzít minu</Czech>
+            <Russian>Взять мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_STORE">
             <English>Store shell</English>
             <Czech>Schovat minu</Czech>
-            <Slovak>Uložiť minu</Slovak>
+            <Russian>Вернуть мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_STORE_HE_SHELL">
             <English>Store HE shell</English>
             <Czech>Schovat TŘÍŠTIVOU minu</Czech>
+            <Russian>Вернуть ОФ мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_STORE_SMOKE_SHELL">
             <English>Store SMOKE shell</English>
             <Czech>Schovat DÝMOVOU minu</Czech>
+            <Russian>Вернуть дымовую мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_STORE_ILLUM_SHELL">
             <English>Store ILLUMINATION shell</English>
             <Czech>Schovat NASVĚCOVACÍ minu</Czech>
+            <Russian>Вернуть осв. мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_STORE_CUMUL_SHELL">
             <English>Store CUMULATIVE shell</English>
             <Czech>Schovat KUMULATIVNÍ minu</Czech>
+            <Russian>Вернуть кумулятивную мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_LOAD_HE_SHELL">
             <English>Load HE shell</English>
             <Czech>Nabít TŘÍŠTIVOU minu</Czech>
+            <Russian>Зарядить ОФ мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_LOAD_SMOKE_SHELL">
             <English>Load SMOKE shell</English>
-            <Czech>Schovat DÝMOVOU minu</Czech>
+            <Czech>Nabít DÝMOVOU minu</Czech>
+            <Russian>Зарядить дымовую мину</Russian>
+
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_LOAD_ILLUM_SHELL">
             <English>Load ILLUMINATION shell</English>
-            <Czech>Schovat NASVĚCOVACÍ minu</Czech>
+            <Czech>Nabít NASVĚCOVACÍ minu</Czech>
+            <Russian>Зарядить осв. мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL">
             <English>82mm HE-Frag shell</English>
             <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм ОФ мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL_DESC">
             <English>HE-Frag shell used in 82mm mortar</English>
             <Czech>TŘÍSTIVÁ mina použita v 82mm minometu</Czech>
+            <Russian>ОФ мина для 82мм миномётов</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_SMOKE_SHELL">
             <English>82mm Smoke shell</English>
             <Czech>82mm DÝMOVÁ mina</Czech>
+            <Russian>82мм дымовая мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_SMOKE_SHELL_DESC">
             <English>Smoke shell used in 82mm mortar</English>
             <Czech>DÝMOVÁ mina použita v 82mm minometu</Czech>
+            <Russian>Дымовая мина для 82мм миномётов</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_ILLUM_SHELL">
             <English>82mm Illumination shell</English>
             <Czech>82mm NASVĚCOVACÍ mina</Czech>
+            <Russian>82мм осв. мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_ILLUM_SHELL_DESC">
             <English>Illumiation shell used in 82mm mortar</English>
             <Czech>NASVĚCOVACÍ mina použita v 82mm minometu</Czech>
+            <Russian>Осв. мина для 82мм миномётов</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_LOAD">
             <English>Load shell</English>
             <Czech>Nabít minu</Czech>
+            <Russian>Зарядить мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_UNLOAD">
             <English>Unload shell</English>
             <Czech>Vyndat minu</Czech>
+            <Russian>Разрядить мину</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_82MM_HE_SHORT">
             <English>HE</English>
             <Czech>TŘÍSTIVÁ</Czech>
+            <Russian>ОФ</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_82MM_ILLUM_SHORT">
             <English>ILLUM</English>
             <Czech>NASVĚCOVACÍ</Czech>
+            <Russian>Осв.</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_82MM_SMOKE_SHORT">
             <English>SMOKE</English>
             <Czech>Dým</Czech>
+            <Russian>Дымовая</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_82MM_CUMUL">
             <English>82mm Cumulative shell</English>
             <Czech>82mm Kumulativní mina</Czech>
+            <Russian>82мм кумулятивная мина</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_82MM_CUMUL_DESC">
             <English>Cumulative</English>
             <Czech>Kumulativní</Czech>
+            <Russian>Кумулятивная</Russian>
         </Key>
     </Package>
 </Project>
