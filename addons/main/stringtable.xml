@@ -22,8 +22,8 @@
             <Czech>Nabíjení přerušeno</Czech>
         </Key>
         <Key ID="STR_TBD_MORTAR_UNLOADING">
-            <English>Loading</English>
-            <Czech>Nabíjení</Czech>
+            <English>Unloading</English>
+            <Czech>Vybíjení</Czech>
         </Key>
          <Key ID="STR_TBD_MORTAR_LOADING_TIME">
             <English>Time to load</English>
