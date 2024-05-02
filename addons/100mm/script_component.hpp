@@ -1,11 +1,10 @@
 #define PREFIX TBD_MORTARS
-#define COMPONENT main
-#define ADDON_NICE TBD Mortars Main
+#define COMPONENT 100mm
 #include "\x\tbd_mortars\addons\main\script_mod.hpp"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
-    #define PREP(fncName) DFUNC(fncName) = compile preprocessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName).sqf)
+    #define PREP(fncName) TRIPLES(ADDON,fnc,fncName) = compile preprocessFileLineNumbers QPATHTOF(functions\DOUBLES(fnc,fncName).sqf)
 #else
     #undef PREP
     #define PREP(fncName) [QPATHTOF(functions\DOUBLES(fnc,fncName).sqf), QFUNC(fncName)] call CBA_fnc_compileFunction

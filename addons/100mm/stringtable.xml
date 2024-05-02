@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="tbd_mortar_105mm">
+    <Package name="Translation">
+        <Key ID="STR_TBD_MORTARS_100mm_HE_PLACEHOLDER">
+            <English>PLACEHOLDER</English>
+            <Czech>PLACEHOLDER</Czech>
+            <Russian>PLACEHOLDER</Russian>
+        </Key>
+    </Package>
+</Project>
