@@ -16,6 +16,7 @@
 #define TBD_MORTARS_100MM_BOX_HEAT tbd_mortars_100mm_box_heat
 #define TBD_MORTARS_100MM_BOX_HE tbd_mortars_100mm_box_he
 #define TBD_MORTARS_100MM_BOX_STAL tbd_mortars_100mm_box_stal
+#define TBD_MORTARS_100mm_BOX_ATGM tbd_mortars_100mm_box_atgm
 
 #define TBD_MORTARS_100MM_ROUND_HE tbd_mortars_100mm_round_he
 #define TBD_MORTARS_100MM_ROUND_HEAT tbd_mortars_100mm_round_heat

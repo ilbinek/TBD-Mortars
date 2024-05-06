@@ -18,14 +18,14 @@ git_hash=0
 sign   =true
 archive=false
 
-[hemtt.launch]
+[hemtt.launch.default]
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
     "2369477168", # Advanced Developer Tools 
-    "843577117", # RHSUSAF
-    "843425103", # RHSAFRF
-    "3203941036", #120-PM-43
+    #"843577117", # RHSUSAF
+    #"843425103", # RHSAFRF
+    #"3203941036", #120-PM-43
 ]
 
 mission = "mortartest.Stratis"
