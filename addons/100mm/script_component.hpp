@@ -11,3 +11,20 @@
 #endif
 
 #define PREP_SUB(subfolder,fncName) [QPATHTOF(functions\subfolder\DOUBLES(fnc,fncName).sqf), QUOTE(DFUNC(DOUBLES(subfolder,fncName)))] call CBA_fnc_compileFunction
+
+#define TBD_MORTARS_100MM_BOX_AP tbd_mortars_100mm_box_ap
+#define TBD_MORTARS_100MM_BOX_HEAT tbd_mortars_100mm_box_heat
+#define TBD_MORTARS_100MM_BOX_HE tbd_mortars_100mm_box_he
+#define TBD_MORTARS_100MM_BOX_STAL tbd_mortars_100mm_box_stal
+
+#define TBD_MORTARS_100MM_ROUND_HE tbd_mortars_100mm_round_he
+#define TBD_MORTARS_100MM_ROUND_HEAT tbd_mortars_100mm_round_heat
+#define TBD_MORTARS_100MM_ROUND_AP tbd_mortars_100mm_round_AP
+#define TBD_MORTARS_100MM_ROUND_STAL tbd_mortars_100mm_round_stal
+
+#define TBD_MORTARS_100MM_ROUND_AMMO_HE tbd_mortars_100mm_round_ammo_he
+#define TBD_MORTARS_100MM_ROUND_AMMO_HEAT tbd_mortars_100mm_round_ammo_heat
+#define TBD_MORTARS_100MM_ROUND_AMMO_AP tbd_mortars_100mm_round_ammo_AP
+#define TBD_MORTARS_100MM_ROUND_AMMO_STAL tbd_mortars_100mm_round_ammo_stal
+
+#define TBD_MORTARS_100MM_CASING_SPENT TBD_mortars_100mm_casing_spent

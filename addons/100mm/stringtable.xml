@@ -1,10 +1,390 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="tbd_mortar_105mm">
+<Project name="tbd_mortars_100mm">
     <Package name="Translation">
-        <Key ID="STR_TBD_MORTARS_100mm_HE_PLACEHOLDER">
-            <English>PLACEHOLDER</English>
-            <Czech>PLACEHOLDER</Czech>
-            <Russian>PLACEHOLDER</Russian>
+        
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_AP">
+            <English>100mm APFSDS box</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>Ящик с 100мм БПС снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_AP">
+            <English>100mm APFSDS round</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>100мм БПС снаряд</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_HE">
+            <English>100mm HE box</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>Ящик с 100мм ОФС снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_HE">
+            <English>100mm HE round</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>100мм ОФС снаряд</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_HEAT">
+            <English>100mm HEAT box</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>Ящик с 100мм КС снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_HEAT">
+            <English>100mm HEAT round</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>100мм КС снаряд</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_STAL">
+            <English>100mm Stalinium APFSDS box</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>Ящик с 100мм БПС снарядами из Сталиния</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_STAL">
+            <English>100mm Stalinium APFSDS round</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>100мм БПС снаряд из Сталиния</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_ATGM">
+            <English>100mm ATGM 9M117 box</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>Ящик с 100мм ПТУР 9М117</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_ATGM">
+            <English>100mm ATGM 9M117</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>100мм ПТУР 9М117</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_CASING">
+            <English>A spent 100mm casing</English>
+            <Czech>Bedna s tvojí mámou</Czech>
+            <Russian>Пустый 100мм снаряд</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+            <Russian>Закрыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+            <Russian>Открыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_TAKE_MINE_AP">
+            <English>Take HE tube</English>
+            <Czech>Vzít trubku</Czech>
+            <Russian>Взять тубус</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_PUT_MINE_AP">
+            <English>Return HE tube</English>
+            <Czech>Schovat třístivou</Czech>
+            <Russian>Вернуть тубус</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_UNPACK">
+            <English>Unpack</English>
+            <Czech>Rozbalit</Czech>
+            <Russian>Распаковать</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK">
+            <English>Packing</English>
+            <Czech>Zabaluji</Czech>
+            <Russian>Упакую</Russian>
+        </Key>  
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_1">
+            <English>Pack with Ch. 1</English>
+            <Czech>Zabalit s Ch. 1</Czech>
+            <Russian>Упаковать с зарядом 1</Russian>
+        </Key>        
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_2">
+            <English>Pack with Ch. 2</English>
+            <Czech>Zabalit s Ch. 2</Czech>
+            <Russian>Упаковать с зарядом 2</Russian>
+        </Key>        
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_3">
+            <English>Pack with Ch. 3</English>
+            <Czech>Zabalit s Ch. 3</Czech>
+            <Russian>Упаковать с зарядом 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_5">
+            <English>Pack with Ch. 5</English>
+            <Czech>Zabalit s Ch. 5</Czech>
+            <Russian>Упаковать с зарядом 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_6">
+            <English>Pack with Ch. 6</English>
+            <Czech>Zabalit s Ch. 6</Czech>
+            <Russian>Упаковать с зарядом 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_7">
+            <English>Pack with Ch. 7</English>
+            <Czech>Zabalit s Ch. 7</Czech>
+            <Russian>Упаковать с зарядом 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PACK_4">
+            <English>Pack with Ch. 4</English>
+            <Czech>Zabalit s Ch. 4</Czech>
+            <Russian>Упаковать с зарядом 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_1">
+            <English>105mm casing, charge 1</English>
+            <Czech>105mm nábojka, nálož 1</Czech>
+            <Russian>105мм гильза, заряд 1</Russian>
+
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_1_short">
+            <English>105mm Ch. 1</English>
+            <Czech>105mm Nál. 1</Czech>
+            <Russian>105мм заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_1_desc">
+            <English>105mm casing with charge 1</English>
+            <Czech>105mm nábojka s náloží 1</Czech>
+            <Russian>105мм гильза с зарядом 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_2">
+            <English>105mm casing, charge 2</English>
+            <Czech>105mm nábojka, nálož 2</Czech>
+            <Russian>105мм гильза, заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_2_short">
+            <English>105mm Ch. 2</English>
+            <Czech>105mm Nál. 2</Czech>
+            <Russian>105мм заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_2_desc">
+            <English>105mm casing with charge 2</English>
+            <Czech>105mm nábojka s náloží 2</Czech>
+            <Russian>105мм гильза с зарядом 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_3">
+            <English>105mm casing, charge 3</English>
+            <Czech>105mm nábojka, nálož 3</Czech>
+            <Russian>105мм гильза, заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_3_short">
+            <English>105mm Ch. 3</English>
+            <Czech>105mm Nál. 3</Czech>
+            <Russian>105мм заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_3_desc">
+            <English>105mm casing with charge 3</English>
+            <Czech>105mm nábojka s náloží 3</Czech>
+            <Russian>105мм гильза с зарядом 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_4">
+            <English>105mm casing, charge 4</English>
+            <Czech>105mm nábojka, nálož 4</Czech>
+            <Russian>105мм гильза, заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_4_short">
+            <English>105mm Ch. 4</English>
+            <Czech>105mm Nál. 4</Czech>
+            <Russian>105мм заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_4_desc">
+            <English>105mm casing with charge 4</English>
+            <Czech>105mm nábojka s náloží 4</Czech>
+            <Russian>105мм гильза с зарядом 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_5">
+            <English>105mm casing, charge 5</English>
+            <Czech>105mm nábojka, nálož 5</Czech>
+            <Russian>105мм гильза, заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_5_short">
+            <English>105mm Ch. 5</English>
+            <Czech>105mm Nál. 5</Czech>
+            <Russian>105мм заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_5_desc">
+            <English>105mm casing with charge 5</English>
+            <Czech>105mm nábojka s náloží 5</Czech>
+            <Russian>105мм гильза с зарядом 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_6">
+            <English>105mm casing, charge 6</English>
+            <Czech>105mm nábojka, nálož 6</Czech>
+            <Russian>105мм гильза, заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_6_short">
+            <English>105mm Ch. 6</English>
+            <Czech>105mm Nál. 6</Czech>
+            <Russian>105мм заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_6_desc">
+            <English>105mm casing with charge 6</English>
+            <Czech>105mm nábojka s náloží 6</Czech>
+            <Russian>105мм гильза с зарядом 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_7">
+            <English>105mm casing, charge 7</English>
+            <Czech>105mm nábojka, nálož 7</Czech>
+            <Russian>105мм гильза, заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_7_short">
+            <English>105mm Ch. 7</English>
+            <Czech>105mm Nál. 7</Czech>
+            <Russian>105мм заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_105_casing_charge_7_desc">
+            <English>105mm casing with charge 7</English>
+            <Czech>105mm nábojka s náloží 7</Czech>
+            <Russian>105мм гильза с зарядом 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_1">
+            <English>Assemble HE round, charge 1</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 1</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_2">
+            <English>Assemble HE round, charge 2</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 2</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_3">
+            <English>Assemble HE round, charge 3</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 3</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_4">
+            <English>Assemble HE round, charge 4</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 4</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_5">
+            <English>Assemble HE round, charge 5</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 5</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_6">
+            <English>Assemble HE round, charge 6</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 6</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble_he_7">
+            <English>Assemble HE round, charge 7</English>
+            <Czech>Smontovat tříšťivou minu s nábojkou 7</Czech>
+            <Russian>Собрать ОФ снаряд с зарядом 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assemble">
+            <English>Assemble</English>
+            <Czech>Smontovat</Czech>
+            <Russian>Собрать</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_assembling">
+            <English>Assembling</English>
+            <Czech>Montuji</Czech>
+            <Russian>Собираю</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_disassemble">
+            <English>Disassemble</English>
+            <Czech>Rozmontovat</Czech>
+            <Russian>Разобрать</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_disassembling">
+            <English>Disassembling</English>
+            <Czech>Rozmontovávám</Czech>
+            <Russian>Разбираю</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_1">
+            <English>Set charge to 1</English>
+            <Czech>Změnit množství prachové náplně na 1</Czech>
+            <Russian>Настроить заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_2">
+            <English>Set charge to 2</English>
+            <Czech>Změnit množství prachové náplně na 2</Czech>
+            <Russian>Настроить заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_3">
+            <English>Set charge to 3</English>
+            <Czech>Změnit množství prachové náplně na 3</Czech>
+            <Russian>Настроить заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_4">
+            <English>Set charge to 4</English>
+            <Czech>Změnit množství prachové náplně na 4</Czech>
+            <Russian>Настроить заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_5">
+            <English>Set charge to 5</English>
+            <Czech>Změnit množství prachové náplně na 5</Czech>
+            <Russian>Настроить заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_6">
+            <English>Set charge to 6</English>
+            <Czech>Změnit množství prachové náplně na 6</Czech>
+            <Russian>Настроить заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE_7">
+            <English>Set charge to 7</English>
+            <Czech>Změnit množství prachové náplně na 7</Czech>
+            <Russian>Настроить заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_CHARGE_CHANGE">
+            <English>Changing charges</English>
+            <Czech>Měním střelný prach</Czech>
+            <Russian>Меняю заряд</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_NAME">
+            <English>M119А3</English>
+            <Czech>M119А3</Czech>
+            <Russian>М119А3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LOAD">
+            <English>Load</English>
+            <Czech>Nabít</Czech>
+            <Russian>Зарядить</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_UNLOAD">
+            <English>Unload</English>
+            <Czech>Vybít</Czech>
+            <Russian>Разрядить</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_1">
+            <English>HE Charge 1</English>
+            <Czech>Tříštivá nálož 1</Czech>
+            <Russian>ОФ заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_2">
+            <English>HE Charge 2</English>
+            <Czech>Tříštivá nálož 2</Czech>
+            <Russian>ОФ заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_3">
+            <English>HE Charge 3</English>
+            <Czech>Tříštivá nálož 3</Czech>
+            <Russian>ОФ заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_4">
+            <English>HE Charge 4</English>
+            <Czech>Tříštivá nálož 4</Czech>
+            <Russian>ОФ заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_5">
+            <English>HE Charge 5</English>
+            <Czech>Tříštivá nálož 5</Czech>
+            <Russian>ОФ заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_6">
+            <English>HE Charge 6</English>
+            <Czech>Tříštivá nálož 6</Czech>
+            <Russian>ОФ заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_7">
+            <English>HE Charge 7</English>
+            <Czech>Tříštivá nálož 7</Czech>
+            <Russian>ОФ заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_SHORT">
+            <English>105mm HE</English>
+            <Czech>105mm HE</Czech>
+            <Russian>105мм ОФ</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CHARGE_DESC">
+            <English>105mm HE shell used in the M119А3</English>
+            <Czech>105mm výstřel použit v M119А3</Czech>
+            <Russian>105мм снаряд для М119А3</Russian>
         </Key>
     </Package>
 </Project>
