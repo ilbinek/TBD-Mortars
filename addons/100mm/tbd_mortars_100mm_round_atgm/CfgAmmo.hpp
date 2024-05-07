@@ -6,5 +6,6 @@ class CfgAmmo {
 		hit = 90;
 		indirectHit = 25;
 		indirectHitRange = 3.5;
+		initSpeed = 350;
 	};
 };

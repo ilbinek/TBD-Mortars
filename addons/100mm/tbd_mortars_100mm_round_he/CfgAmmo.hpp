@@ -4,7 +4,8 @@ class CfgAmmo {
 	class TBD_MORTARS_100MM_ROUND_AMMO_HE: Sh_120mm_HE {
 		model = QPATHTOF(TBD_MORTARS_100MM_ROUND_HE\TBD_MORTARS_100MM_ROUND_HE);
 		hit = 220;
-		indirectHit = 55;
-		indirectHitRange = 6;
+		indirectHit = 100;
+		indirectHitRange = 15;
+		
 	};
 };
