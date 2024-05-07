@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_canTake.sqf
 
-	Name: tbd_mortars_120mm_fnc_canTake
+	Name: tbd_mortars_100mm_fnc_canTake
 
 	Author(s):
 		ilbinek
@@ -17,7 +17,7 @@
 		bool	- True if the mine can be taken
 
 	Examples:
-		> [_this, 2] call tbd_mortars_120mm_fnc_canTake;
+		> [_this, 2] call tbd_mortars_100mm_fnc_canTake;
 
 	Public:
 		No

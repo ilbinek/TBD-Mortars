@@ -7,7 +7,7 @@
 		ilbinek
 
 	Description:
-		Opens the lid on the 120mm ammo box
+		Opens the lid on the 100mm ammo box
 
 	Parameters:
         _box    - object    - The box

@@ -11,12 +11,12 @@ class CfgVehicles {
         };
     };
 
-    class TBD_MORTARS_100mm_ROUND_STAL : NATO_Box_Base {
+    class TBD_MORTARS_100MM_ROUND_STAL : NATO_Box_Base {
         scope = 2;
         author = "TBD Team";
         displayName = CSTRING(ROUND_STAL);
-        model = QPATHTOF(TBD_MORTARS_100mm_ROUND_STAL\TBD_MORTARS_100mm_ROUND_STAL);
-        editorPreview = QPATHTOF(TBD_MORTARS_100mm_ROUND_STAL\data\round.jpg);
+        model = QPATHTOF(TBD_MORTARS_100MM_ROUND_STAL\TBD_MORTARS_100MM_ROUND_STAL);
+        editorPreview = QPATHTOF(TBD_MORTARS_100MM_ROUND_STAL\data\round.jpg);
         ace_cargo_size = 0.5;
         ace_cargo_canLoad = 1;
         transportMaxWeapons = 0;

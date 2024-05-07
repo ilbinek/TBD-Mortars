@@ -4,8 +4,8 @@ class CfgAmmo {
 	class Sh_155mm_AMOS: ShellBase {};
 	class Sh_82mm_AMOS: Sh_155mm_AMOS {};
 
-	class TBD_MORTARS_100mm_ROUND_AMMO_AP: Sh_82mm_AMOS {
-		model = QPATHTOF(TBD_MORTARS_100mm_ROUND_AP\TBD_MORTARS_100mm_ROUND_AP);
+	class TBD_MORTARS_100MM_ROUND_AMMO_AP: Sh_82mm_AMOS {
+		model = QPATHTOF(TBD_MORTARS_100MM_ROUND_AP\TBD_MORTARS_100MM_ROUND_AP);
 		indirectHit = 70;
 		indirectHitRange = 25;
 	};

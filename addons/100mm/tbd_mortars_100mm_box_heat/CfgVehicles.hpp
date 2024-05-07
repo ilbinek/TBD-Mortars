@@ -4,12 +4,12 @@ class CfgVehicles {
         class ACE_Actions;
     };
 
-    class TBD_MORTARS_100mm_BOX_HEAT : NATO_Box_Base {
+    class TBD_MORTARS_100MM_BOX_HEAT : NATO_Box_Base {
         scope = 2;
 		author = "TBD Team";
         displayName = CSTRING(BOX_HEAT);
-        model = QPATHTOF(TBD_MORTARS_100mm_BOX_HEAT\TBD_MORTARS_100mm_BOX_HEAT);
-        editorPreview = QPATHTOF(TBD_MORTARS_100mm_BOX_HEAT\data\box.jpg);
+        model = QPATHTOF(TBD_MORTARS_100MM_BOX_HEAT\TBD_MORTARS_100MM_BOX_HEAT);
+        editorPreview = QPATHTOF(TBD_MORTARS_100MM_BOX_HEAT\data\box.jpg);
         ace_cargo_size = 0.5;
         ace_cargo_canLoad = 1;
         transportMaxWeapons = 0;
@@ -55,32 +55,32 @@ class CfgVehicles {
             };
 
             class TBD_TakeMine1 {
-                displayName = CSTRING(TAKE_MINE_AP);
+                displayName = CSTRING(TAKE);
                 condition = QUOTE([ARR_2(_target,1)] call FUNC(canTake));
                 exceptions[] = {};
-                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_105mm_TUBE)))] call FUNC(takeMine));
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HEAT)))] call FUNC(takeMine));
                 distance = 2;
                 selection = "int_mine_1";
             };
 
             class TBD_TakeMine2: TBD_TakeMine1 {
                 condition = QUOTE([ARR_2(_target,2)] call FUNC(canTake));
-                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_105mm_TUBE)))] call FUNC(takeMine));
+                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HEAT)))] call FUNC(takeMine));
                 selection = "int_mine_2";
             };
 
             class TBD_PutMine1 {
-                displayName = CSTRING(PUT_MINE_AP);
-                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_105mm_TUBE)))] call FUNC(canPut));
+                displayName = CSTRING(PUT);
+                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HEAT)))] call FUNC(canPut));
                 exceptions[] = {};
-                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_105mm_TUBE)))] call FUNC(putMine));
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HEAT)))] call FUNC(putMine));
                 distance = 2;
                 selection = "int_mine_1";
             };
 
             class TBD_PutMine2: TBD_PutMine1 {
-                condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_105mm_TUBE)))] call FUNC(canPut));
-                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_105mm_TUBE)))] call FUNC(putMine));
+                condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HEAT)))] call FUNC(canPut));
+                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HEAT)))] call FUNC(putMine));
                 selection = "int_mine_2";
             };
         };

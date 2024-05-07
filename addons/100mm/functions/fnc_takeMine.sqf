@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_takeMine.sqf
 
-	Name: tbd_mortars_120mm_fnc_takeMine
+	Name: tbd_mortars_100mm_fnc_takeMine
 
 	Author(s):
 		ilbinek
@@ -12,13 +12,13 @@
 	Parameters:
         _box    	- object    - The box
         _nbr    	- number    - Number of the mine  
-		_mineClass 	- string - Classname of the mine
+		_mineClass 	- string 	- Classname of the mine
 
 	Returns:
 		Nothing
 
 	Examples:
-		> [_this, 5, tbd_mortar_120mm_shell_he_charge_7] call tbd_mortars_120mm_fnc_takeMine;
+		> [_this, 5, tbd_mortars_100mm_round_AP] call tbd_mortars_100mm_fnc_takeMine;
 
 	Public:
 		No
@@ -38,23 +38,8 @@ _box animateSource [_b, 1, true];
 // Remove the mine from the box
 _box setVariable [_m, 0, true];
 
-// Add the mine to the players inventory/on the ground
-if ((player canAddItemToVest _mineClass) || (player canAddItemToBackpack _mineClass)) then {
-	if (player canAddItemToVest _mineClass) then {
-		player addItemToVest _mineClass;
-	} else {
-		player addItemToBackpack _mineClass;
-	};
-} else {
-	// Add it to the ground
-	private _nearby = nearestObjects [player, ["GroundWeaponHolder"], 3];
-	private _holder = objNull;
-	if (count _nearby > 0) then {
-		_holder = _nearby#0;
-	};
-	if (isNull _holder) then {
-		_holder = "GroundWeaponHolder" createVehicle (getPosATL player);
-	};
-	_holder setPosATL (getPosATL player);
-	_holder addMagazineCargoGlobal [_mineClass, 1];
-};
+// Spawn this mine and make the player carry it
+private _mine = _mineClass createVehicle (getPos player);
+// TODO TEMP FIX FOR TKLAMA TO NOT MAKE THE FUCKING MINE WEIGHT 2.4TONS XDDD
+_mine setMass 20;
+[player, _mine] call ace_dragging_fnc_startCarry;

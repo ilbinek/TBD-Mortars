@@ -1,13 +1,13 @@
 /*
 	FILE: fnc_close.sqf
 
-	Name: tbd_mortars_120mm_fnc_close
+	Name: tbd_mortars_100mm_fnc_close
 
 	Author(s):
 		ilbinek
 
 	Description:
-		Closes the box top on the 120mm ammo box
+		Closes the box top on the 100mm ammo box
 
 	Parameters:
         _box    - object    - The box
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5] call tbd_mortars_120mm_fnc_close;
+		> [_this, 5] call tbd_mortars_100mm_fnc_close;
 
 	Public:
 		No

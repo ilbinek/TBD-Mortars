@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_canPut.sqf
 
-	Name: tbd_mortars_120mm_fnc_canPut
+	Name: tbd_mortars_100mm_fnc_canPut
 
 	Author(s):
 		ilbinek
@@ -18,7 +18,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5, TBD_MORTARS_105mm_TUBE] call tbd_mortars_120mm_fnc_canPut;
+		> [_this, 5, tbd_mortars_100mm_round_AP] call tbd_mortars_100mm_fnc_canPut;
 
 	Public:
 		No
@@ -31,5 +31,8 @@ private _rnd = format["round_%1", _nbr];
 if (!(_box getVariable ["opened", false])) exitWith {false};
 if (_box getVariable [_rnd, 0] != 0) exitWith {false};
 
-if ([_mineClass] call EFUNC(main,isMineNearby)) exitWith {true};
+private _near = nearestObjects [player, [_mineClass], 2];
+
+if (count _near > 0) exitWith {true};
+
 false

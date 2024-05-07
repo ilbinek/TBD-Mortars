@@ -1,13 +1,13 @@
 /*
 	FILE: fnc_init.sqf
 
-	Name: tbd_mortars_120_fnc_init
+	Name: tbd_mortars_100_fnc_init
 
 	Author(s):
 		ilbinek
 
 	Description:
-		Initializes the 120 box
+		Initializes the 100 box
 
 	Parameters:
         _box   - object    - The box
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this] call tbd_mortars_120_fnc_init;
+		> [_this] call tbd_mortars_100_fnc_init;
 
 	Public:
 		No
@@ -29,11 +29,9 @@ params ["_box"];
 _box setVariable ["opened", false, true];
 _box animateSource ["cover_source", 0];
 
-if (typeOf _box == QUOTE(TBD_MORTARS_100mm_BOX_3UBM2)) then {
-	for "_i" from 1 to 2 do {
-		private _n = format ["round_%1", _i];
-		_box setVariable[_n, 1, true];
-		private _b = format ["mine_%1_source", _i];
-		_box animateSource [_b, 0];
-	};
+for "_i" from 1 to 2 do {
+	private _n = format ["round_%1", _i];
+	_box setVariable[_n, 1, true];
+	private _b = format ["mine_%1_source", _i];
+	_box animateSource [_b, 0];
 };
