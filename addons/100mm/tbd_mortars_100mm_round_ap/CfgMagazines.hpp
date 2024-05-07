@@ -1,11 +1,7 @@
-class CfgMagazines
-{
-	class Default;
-	class CA_Magazine: Default {};
-	class VehicleMagazine: CA_Magazine {};
-	class 32Rnd_155mm_Mo_shells: VehicleMagazine {};
-	class 8Rnd_82mm_Mo_shells: 32Rnd_155mm_Mo_shells {};
-	class TBD_MORTARS_100MM_MAG_AP: 8Rnd_82mm_Mo_shells {
+class CfgMagazines {
+	class 32Rnd_120mm_APFSDS_shells;
+
+	class TBD_MORTARS_100MM_MAG_AP: 32Rnd_120mm_APFSDS_shells {
 		scope = 2;
 		scopeArsenal = 2;
 		author = "TBD Team";

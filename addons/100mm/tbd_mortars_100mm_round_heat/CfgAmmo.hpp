@@ -1,12 +1,10 @@
 class CfgAmmo {
-	class ShellCore;
-	class ShellBase: ShellCore {};
-	class Sh_155mm_AMOS: ShellBase {};
-	class Sh_82mm_AMOS: Sh_155mm_AMOS {};
+	class Sh_120mm_HEAT_MP;
 
-	class TBD_MORTARS_100MM_ROUND_AMMO_HEAT: Sh_82mm_AMOS {
+	class TBD_MORTARS_100MM_ROUND_AMMO_HEAT: Sh_120mm_HEAT_MP {
 		model = QPATHTOF(TBD_MORTARS_100MM_ROUND_HEAT\TBD_MORTARS_100MM_ROUND_HEAT);
-		indirectHit = 70;
-		indirectHitRange = 25;
+		hit = 90;
+		indirectHit = 25;
+		indirectHitRange = 3.5;
 	};
 };

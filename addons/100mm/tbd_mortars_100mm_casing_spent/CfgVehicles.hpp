@@ -1,5 +1,4 @@
 class CfgVehicles {
-
     class NATO_Box_Base;
 
     class TBD_MORTARS_100MM_CASING_SPENT : NATO_Box_Base {
