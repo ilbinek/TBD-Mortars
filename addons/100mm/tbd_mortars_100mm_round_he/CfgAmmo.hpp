@@ -5,7 +5,8 @@ class CfgAmmo {
 		model = QPATHTOF(TBD_MORTARS_100MM_ROUND_HE\TBD_MORTARS_100MM_ROUND_HE);
 		hit = 220;
 		indirectHit = 100;
-		indirectHitRange = 15;
+		indirectHitRange = 20;
+		typicalSpeed = 667;
 		
 	};
 };
