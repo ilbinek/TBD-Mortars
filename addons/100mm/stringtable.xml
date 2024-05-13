@@ -8,9 +8,9 @@
             <Russian>Ящик с 100мм БПС снарядами</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_ROUND_AP">
-            <English>100mm APFSDS round</English>
+            <English>100mm APFSDS</English>
             <Czech>Bedna s tvojí mámou</Czech>
-            <Russian>100мм БПС снаряд</Russian>
+            <Russian>100мм БПС</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_BOX_HE">
             <English>100mm HE box</English>
@@ -18,9 +18,9 @@
             <Russian>Ящик с 100мм ОФС снарядами</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_ROUND_HE">
-            <English>100mm HE round</English>
+            <English>100mm HE</English>
             <Czech>Bedna s tvojí mámou</Czech>
-            <Russian>100мм ОФС снаряд</Russian>
+            <Russian>100мм ОФС</Russian>
         </Key>
 
         <Key ID="STR_TBD_MORTARS_100mm_BOX_HEAT">
@@ -29,9 +29,9 @@
             <Russian>Ящик с 100мм КС снарядами</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_ROUND_HEAT">
-            <English>100mm HEAT round</English>
+            <English>100mm HEAT</English>
             <Czech>Bedna s tvojí mámou</Czech>
-            <Russian>100мм КС снаряд</Russian>
+            <Russian>100мм КС</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_BOX_STAL">
             <English>100mm Stalinium APFSDS box</English>
@@ -39,9 +39,9 @@
             <Russian>Ящик с 100мм БПС снарядами из Сталиния</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_ROUND_STAL">
-            <English>100mm Stalinium APFSDS round</English>
+            <English>100mm Stalinium APFSDS</English>
             <Czech>Bedna s tvojí mámou</Czech>
-            <Russian>100мм БПС снаряд из Сталиния</Russian>
+            <Russian>Золотый 100мм БПС</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_BOX_ATGM">
             <English>100mm ATGM 9M117 box</English>
@@ -49,9 +49,9 @@
             <Russian>Ящик с 100мм ПТУР 9М117</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_ROUND_ATGM">
-            <English>100mm ATGM 9M117</English>
+            <English>100mm 9M117</English>
             <Czech>Bedna s tvojí mámou</Czech>
-            <Russian>100мм ПТУР 9М117</Russian>
+            <Russian>100мм 9М117</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_CASING">
             <English>A spent 100mm casing</English>
