@@ -111,11 +111,266 @@
             <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 7 paketami prachové náplně</Czech>
             <Russian>105мм ОФ снаряд для гаубицы М119. У этого снаряда присутствует заряд 7</Russian>
         </Key>
+
+
+
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH1">
+            <English>105mm SMOKE howitzer round - Charge 1</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 1</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH1_SHORT">
+            <English>105mm SMOKE Ch. 1</English>
+            <Czech>105mm SMOKE Ch. 1</Czech>
+            <Russian>105мм Дымовый - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH1_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 1 propellant charge</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 1 paketom prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 1</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2">
+            <English>105mm SMOKE howitzer round - Charge 2</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 2</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 2</Russian>
+            
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH2_SHORT">
+            <English>105mm SMOKE Ch. 2</English>
+            <Czech>105mm SMOKE Ch. 2</Czech>
+            <Russian>105мм Дымовый - заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH2_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 2 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 2 paketami prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 2</Russian>
+        </Key>
+        
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH3">
+            <English>105mm SMOKE howitzer round - Charge 3</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 3</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH3_SHORT">
+            <English>105mm SMOKE Ch. 3</English>
+            <Czech>105mm SMOKE Ch. 3</Czech>
+            <Russian>105мм Дымовый - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH3_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 3 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 3 paketami prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH4">
+            <English>105mm SMOKE howitzer round - Charge 4</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 4</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH4_SHORT">
+            <English>105mm SMOKE Ch. 4</English>
+            <Czech>105mm SMOKE Ch. 4</Czech>
+            <Russian>105мм Дымовый - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH4_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 4 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 4 paketami prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH5">
+            <English>105mm SMOKE howitzer round - Charge 5</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 5</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH5_SHORT">
+            <English>105mm SMOKE Ch. 5</English>
+            <Czech>105mm SMOKE Ch. 5</Czech>
+            <Russian>105мм Дымовый - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH5_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 5 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 5 paketami prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 5</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH6">
+            <English>105mm SMOKE howitzer round - Charge 6</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 6</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH6_SHORT">
+            <English>105mm SMOKE Ch. 6</English>
+            <Czech>105mm SMOKE Ch. 6</Czech>
+            <Russian>105мм Дымовый - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH6_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 6 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 6 paketami prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 6</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH7">
+            <English>105mm SMOKE howitzer round - Charge 7</English>
+            <Czech>105mm SMOKE delostřelecká mina - Náplň 7</Czech>
+            <Russian>105мм Дымовый снаряд - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH7_SHORT">
+            <English>105mm SMOKE Ch. 7</English>
+            <Czech>105mm SMOKE Ch. 7</Czech>
+            <Russian>105мм Дымовый - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH7_DESC">
+            <English>105mm Smoke round used in 105mm howitzers such as the M119. This round is loaded with 7 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 7 paketami prachové náplně</Czech>
+            <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 7</Russian>
+        </Key>
+
+
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH1">
+            <English>105mm DPICM howitzer round - Charge 1</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 1</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH1_SHORT">
+            <English>105mm DPICM Ch. 1</English>
+            <Czech>105mm DPICM Ch. 1</Czech>
+            <Russian>105мм Кассетный - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH1_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 1 propellant charge</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 1 paketom prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 1</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2">
+            <English>105mm DPICM howitzer round - Charge 2</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 2</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 2</Russian>
+            
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH2_SHORT">
+            <English>105mm DPICM Ch. 2</English>
+            <Czech>105mm DPICM Ch. 2</Czech>
+            <Russian>105мм Кассетный - заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH2_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 2 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 2 paketami prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 2</Russian>
+        </Key>
+        
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH3">
+            <English>105mm DPICM howitzer round - Charge 3</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 3</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH3_SHORT">
+            <English>105mm DPICM Ch. 3</English>
+            <Czech>105mm DPICM Ch. 3</Czech>
+            <Russian>105мм Кассетный - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH3_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 3 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 3 paketami prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH4">
+            <English>105mm DPICM howitzer round - Charge 4</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 4</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH4_SHORT">
+            <English>105mm DPICM Ch. 4</English>
+            <Czech>105mm DPICM Ch. 4</Czech>
+            <Russian>105мм Кассетный - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH4_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 4 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 4 paketami prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH5">
+            <English>105mm DPICM howitzer round - Charge 5</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 5</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH5_SHORT">
+            <English>105mm DPICM Ch. 5</English>
+            <Czech>105mm DPICM Ch. 5</Czech>
+            <Russian>105мм Кассетный - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH5_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 5 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 5 paketami prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 5</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH6">
+            <English>105mm DPICM howitzer round - Charge 6</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 6</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH6_SHORT">
+            <English>105mm DPICM Ch. 6</English>
+            <Czech>105mm DPICM Ch. 6</Czech>
+            <Russian>105мм Кассетный - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH6_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 6 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 6 paketami prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 6</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH7">
+            <English>105mm DPICM howitzer round - Charge 7</English>
+            <Czech>105mm DPICM delostřelecká mina - Náplň 7</Czech>
+            <Russian>105мм Кассетный снаряд - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH7_SHORT">
+            <English>105mm DPICM Ch. 7</English>
+            <Czech>105mm DPICM Ch. 7</Czech>
+            <Russian>105мм Кассетный - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH7_DESC">
+            <English>105mm DPICM round used in 105mm howitzers such as the M119. This round is loaded with 7 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 7 paketami prachové náplně</Czech>
+            <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 7</Russian>
+        </Key>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <Key ID="STR_TBD_MORTARS_105mm_BOX_HE">
             <English>105mm HE Box</English>
             <Czech>105mm bedna s tříštivou municí</Czech>
             <Russian>Ящик с 105мм зарядами и снарядами</Russian>
         </Key>
+
+
+
+
+
+
+
+
+
+
+
+
         <Key ID="STR_TBD_MORTARS_105mm_CLOSE">
             <English>Close</English>
             <Czech>Zavřít</Czech>
@@ -126,16 +381,46 @@
             <Czech>Otevřít</Czech>
             <Russian>Открыть</Russian>
         </Key>
+
+
+
+
         <Key ID="STR_TBD_MORTARS_105mm_TAKE_MINE_HE">
             <English>Take HE tube</English>
             <Czech>Vzít trubku</Czech>
-            <Russian>Взять тубус</Russian>
+            <Russian>Взять ОФ тубус</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_PUT_MINE_HE">
             <English>Return HE tube</English>
             <Czech>Schovat třístivou</Czech>
-            <Russian>Вернуть тубус</Russian>
+            <Russian>Вернуть ОФ тубус</Russian>
         </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_TAKE_MINE_SMOKE">
+            <English>Take Smoke tube</English>
+            <Czech>Vzít trubku</Czech>
+            <Russian>Взять дымовый тубус</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PUT_MINE_SMOKE">
+            <English>Return Smoke tube</English>
+            <Czech>Schovat třístivou</Czech>
+            <Russian>Вернуть дымовый тубус</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_TAKE_MINE_DPICM">
+            <English>Take DPICM tube</English>
+            <Czech>Vzít trubku</Czech>
+            <Russian>Взять кассетный тубус</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PUT_MINE_DPICM">
+            <English>Return DPICM tube</English>
+            <Czech>Schovat třístivou</Czech>
+            <Russian>Вернуть кассетный тубус</Russian>
+        </Key>
+
+
+
+
         <Key ID="STR_TBD_MORTARS_105mm_UNPACK">
             <English>Unpack</English>
             <Czech>Rozbalit</Czech>
@@ -287,6 +572,11 @@
             <Czech>105mm nábojka s náloží 7</Czech>
             <Russian>105мм гильза с зарядом 7</Russian>
         </Key>
+
+
+
+
+        
         <Key ID="STR_TBD_MORTARS_105mm_assemble_he_1">
             <English>Assemble HE round, charge 1</English>
             <Czech>Smontovat tříšťivou minu s nábojkou 1</Czech>
@@ -442,5 +732,99 @@
             <Czech>105mm výstřel použit v M119А3</Czech>
             <Russian>105мм снаряд для М119А3</Russian>
         </Key>
+
+
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_1">
+            <English>SMOKE Charge 1</English>
+            <Czech>Tříštivá nálož 1</Czech>
+            <Russian>Дымовый заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_2">
+            <English>SMOKE Charge 2</English>
+            <Czech>Tříštivá nálož 2</Czech>
+            <Russian>Дымовый заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_3">
+            <English>SMOKE Charge 3</English>
+            <Czech>Tříštivá nálož 3</Czech>
+            <Russian>Дымовый заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_4">
+            <English>SMOKE Charge 4</English>
+            <Czech>Tříštivá nálož 4</Czech>
+            <Russian>Дымовый заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_5">
+            <English>SMOKE Charge 5</English>
+            <Czech>Tříštivá nálož 5</Czech>
+            <Russian>Дымовый заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_6">
+            <English>SMOKE Charge 6</English>
+            <Czech>Tříštivá nálož 6</Czech>
+            <Russian>Дымовый заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_7">
+            <English>SMOKE Charge 7</English>
+            <Czech>Tříštivá nálož 7</Czech>
+            <Russian>Дымовый заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_SHORT">
+            <English>105mm SMOKE</English>
+            <Czech>105mm SMOKE</Czech>
+            <Russian>105мм дымовый</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CHARGE_DESC">
+            <English>105mm SMOKE shell used in the M119А3</English>
+            <Czech>105mm výstřel použit v M119А3</Czech>
+            <Russian>105мм снаряд для М119А3</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_1">
+            <English>DPICM Charge 1</English>
+            <Czech>Tříštivá nálož 1</Czech>
+            <Russian>Кассетный заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_2">
+            <English>DPICM Charge 2</English>
+            <Czech>Tříštivá nálož 2</Czech>
+            <Russian>Кассетный заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_3">
+            <English>DPICM Charge 3</English>
+            <Czech>Tříštivá nálož 3</Czech>
+            <Russian>Кассетный заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_4">
+            <English>DPICM Charge 4</English>
+            <Czech>Tříštivá nálož 4</Czech>
+            <Russian>Кассетный заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_5">
+            <English>DPICM Charge 5</English>
+            <Czech>Tříštivá nálož 5</Czech>
+            <Russian>Кассетный заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_6">
+            <English>DPICM Charge 6</English>
+            <Czech>Tříštivá nálož 6</Czech>
+            <Russian>Кассетный заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_7">
+            <English>DPICM Charge 7</English>
+            <Czech>Tříštivá nálož 7</Czech>
+            <Russian>Кассетный заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_SHORT">
+            <English>105mm DPICM</English>
+            <Czech>105mm DPICM</Czech>
+            <Russian>105мм кассетный</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_DESC">
+            <English>105mm DPICM shell used in the M119А3</English>
+            <Czech>105mm výstřel použit v M119А3</Czech>
+            <Russian>105мм снаряд для М119А3</Russian>
+        </Key>
+
     </Package>
 </Project>

@@ -6,8 +6,8 @@ class CfgMagazines {
 	class 8Rnd_82mm_Mo_shells: 32Rnd_155mm_Mo_shells {};
 
 	class TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_1: 8Rnd_82mm_Mo_shells {
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeArsenal = 1;
 		author = "TBD Team";
 		displayName = CSTRING(HE_CHARGE_1);
 		displayNameShort = CSTRING(HE_CHARGE_1);
