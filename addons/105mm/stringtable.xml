@@ -130,7 +130,7 @@
             <Russian>105мм Дымовый снаряд для гаубицы М119. У этого снаряда присутствует заряд 1</Russian>
         </Key>
 
-        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2">
+        <Key ID="STR_TBD_MORTARS_105mm_SMOKE_CH2">
             <English>105mm SMOKE howitzer round - Charge 2</English>
             <Czech>105mm SMOKE delostřelecká mina - Náplň 2</Czech>
             <Russian>105мм Дымовый снаряд - заряд 2</Russian>
@@ -242,7 +242,7 @@
             <Russian>105мм Кассетный снаряд для гаубицы М119. У этого снаряда присутствует заряд 1</Russian>
         </Key>
 
-        <Key ID="STR_TBD_MORTARS_105mm_HE_CH2">
+        <Key ID="STR_TBD_MORTARS_105mm_DPICM_CH2">
             <English>105mm DPICM howitzer round - Charge 2</English>
             <Czech>105mm DPICM delostřelecká mina - Náplň 2</Czech>
             <Russian>105мм Кассетный снаряд - заряд 2</Russian>
@@ -338,6 +338,116 @@
         </Key>
 
 
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH1">
+            <English>105mm laser-guided howitzer round - Charge 1</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 1</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH1_SHORT">
+            <English>105mm laser-guided Ch. 1</English>
+            <Czech>105mm laser-guided Ch. 1</Czech>
+            <Russian>105мм корректируемый - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH1_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 1 propellant charge</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 1 paketom prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 1</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH2">
+            <English>105mm laser-guided howitzer round - Charge 2</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 2</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 2</Russian>
+            
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH2_SHORT">
+            <English>105mm laser-guided Ch. 2</English>
+            <Czech>105mm laser-guided Ch. 2</Czech>
+            <Russian>105мм корректируемый - заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH2_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 2 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 2 paketami prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 2</Russian>
+        </Key>
+        
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH3">
+            <English>105mm laser-guided howitzer round - Charge 3</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 3</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH3_SHORT">
+            <English>105mm laser-guided Ch. 3</English>
+            <Czech>105mm laser-guided Ch. 3</Czech>
+            <Russian>105мм корректируемый - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH3_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 3 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 3 paketami prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH4">
+            <English>105mm laser-guided howitzer round - Charge 4</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 4</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH4_SHORT">
+            <English>105mm laser-guided Ch. 4</English>
+            <Czech>105mm laser-guided Ch. 4</Czech>
+            <Russian>105мм корректируемый - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH4_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 4 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 4 paketami prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH5">
+            <English>105mm laser-guided howitzer round - Charge 5</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 5</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH5_SHORT">
+            <English>105mm laser-guided Ch. 5</English>
+            <Czech>105mm laser-guided Ch. 5</Czech>
+            <Russian>105мм корректируемый - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH5_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 5 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 5 paketami prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 5</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH6">
+            <English>105mm laser-guided howitzer round - Charge 6</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 6</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH6_SHORT">
+            <English>105mm laser-guided Ch. 6</English>
+            <Czech>105mm laser-guided Ch. 6</Czech>
+            <Russian>105мм корректируемый - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH6_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 6 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 6 paketami prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 6</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH7">
+            <English>105mm laser-guided howitzer round - Charge 7</English>
+            <Czech>105mm laser-guided delostřelecká mina - Náplň 7</Czech>
+            <Russian>105мм корректируемый снаряд - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH7_SHORT">
+            <English>105mm laser-guided Ch. 7</English>
+            <Czech>105mm laser-guided Ch. 7</Czech>
+            <Russian>105мм корректируемый - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CH7_DESC">
+            <English>105mm laser-guided round used in 105mm howitzers such as the M119. This round is loaded with 7 propellant charges</English>
+            <Czech>105mm Tříštivý výstřel použitý v houfnicích jako M119. Tento výstřel je připravená s 7 paketami prachové náplně</Czech>
+            <Russian>105мм корректируемый снаряд для гаубицы М119. У этого снаряда присутствует заряд 7</Russian>
+        </Key>
 
 
 
@@ -416,6 +526,17 @@
             <English>Return DPICM tube</English>
             <Czech>Schovat třístivou</Czech>
             <Russian>Вернуть кассетный тубус</Russian>
+        </Key>
+
+         <Key ID="STR_TBD_MORTARS_105mm_TAKE_MINE_LASER">
+            <English>Take laser-guided tube</English>
+            <Czech>Vzít trubku</Czech>
+            <Russian>Взять корректируемый тубус</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_PUT_MINE_LASER">
+            <English>Return laser-guided tube</English>
+            <Czech>Schovat třístivou</Czech>
+            <Russian>Вернуть корректируемый тубус</Russian>
         </Key>
 
 
@@ -822,6 +943,52 @@
         </Key>
         <Key ID="STR_TBD_MORTARS_105mm_DPICM_CHARGE_DESC">
             <English>105mm DPICM shell used in the M119А3</English>
+            <Czech>105mm výstřel použit v M119А3</Czech>
+            <Russian>105мм снаряд для М119А3</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_1">
+            <English>Laser-guided Charge 1</English>
+            <Czech>Tříštivá nálož 1</Czech>
+            <Russian>Кассетный заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_2">
+            <English>Laser-guided Charge 2</English>
+            <Czech>Tříštivá nálož 2</Czech>
+            <Russian>Корректируемый  заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_3">
+            <English>Laser-guided Charge 3</English>
+            <Czech>Tříštivá nálož 3</Czech>
+            <Russian>Корректируемый  заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_4">
+            <English>Laser-guided Charge 4</English>
+            <Czech>Tříštivá nálož 4</Czech>
+            <Russian>Корректируемый  заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_5">
+            <English>Laser-guided Charge 5</English>
+            <Czech>Tříštivá nálož 5</Czech>
+            <Russian>Корректируемый  заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_6">
+            <English>Laser-guided Charge 6</English>
+            <Czech>Tříštivá nálož 6</Czech>
+            <Russian>Корректируемый  заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_7">
+            <English>Laser-guided Charge 7</English>
+            <Czech>Tříštivá nálož 7</Czech>
+            <Russian>Корректируемый  заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_SHORT">
+            <English>105mm Laser-guided</English>
+            <Czech>105mm Laser-guided</Czech>
+            <Russian>105мм Корректируемый </Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CHARGE_DESC">
+            <English>105mm Laser-guided shell used in the M119А3</English>
             <Czech>105mm výstřel použit v M119А3</Czech>
             <Russian>105мм снаряд для М119А3</Russian>
         </Key>

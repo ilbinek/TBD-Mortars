@@ -9,12 +9,12 @@ class CfgMagazines
 		scope = 2;
 		scopeArsenal = 2;
 		author = "TBD Team";
-        displayName = "105mm SMOKE shell";
-		displayNameShort = "105mm SMOKE shell";
+        displayName = "105mm smoke shell";
+		displayNameShort = "105mm smoke shell";
         model = QPATHTOF(TBD_MORTARS_105mm_SHELL_SMOKE\TBD_MORTARS_105mm_SHELL_SMOKE);
         editorPreview = QPATHTOF(TBD_MORTARS_105mm_SHELL_SMOKE\data\shell.jpg);
 		picture = QPATHTOF(TBD_MORTARS_105mm_SHELL_SMOKE\data\shell.paa);
-		descriptionShort = "A 105mm SMOKE shell";
+		descriptionShort = "A 105mm smoke shell";
         mass = 120;
 		count = 1;
 		//ammo = QUOTE(TBD_MORTAR_120mm_SHELL_AMMO_HE);
