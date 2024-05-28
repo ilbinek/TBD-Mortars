@@ -26,6 +26,7 @@ workshop = [
     #"843577117", # RHSUSAF
     "843425103", # RHSAFRF
     #"3203941036", #120-PM-43
+    "3251627825", # MT-12 Rapira
 ]
 
 mission = "mortartest.Stratis"

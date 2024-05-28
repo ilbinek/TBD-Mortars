@@ -12,7 +12,7 @@ class CfgMagazines {
 		descriptionShort = CSTRING(ROUND_ATGM);
         mass = 120;
 		count = 1;
-		initSpeed = 100;
+		initSpeed = 300;
 		ammo = QUOTE(TBD_MORTARS_100MM_ROUND_AMMO_ATGM);
 		type = 256;
 	};
