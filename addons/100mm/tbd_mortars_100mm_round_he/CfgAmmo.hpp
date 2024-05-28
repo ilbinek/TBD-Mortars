@@ -7,7 +7,6 @@ class CfgAmmo {
 		indirectHit = 100;
 		indirectHitRange = 20;
 		typicalSpeed = 667;
-		airFriction = -0.0001;
-		
+		airFriction = 0;
 	};
 };
