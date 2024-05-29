@@ -2,8 +2,9 @@ class CfgMagazines {
 	class 12Rnd_PG_missiles;
 
 	class TBD_MORTARS_100MM_MAG_ATGM: 12Rnd_PG_missiles  {
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		author = "TBD Team";
         displayName = CSTRING(ROUND_ATGM);
 		displayNameShort = CSTRING(ROUND_ATGM);

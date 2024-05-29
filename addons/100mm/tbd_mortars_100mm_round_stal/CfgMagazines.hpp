@@ -2,8 +2,9 @@ class CfgMagazines {
 	class 32Rnd_120mm_APFSDS_shells;
 	
 	class TBD_MORTARS_100MM_MAG_STAL: 32Rnd_120mm_APFSDS_shells {
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		author = "TBD Team";
         displayName = CSTRING(ROUND_STAL);
 		displayNameShort = CSTRING(ROUND_STAL);

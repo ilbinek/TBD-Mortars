@@ -2,8 +2,9 @@ class CfgMagazines {
 	class 20Rnd_120mm_HEAT_MP;
 
 	class TBD_MORTARS_100MM_MAG_HEAT: 20Rnd_120mm_HEAT_MP {
-		scope = 2;
-		scopeArsenal = 2;
+		scope = 1;
+		scopeCurator = 1;
+		scopeArsenal = 1;
 		author = "TBD Team";
         displayName = CSTRING(ROUND_HEAT);
 		displayNameShort = CSTRING(ROUND_HEAT);
