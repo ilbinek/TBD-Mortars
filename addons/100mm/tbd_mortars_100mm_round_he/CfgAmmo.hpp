@@ -8,5 +8,6 @@ class CfgAmmo {
 		indirectHitRange = 20;
 		typicalSpeed = 500;
 		airFriction = 0;
+		timeToLive = 25;
 	};
 };
