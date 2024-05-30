@@ -467,8 +467,27 @@
         <Key ID="STR_TBD_MORTARS_105mm_BOX_HE">
             <English>105mm HE Box</English>
             <Czech>105mm bedna s tříštivou municí</Czech>
-            <Russian>Ящик с 105мм зарядами и снарядами</Russian>
+            <Russian>Ящик с ОФ 105мм зарядами и снарядами</Russian>
         </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_BOX_SMOKE">
+            <English>105mm smoke box</English>
+            <Czech>105mm bedna s dymovou municí</Czech>
+            <Russian>Ящик с дымовыми 105мм зарядами и снарядами</Russian>
+        </Key>
+
+         <Key ID="STR_TBD_MORTARS_105mm_BOX_DPICM">
+            <English>105mm DPICM Box</English>
+            <Czech>105mm bedna s kazetovou municí</Czech>
+            <Russian>Ящик с кассетными 105мм зарядами и снарядами</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_105mm_BOX_LASER">
+            <English>105mm laser-guided box</English>
+            <Czech>105mm bedna s laserem naváděnou municí</Czech>
+            <Russian>Ящик с управляемыми 105мм зарядами и снарядами</Russian>
+        </Key>
+
 
 
 
