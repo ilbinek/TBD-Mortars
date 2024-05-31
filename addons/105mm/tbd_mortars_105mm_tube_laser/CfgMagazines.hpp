@@ -14,7 +14,7 @@ class CfgMagazines
         displayName = "105mm laser-guided tube";
 		displayNameShort = "105mm laser-guided tube";
         model = QPATHTOF(TBD_MORTARS_105mm_TUBE_LASER\TBD_MORTARS_105mm_TUBE_LASER);
-        editorPreview = QPATHTOF(TBD_MORTARS_105mm_TUBE\data\tube.jpg);
+        editorPreview = QPATHTOF(TBD_MORTARS_105mm_TUBE_LASER\data\tube.jpg);
 		picture = QPATHTOF(TBD_MORTARS_105mm_TUBE\data\tube.paa);
 		descriptionShort = "A tube containing a single 105mm laser-guided shell and a single casing";
         mass = 200;

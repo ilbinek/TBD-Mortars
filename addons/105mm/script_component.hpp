@@ -107,15 +107,10 @@
 #define TBD_MORTARS_105mm_ROUND_LASER_CHARGE_MAG_6 tbd_mortars_105mm_round_laser_charge_mag_6
 #define TBD_MORTARS_105mm_ROUND_LASER_CHARGE_MAG_7 tbd_mortars_105mm_round_laser_charge_mag_7
 
-
-
-
-
-
-
-
-
 #define TBD_MORTARS_105mm_TUBE tbd_mortars_105mm_tube
 #define TBD_MORTARS_105mm_TUBE_SMOKE tbd_mortars_105mm_tube_smoke
 #define TBD_MORTARS_105mm_TUBE_DPICM tbd_mortars_105mm_tube_dpicm
 #define TBD_MORTARS_105mm_TUBE_LASER tbd_mortars_105mm_tube_laser
+
+#define TBD_MORTARS_105mm_SHELL_AMMO_DPICM_SUB tbd_mortars_105mm_shell_ammo_dpicm_sub
+#define TBD_MORTARS_105mm_SHELL_AMMO_LASER_SUB tbd_mortars_105mm_shell_ammo_laser_sub
