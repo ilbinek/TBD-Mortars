@@ -5,9 +5,9 @@ class CfgAmmo {
 	class Mo_cluster_AP: ShellBase {};
 
 	class TBD_MORTARS_105mm_SHELL_AMMO_DPICM_SUB: Mo_cluster_AP {
-		hit = 25;
-		indirectHit = 20;
-		indirectHitRange = 6;
+		hit = 10;
+		indirectHit = 10;
+		indirectHitRange = 10;
 		ace_frag_skip = 0;
 		ace_frag_metal = 248;
 		ace_frag_charge = 44;
