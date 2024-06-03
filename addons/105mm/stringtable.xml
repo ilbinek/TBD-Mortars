@@ -935,5 +935,15 @@
             <Czech>105mm výstřel použit v M119А3</Czech>
             <Russian>105мм снаряд для М119А3</Russian>
         </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_TIME_TO_CLUSTER">
+            <English>Time in seconds after which the shell dispenses submunition</English>
+            <Czech>Čas v sekundách po kterém střela vypustí submunici</Czech>
+            <Russian>Время после пуска после которого кассета выбросит БК</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SET_TIMER">
+            <English>Set timer</English>
+            <Czech>Nastavit časovač</Czech>
+            <Russian>Установить таймер</Russian>
+        </Key>
     </Package>
 </Project>

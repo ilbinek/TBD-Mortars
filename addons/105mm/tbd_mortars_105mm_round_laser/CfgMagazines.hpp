@@ -1,11 +1,7 @@
 class CfgMagazines {
-	class Default;
-	class CA_Magazine: Default {};
-	class VehicleMagazine: CA_Magazine {};
-	class 32Rnd_155mm_Mo_shells: VehicleMagazine {};
-	class 8Rnd_82mm_Mo_shells: 32Rnd_155mm_Mo_shells {};
+	class TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_1;
 
-	class TBD_MORTARS_105mm_ROUND_LASER_CHARGE_MAG_1: 8Rnd_82mm_Mo_shells {
+	class TBD_MORTARS_105mm_ROUND_LASER_CHARGE_MAG_1: TBD_MORTARS_105mm_ROUND_HE_CHARGE_MAG_1 {
 		scope = 1;
 		scopeArsenal = 1;
 		author = "TBD Team";
@@ -60,5 +56,5 @@ class CfgMagazines {
 		displayNameShort = CSTRING(LASER_CHARGE_7);
 		model = QPATHTOF(TBD_MORTARS_105mm_ROUND_LASER\TBD_MORTARS_105mm_ROUND_LASER_CHARGE_7);
 		initSpeed = 340;
-	};  
-};		
+	};
+};

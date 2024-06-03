@@ -30,6 +30,12 @@ class CfgVehicles {
                     statement = QUOTE([ARR_1(_target)] call FUNC(disassemble));
                     distance = 2;
                 };
+                class TBD_SetTimer {
+                    displayName = CSTRING(set_timer);
+                    condition = "true";
+                    statement = QUOTE(GVAR(shell) = _target; createDialog QUOTE(QUOTE(RscTBDTimer)));
+                    distance = 2;
+                };
             };
         };
     };

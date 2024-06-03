@@ -9,3 +9,4 @@ PREP(canPut);
 PREP(putMine);
 PREP(addInventoryActions);
 PREP(disassemble);
+PREP(timerHandler);
