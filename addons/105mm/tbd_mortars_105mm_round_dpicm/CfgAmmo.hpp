@@ -23,6 +23,7 @@ class CfgAmmo {
 		hit = 165;
 		indirectHit = 70;
 		indirectHitRange = 25;
-        triggerDistance = 50;
+        triggerOnImpact = 1;
+		triggerDistance = -1;
     };
 };
