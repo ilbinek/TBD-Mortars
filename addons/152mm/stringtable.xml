@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="tbd_mortars_100mm">
+    <Package name="Translation">
+        
+        <Key ID="STR_TBD_MORTARS_152mm_BOX_LASER">
+            <English>152mm laser-guided ammunition box</English>
+            <Czech>Bedna s 152mm naváděnými nábojmi</Czech>
+            <Russian>Ящик с 152мм управляемыми снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_ROUND_LASER">
+            <English>152mm laser-guided round</English>
+            <Czech>152mm naváděný náboj</Czech>
+            <Russian>152мм управляемый снаряад</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_BOX_HE">
+            <English>152mm HE ammunition box</English>
+            <Czech>Bedna s 152mm tříštivými nábojmi</Czech>
+            <Russian>Ящик с 152мм ОФ снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_ROUND_HE">
+            <English>152mm HE round</English>
+            <Czech>152mm tříštivý náboj</Czech>
+            <Russian>152мм ОФ снаряад</Russian>
+        </Key>
+
+        <Key ID="STR_TBD_MORTARS_152mm_BOX_NUCLEAR">
+            <English>152mm nuclear ammunition box</English>
+            <Czech>Bedna s 152mm jadernými nábojmi</Czech>
+            <Russian>Ящик с 152мм ядерными снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_ROUND_NUCLEAR">
+            <English>152mm nuclear round</English>
+            <Czech>152mm jaderní náboj</Czech>
+            <Russian>152мм яадерный снаряд</Russian>
+        </Key>
+         <Key ID="STR_TBD_MORTARS_152mm_BOX_CHEMICAL">
+            <English>152mm chemical ammunition box</English>
+            <Czech>Bedna s 152mm chemickými nábojmi</Czech>
+            <Russian>Ящик с 152мм химическими снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_ROUND_CHEMICAL">
+            <English>152mm chemical round</English>
+            <Czech>152mm chemický náboj</Czech>
+            <Russian>152мм химический снаряд</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_BOX_DPICM">
+            <English>152mm DPICM ammunition box</English>
+            <Czech>Bedna s 152mm kazetovými nábojmi</Czech>
+            <Russian>Ящик с 152мм кассетными снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_ROUND_DPICM">
+            <English>152mm DPICM round</English>
+            <Czech>152mm kazetový náboj</Czech>
+            <Russian>152мм кассетный снаряд</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CASING">
+            <English>152mm casing</English>
+            <Czech>Nábojnice 152mm</Czech>
+            <Russian>152мм гилзя</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CASING_SPENT">
+            <English>152mm spentcasing</English>
+            <Czech>Použitá nábojnice 152mm</Czech>
+            <Russian>Отработана 152мм гилзя</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+            <Russian>Закрыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+            <Russian>Открыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_TAKE">
+            <English>Take</English>
+            <Czech>Vzít</Czech>
+            <Russian>Взять</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_PUT">
+            <English>Return</English>
+            <Czech>Schovat</Czech>
+            <Russian>Вернуть</Russian>
+        </Key>
+    </Package>
+</Project>
