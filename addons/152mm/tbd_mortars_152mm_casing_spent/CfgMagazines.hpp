@@ -9,7 +9,7 @@ class CfgMagazines {
         displayName = CSTRING(CASING_SPENT);
 		displayNameShort = CSTRING(CASING_SPENT);
         model = QPATHTOF(TBD_MORTARS_152MM_CASING_SPENT\TBD_MORTARS_152MM_CASING_SPENT);
-		picture = QPATHTOF(TBD_MORTARS_152mm_CASING_SPENT\data\round.paa);
+		picture = QPATHTOF(TBD_MORTARS_152mm_CASING_SPENT\data\casing.paa);
 		descriptionShort = CSTRING(CASING_SPENT);
         mass = 40;
 		type = 256;

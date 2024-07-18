@@ -9,7 +9,7 @@ class CfgMagazines {
         displayName = CSTRING(ROUND_LASER);
 		displayNameShort = CSTRING(ROUND_LASER);
         model = QPATHTOF(TBD_MORTARS_152mm_ROUND_LASER\TBD_MORTARS_152mm_ROUND_LASER);
-		picture = QPATHTOF(TBD_MORTARS_152mm_ROUND_LASER\data\round.paa);
+		picture = QPATHTOF(TBD_MORTARS_152mm_ROUND_LASER\data\laser.paa);
 		descriptionShort = CSTRING(ROUND_LASER);
         mass = 120;
 		count = 1;

@@ -9,7 +9,7 @@ class CfgMagazines {
         displayName = CSTRING(ROUND_DPICM);
 		displayNameShort = CSTRING(ROUND_DPICM);
         model = QPATHTOF(TBD_MORTARS_152mm_ROUND_DPICM\TBD_MORTARS_152mm_ROUND_DPICM);
-		picture = QPATHTOF(TBD_MORTARS_152mm_ROUND_DPICM\data\round.paa);
+		picture = QPATHTOF(TBD_MORTARS_152mm_ROUND_DPICM\data\dpicm.paa);
 		descriptionShort = CSTRING(ROUND_DPICM);
         mass = 120;
 		count = 1;

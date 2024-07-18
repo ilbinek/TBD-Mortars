@@ -9,7 +9,7 @@ class CfgMagazines {
         displayName = CSTRING(ROUND_CHEMICAL);
 		displayNameShort = CSTRING(ROUND_CHEMICAL);
         model = QPATHTOF(TBD_MORTARS_152mm_ROUND_CHEMICAL\TBD_MORTARS_152mm_ROUND_CHEMICAL);
-		picture = QPATHTOF(TBD_MORTARS_152mm_ROUND_CHEMICAL\data\round.paa);
+		picture = QPATHTOF(TBD_MORTARS_152mm_ROUND_CHEMICAL\data\chemical.paa);
 		descriptionShort = CSTRING(ROUND_CHEMICAL);
         mass = 120;
 		count = 1;
