@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project name="tbd_mortars_100mm">
+<Project name="tbd_mortars_152mm">
     <Package name="Translation">
         
         <Key ID="STR_TBD_MORTARS_152mm_BOX_LASER">
@@ -63,22 +63,22 @@
             <Czech>Použitá nábojnice 152mm</Czech>
             <Russian>Отработана 152мм гилзя</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_CLOSE">
+        <Key ID="STR_TBD_MORTARS_152mm_CLOSE">
             <English>Close</English>
             <Czech>Zavřít</Czech>
             <Russian>Закрыть</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_OPEN">
+        <Key ID="STR_TBD_MORTARS_152mm_OPEN">
             <English>Open</English>
             <Czech>Otevřít</Czech>
             <Russian>Открыть</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_TAKE">
+        <Key ID="STR_TBD_MORTARS_152mm_TAKE">
             <English>Take</English>
             <Czech>Vzít</Czech>
             <Russian>Взять</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_PUT">
+        <Key ID="STR_TBD_MORTARS_152mm_PUT">
             <English>Return</English>
             <Czech>Schovat</Czech>
             <Russian>Вернуть</Russian>

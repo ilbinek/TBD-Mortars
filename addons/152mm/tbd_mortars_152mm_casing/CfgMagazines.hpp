@@ -13,6 +13,6 @@ class CfgMagazines {
 		descriptionShort = CSTRING(CASING);
         mass = 40;
 		type = 256;
-		count = 0;
+		count = 1;
 	};
 };

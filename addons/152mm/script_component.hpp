@@ -36,5 +36,6 @@
 #define TBD_MORTARS_152mm_MAG_CHEMICAL tbd_mortars_152mm_mag_chemical
 #define TBD_MORTARS_152mm_MAG_LASER tbd_mortars_152mm_mag_laser
 
-#define TBD_MORTARS_152mm_CASING TBD_mortars_152mm_casing
 #define TBD_MORTARS_152mm_CASING_SPENT TBD_mortars_152mm_casing_spent
+
+#define TBD_MORTARS_152mm_CASING TBD_mortars_152mm_casing
