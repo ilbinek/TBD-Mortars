@@ -23,12 +23,12 @@ class CfgVehicles {
                 animPeriod = 1;
                 sound="GenericDoorsSound";
             };
-            class mine_source {
+            class mine_1_source {
                 source = "user";  
                 initPhase = 0;
                 animPeriod = 1;
             };
-            class casing_source {
+            class mine_2_source {
                 source = "user";  
                 initPhase = 0;
                 animPeriod = 1;
@@ -58,29 +58,29 @@ class CfgVehicles {
                 displayName = CSTRING(TAKE);
                 condition = QUOTE([ARR_2(_target,1)] call FUNC(canTake));
                 exceptions[] = {};
-                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HE)))] call FUNC(takeMine));
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING)))] call FUNC(takeMine));
                 distance = 2;
                 selection = "int_mine_1";
             };
 
             class TBD_TakeMine2: TBD_TakeMine1 {
                 condition = QUOTE([ARR_2(_target,2)] call FUNC(canTake));
-                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HE)))] call FUNC(takeMine));
+                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_152MM_ROUND_CHEMICAL)))] call FUNC(takeMine));
                 selection = "int_mine_2";
             };
 
             class TBD_PutMine1 {
                 displayName = CSTRING(PUT);
-                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HE)))] call FUNC(canPut));
+                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING)))] call FUNC(canPut));
                 exceptions[] = {};
-                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HE)))] call FUNC(putMine));
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING)))] call FUNC(putMine));
                 distance = 2;
                 selection = "int_mine_1";
             };
 
             class TBD_PutMine2: TBD_PutMine1 {
-                condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HE)))] call FUNC(canPut));
-                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_100MM_ROUND_HE)))] call FUNC(putMine));
+                condition = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_152MM_ROUND_CHEMICAL)))] call FUNC(canPut));
+                statement = QUOTE([ARR_3(_target,2,QUOTE(QUOTE(TBD_MORTARS_152MM_ROUND_CHEMICAL)))] call FUNC(putMine));
                 selection = "int_mine_2";
             };
         };
