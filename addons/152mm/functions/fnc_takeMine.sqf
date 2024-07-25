@@ -38,8 +38,4 @@ _box animateSource [_b, 1, true];
 // Remove the mine from the box
 _box setVariable [_m, 0, true];
 
-// Spawn this mine and make the player carry it
-private _mine = _mineClass createVehicle (getPos player);
-// TODO TEMP FIX FOR TKLAMA TO NOT MAKE THE FUCKING MINE WEIGHT 2.4TONS XDDD
-_mine setMass 20;
-[player, _mine] call ace_dragging_fnc_startCarry;
+[_mineClass] call EFUNC(main,addNearbyShell);

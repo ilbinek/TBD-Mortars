@@ -33,6 +33,5 @@ if (_box getVariable [_rnd, 0] != 0) exitWith {false};
 
 private _near = nearestObjects [player, [_mineClass], 2];
 
-if (count _near > 0) exitWith {true};
-
+if ([_mineClass] call EFUNC(main,isMineNearby)) exitWith {true};
 false

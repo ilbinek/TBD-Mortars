@@ -34,8 +34,4 @@ _box setVariable [format["round_%1", _nbr], 1, true];
 private _b = format ["mine_%1_source", _nbr];
 _box animateSource [_b, 0, true];
 
-private _near = nearestObjects [player, [_mineClass], 2];
-if (count _near > 0) then {
-	// Remove the mine from the ground
-	deleteVehicle (_near select 0);
-};
+[_mineClass] call EFUNC(main,removeNearbyMine);
