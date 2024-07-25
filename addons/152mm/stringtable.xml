@@ -7,7 +7,7 @@
             <Czech>Bedna s 152mm naváděnými nábojmi</Czech>
             <Russian>Ящик с 152мм управляемыми снарядами</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_ROUND_LASER">
+        <Key ID="STR_TBD_MORTARS_152MM_ROUND_LASER">
             <English>152mm laser-guided round</English>
             <Czech>152mm naváděný náboj</Czech>
             <Russian>152мм управляемый снаряад</Russian>
@@ -17,7 +17,7 @@
             <Czech>Bedna s 152mm tříštivými nábojmi</Czech>
             <Russian>Ящик с 152мм ОФ снарядами</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_ROUND_HE">
+        <Key ID="STR_TBD_MORTARS_152MM_ROUND_HE">
             <English>152mm HE round</English>
             <Czech>152mm tříštivý náboj</Czech>
             <Russian>152мм ОФ снаряад</Russian>
@@ -28,7 +28,7 @@
             <Czech>Bedna s 152mm jadernými nábojmi</Czech>
             <Russian>Ящик с 152мм ядерными снарядами</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_ROUND_NUCLEAR">
+        <Key ID="STR_TBD_MORTARS_152MM_ROUND_NUCLEAR">
             <English>152mm nuclear round</English>
             <Czech>152mm jaderní náboj</Czech>
             <Russian>152мм яадерный снаряд</Russian>
@@ -38,7 +38,7 @@
             <Czech>Bedna s 152mm chemickými nábojmi</Czech>
             <Russian>Ящик с 152мм химическими снарядами</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_ROUND_CHEMICAL">
+        <Key ID="STR_TBD_MORTARS_152MM_ROUND_CHEMICAL">
             <English>152mm chemical round</English>
             <Czech>152mm chemický náboj</Czech>
             <Russian>152мм химический снаряд</Russian>
@@ -48,17 +48,17 @@
             <Czech>Bedna s 152mm kazetovými nábojmi</Czech>
             <Russian>Ящик с 152мм кассетными снарядами</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_ROUND_DPICM">
+        <Key ID="STR_TBD_MORTARS_152MM_ROUND_DPICM">
             <English>152mm DPICM round</English>
             <Czech>152mm kazetový náboj</Czech>
             <Russian>152мм кассетный снаряд</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_CASING">
+        <Key ID="STR_TBD_MORTARS_152MM_CASING">
             <English>152mm casing</English>
             <Czech>Nábojnice 152mm</Czech>
             <Russian>152мм гилзя</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_152mm_CASING_SPENT">
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_SPENT">
             <English>152mm spent casing</English>
             <Czech>Použitá nábojnice 152mm</Czech>
             <Russian>Отработана 152мм гилзя</Russian>
