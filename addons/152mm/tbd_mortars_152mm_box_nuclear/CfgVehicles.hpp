@@ -71,9 +71,9 @@ class CfgVehicles {
 
             class TBD_PutMine1 {
                 displayName = CSTRING(PUT);
-                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING)))] call FUNC(canPut));
+                condition = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING_CH_7)))] call FUNC(canPut));
                 exceptions[] = {};
-                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING)))] call FUNC(putMine));
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING_CH_7)))] call FUNC(putMine));
                 distance = 2;
                 selection = "int_mine_1";
             };

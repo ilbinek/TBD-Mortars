@@ -34,4 +34,4 @@ _box setVariable [format["round_%1", _nbr], 1, true];
 private _b = format ["mine_%1_source", _nbr];
 _box animateSource [_b, 0, true];
 
-[_mineClass] call EFUNC(main,removeNearbyMine);
+[_mineClass] call EFUNC(main,removeNearbyShell);
