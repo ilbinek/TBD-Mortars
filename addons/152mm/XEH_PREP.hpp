@@ -7,3 +7,4 @@ PREP(canTake);
 PREP(takeMine);
 PREP(canPut);
 PREP(putMine);
+PREP(addInventoryActions);

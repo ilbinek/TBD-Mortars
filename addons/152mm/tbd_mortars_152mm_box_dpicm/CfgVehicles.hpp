@@ -58,7 +58,7 @@ class CfgVehicles {
                 displayName = CSTRING(TAKE);
                 condition = QUOTE([ARR_2(_target,1)] call FUNC(canTake));
                 exceptions[] = {};
-                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING)))] call FUNC(takeMine));
+                statement = QUOTE([ARR_3(_target,1,QUOTE(QUOTE(TBD_MORTARS_152MM_CASING_CH_7)))] call FUNC(takeMine));
                 distance = 2;
                 selection = "int_mine_1";
             };

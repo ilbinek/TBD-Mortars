@@ -15,4 +15,18 @@ class CfgMagazines {
 		type = 256;
 		count = 1;
 	};
+
+	#define CASING(var1) class DOUBLES(TBD_MORTARS_152MM_CASING_CH,var1): TBD_MORTARS_152MM_CASING {\
+		displayName = CSTRING(DOUBLES(CASING,var1));\
+		displayNameShort = CSTRING(DOUBLES(CASING,var1));\
+		descriptionShort = CSTRING(DOUBLES(CASING,var1));\
+	};
+
+	CASING(1)
+	CASING(2)
+	CASING(3)
+	CASING(4)
+	CASING(5)
+	CASING(6)
+	CASING(7)
 };

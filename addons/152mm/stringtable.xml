@@ -58,6 +58,46 @@
             <Czech>Nábojnice 152mm</Czech>
             <Russian>152мм гилзя</Russian>
         </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_CH">
+            <English>152mm casing, charge 1</English>
+            <Czech>Nábojnice 152mm, náboka 1</Czech>
+            <Russian>152мм гилзя, заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_1">
+            <English>152mm casing, charge 1</English>
+            <Czech>Nábojnice 152mm, náboka 1</Czech>
+            <Russian>152мм гилзя, заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_2">
+            <English>152mm casing, charge 2</English>
+            <Czech>Nábojnice 152mm, náboka 2</Czech>
+            <Russian>152мм гилзя, заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_3">
+            <English>152mm casing, charge 3</English>
+            <Czech>Nábojnice 152mm, náboka 3</Czech>
+            <Russian>152мм гилзя, заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_4">
+            <English>152mm casing, charge 4</English>
+            <Czech>Nábojnice 152mm, náboka 4</Czech>
+            <Russian>152мм гилзя, заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_5">
+            <English>152mm casing, charge 5</English>
+            <Czech>Nábojnice 152mm, náboka 5</Czech>
+            <Russian>152мм гилзя, заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_6">
+            <English>152mm casing, charge 6</English>
+            <Czech>Nábojnice 152mm, náboka 6</Czech>
+            <Russian>152мм гилзя, заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152MM_CASING_7">
+            <English>152mm casing, charge 7</English>
+            <Czech>Nábojnice 152mm, náboka 7</Czech>
+            <Russian>152мм гилзя, заряд 7</Russian>
+        </Key>
         <Key ID="STR_TBD_MORTARS_152MM_CASING_SPENT">
             <English>152mm spent casing</English>
             <Czech>Použitá nábojnice 152mm</Czech>
@@ -82,6 +122,46 @@
             <English>Return</English>
             <Czech>Schovat</Czech>
             <Russian>Вернуть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_1">
+            <English>Set charge to 1</English>
+            <Czech>Změnit množství prachové náplně na 1</Czech>
+            <Russian>Настроить заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_2">
+            <English>Set charge to 2</English>
+            <Czech>Změnit množství prachové náplně na 2</Czech>
+            <Russian>Настроить заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_3">
+            <English>Set charge to 3</English>
+            <Czech>Změnit množství prachové náplně na 3</Czech>
+            <Russian>Настроить заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_4">
+            <English>Set charge to 4</English>
+            <Czech>Změnit množství prachové náplně na 4</Czech>
+            <Russian>Настроить заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_5">
+            <English>Set charge to 5</English>
+            <Czech>Změnit množství prachové náplně na 5</Czech>
+            <Russian>Настроить заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_6">
+            <English>Set charge to 6</English>
+            <Czech>Změnit množství prachové náplně na 6</Czech>
+            <Russian>Настроить заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE_7">
+            <English>Set charge to 7</English>
+            <Czech>Změnit množství prachové náplně na 7</Czech>
+            <Russian>Настроить заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_152mm_CHARGE_CHANGE">
+            <English>Changing charges</English>
+            <Czech>Měním střelný prach</Czech>
+            <Russian>Меняю заряд</Russian>
         </Key>
     </Package>
 </Project>
