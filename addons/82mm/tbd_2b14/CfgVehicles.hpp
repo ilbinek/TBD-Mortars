@@ -9,7 +9,7 @@ class CfgVehicles {
         ace_artillerytables_showRangetable = 1; // "fix" rangetables not showing up
         ace_artillerytables_showGunLaying = 1;  // "fix" rangetables not showing up
 
-        class ACE_Actions {
+        class ACE_Actions: ACE_Actions {
             class ACE_LoadRound {
                 selection = "usti hlavne";
                 distance = 2.5;
