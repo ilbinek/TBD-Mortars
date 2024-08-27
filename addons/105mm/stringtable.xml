@@ -945,5 +945,15 @@
             <Czech>Nastavit časovač</Czech>
             <Russian>Установить таймер</Russian>
         </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_LASER_CODE">
+            <English>Laser code the shell will search for and try to impact</English>
+            <Czech>Laserový kód na který bude střela navádět</Czech>
+            <Russian>Код лазера который будет управляет снарядом</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_105mm_SET_CODE">
+            <English>Set laser code</English>
+            <Czech>Nastavit laserový kód</Czech>
+            <Russian>Настроить код лазера</Russian>
+        </Key>
     </Package>
 </Project>
