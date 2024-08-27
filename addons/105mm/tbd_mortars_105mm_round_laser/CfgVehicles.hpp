@@ -34,7 +34,7 @@ class CfgVehicles {
                 class TBD_SetCode {
                     displayName = CSTRING(set_code);
                     condition = "true";
-                    statement = QUOTE(GVAR(shell) = _target; createDialog QUOTE(QUOTE(RscTBDCode)));;
+                    statement = QUOTE(GVAR(shell) = _target; createDialog QUOTE(QUOTE(RscTBDCode)));
                     distance = 2;
                 };
             };
