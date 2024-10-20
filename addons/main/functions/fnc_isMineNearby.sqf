@@ -33,7 +33,7 @@ private _holder = objNull;
 
 {
 	if (_mine in (magazineCargo _x)) exitWith {_holder = _x};
-} foreach _nearby;
+} forEach _nearby;
 
 if (_mine in _magArray || !(isNull _holder)) exitWith {true};
 false

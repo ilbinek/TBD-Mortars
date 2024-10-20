@@ -72,7 +72,7 @@
 					};\
 				};\
 				case "BACKPACK_CONTAINER": {\
-					if (QUOTE(var2) in backPackItems _unit) then {\
+					if (QUOTE(var2) in backpackItems _unit) then {\
 						_ret = true;\
 					};\
 				};\
