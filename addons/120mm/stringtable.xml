@@ -1,136 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="tbd_mortar_120mm">
     <Package name="Translation">
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1">
-            <English>120mm OF-5 HE mortar shell - Charge 1</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 1</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 1</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_SHORT">
-            <English>120mm HE Ch. 1</English>
-            <Czech>120mm HE Ch. 1</Czech>
-            <Russian>120mm ОФ - заряд 1</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 1 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 1 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 1</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2">
-            <English>120mm OF-5 HE mortar shell - Charge 2</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 2</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 2</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_SHORT">
-            <English>120mm HE Ch. 2</English>
-            <Czech>120mm HE Ch. 2</Czech>
-            <Russian>120mm ОФ - заряд 2</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 2 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 2 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 2</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3">
-            <English>120mm OF-5 HE mortar shell - Charge 3</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 3</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 3</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_SHORT">
-            <English>120mm HE Ch. 3</English>
-            <Czech>120mm HE Ch. 3</Czech>
-            <Russian>120mm ОФ - заряд 3</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 3 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 3 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 3</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4">
-            <English>120mm OF-5 HE mortar shell - Charge 4</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 4</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 4</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_SHORT">
-            <English>120mm HE Ch. 4</English>
-            <Czech>120mm HE Ch. 4</Czech>
-            <Russian>120mm ОФ - заряд 4</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 4 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 4 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 4</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5">
-            <English>120mm OF-5 HE mortar shell - Charge 5</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 5</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 5</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_SHORT">
-            <English>120mm HE Ch. 5</English>
-            <Czech>120mm HE Ch. 5</Czech>
-            <Russian>120mm ОФ - заряд 5</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 5 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 5 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 5</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6">
-            <English>120mm OF-5 HE mortar shell - Charge 6</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 6</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 6</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_SHORT">
-            <English>120mm HE Ch. 6</English>
-            <Czech>120mm HE Ch. 6</Czech>
-            <Russian>120mm ОФ - заряд 6</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 6 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 6 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 6</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7">
-            <English>120mm OF-5 HE mortar shell - Charge 7</English>
-            <Czech>120mm OF-5 HE minometná mina - Náplň 7</Czech>
-            <Russian>120mm ОФ-5 мина - заряд 7</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_SHORT">
-            <English>120mm HE Ch. 7</English>
-            <Czech>120mm HE Ch. 7</Czech>
-            <Russian>120mm ОФ - заряд 7</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 7 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 7 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 7</Russian>
-        </Key>
-
         <Key ID="STR_TBD_MORTARS_120mm_BOX_HE">
             <English>120mm HE shells Box</English>
             <Czech>Krabice 120mm Tříštivých Min</Czech>
             <Russian>Ящик с 120мм ОФ минами</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_CLOSE">
-            <English>Close</English>
-            <Czech>Zavřít</Czech>
-            <Russian>Закрыть</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_OPEN">
-            <English>Open</English>
-            <Czech>Otevřít</Czech>
-            <Russian>Открыть</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_TAKE_MINE_HE">
-            <English>Take HE</English>
-            <Czech>Vzít třístivou</Czech>
-            <Russian>Взять ОФ</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_PUT_MINE_HE">
-            <English>Put HE</English>
-            <Czech>Schovat třístivou</Czech>
-            <Russian>Вернуть ОФ</Russian>
+        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE">
+            <English>Changing charges</English>
+            <Czech>Měním střelný prach</Czech>
+            <Russian>Меняю заряд мины</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE_1">
             <English>Set charge to 1</English>
@@ -167,24 +46,115 @@
             <Czech>Změnit množství střelného prachu na 7</Czech>
             <Russian>Изменить заряд на 7</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_CHARGE_CHANGE">
-            <English>Changing charges</English>
-            <Czech>Měním střelný prach</Czech>
-            <Russian>Меняю заряд мины</Russian>
+        <Key ID="STR_TBD_MORTARS_120mm_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+            <Russian>Закрыть</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_NAME">
-            <English>120-PM-43</English>
-            <Czech>120-PM-43</Czech>
-            <Russian>120-ПМ-43</Russian>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1">
+            <English>120mm OF-5 HE mortar shell - Charge 1</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 1</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 1</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_LOAD">
-            <English>Load</English>
-            <Czech>Nabít</Czech>
-            <Russian>Зарядить</Russian>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 1 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 1 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 1</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_120mm_UNLOAD">
-            <English>Unload</English>
-            <Russian>Разрядить</Russian>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_SHORT">
+            <English>120mm HE Ch. 1</English>
+            <Czech>120mm HE Ch. 1</Czech>
+            <Russian>120mm ОФ - заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2">
+            <English>120mm OF-5 HE mortar shell - Charge 2</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 2</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 2 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 2 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_SHORT">
+            <English>120mm HE Ch. 2</English>
+            <Czech>120mm HE Ch. 2</Czech>
+            <Russian>120mm ОФ - заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3">
+            <English>120mm OF-5 HE mortar shell - Charge 3</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 3</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 3 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 3 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_SHORT">
+            <English>120mm HE Ch. 3</English>
+            <Czech>120mm HE Ch. 3</Czech>
+            <Russian>120mm ОФ - заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4">
+            <English>120mm OF-5 HE mortar shell - Charge 4</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 4</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 4 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 4 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_SHORT">
+            <English>120mm HE Ch. 4</English>
+            <Czech>120mm HE Ch. 4</Czech>
+            <Russian>120mm ОФ - заряд 4</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5">
+            <English>120mm OF-5 HE mortar shell - Charge 5</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 5</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 5 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 5 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_SHORT">
+            <English>120mm HE Ch. 5</English>
+            <Czech>120mm HE Ch. 5</Czech>
+            <Russian>120mm ОФ - заряд 5</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6">
+            <English>120mm OF-5 HE mortar shell - Charge 6</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 6</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 6 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 6 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_SHORT">
+            <English>120mm HE Ch. 6</English>
+            <Czech>120mm HE Ch. 6</Czech>
+            <Russian>120mm ОФ - заряд 6</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7">
+            <English>120mm OF-5 HE mortar shell - Charge 7</English>
+            <Czech>120mm OF-5 HE minometná mina - Náplň 7</Czech>
+            <Russian>120mm ОФ-5 мина - заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_DESC">
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 7 properlant charges</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 7 kroužky střelného prachu</Czech>
+            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_SHORT">
+            <English>120mm HE Ch. 7</English>
+            <Czech>120mm HE Ch. 7</Czech>
+            <Russian>120mm ОФ - заряд 7</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CHARGE_1">
             <English>HE Charge 1</English>
@@ -220,6 +190,35 @@
             <English>HE Charge 7</English>
             <Czech>Tříštivá nálož 7</Czech>
             <Russian>ОФ заряд 7</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_LOAD">
+            <English>Load</English>
+            <Czech>Nabít</Czech>
+            <Russian>Зарядить</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_NAME">
+            <English>120-PM-43</English>
+            <Czech>120-PM-43</Czech>
+            <Russian>120-ПМ-43</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+            <Russian>Открыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_PUT_MINE_HE">
+            <English>Put HE</English>
+            <Czech>Schovat třístivou</Czech>
+            <Russian>Вернуть ОФ</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_TAKE_MINE_HE">
+            <English>Take HE</English>
+            <Czech>Vzít třístivou</Czech>
+            <Russian>Взять ОФ</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_120mm_UNLOAD">
+            <English>Unload</English>
+            <Russian>Разрядить</Russian>
         </Key>
     </Package>
 </Project>

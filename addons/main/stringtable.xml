@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="tbd_mortar">
     <Package name="Translation">
+        <Key ID="STR_TBD_MORTARS_MAIN_ASSEMBLE_105_TIME">
+            <English>Time it takes to assemble 105mm shell</English>
+            <Czech>Čas, který zabere spojení 105mm munice</Czech>
+            <Russian>Время нужно для соединения 105мм снаряда и заряда</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_ASSEMBLE_105_TIME_DESC">
+            <English>How long it takes to assemble the 105mm shell and propellant casing into a live shell</English>
+            <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do ostré minice</Czech>
+            <Russian>Время нужно для соединения 105мм снаряда и заряда</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME">
+            <English>Time it takes to change charges</English>
+            <Czech>Čas, který zabere změna střelného prachu</Czech>
+            <Russian>Время нужно для изменения заряда</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME_DESC">
+            <English>How long it takes to change the number of propelant rings on a shell</English>
+            <Czech>Čas, který zabere změnit množství střelného prachu v na minách</Czech>
+            <Russian>Время нужно для изменения заряда в минах</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_DISASSEMBLE_105_TIME">
+            <English>Time it takes to disassemble 105mm shell</English>
+            <Czech>Čas, který zabere rozspojení 105mm munice</Czech>
+            <Russian>Время нужно для разделения 105мм снаряда и заряда</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_DISASSEMBLE_105_TIME_DESC">
+            <English>How long it takes to disassemble the 105mm a live shell into propellant casing and shell</English>
+            <Czech>Čas, který zabere rozpojení 105mm ostré minice do miny a střelného prachu</Czech>
+            <Russian>Время нужно для разделения 105мм снаряда и заряда</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_PACK_105_TIME">
+            <English>Time it takes to pack 105mm tube</English>
+            <Czech>Čas, který zabere zabalení 105mm munice</Czech>
+            <Russian>Время нужно для упаковки 105мм тубусов</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_PACK_105_TIME_DESC">
+            <English>How long it takes to pack the 105mm shell and propellant casing into a tube</English>
+            <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do trubice</Czech>
+            <Russian>Время нужно для упаковки 105мм снаряда и заряда в тубус</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_UNPACK_105_TIME">
+            <English>Time it takes to unpack 105mm tube</English>
+            <Czech>Čas, který zabere rozbalení 105mm munice</Czech>
+            <Russian>Время нужно для распаковки 105мм тубусов</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_MAIN_UNPACK_105_TIME_DESC">
+            <English>How long it takes to unpack the 105mm tube into a shell and propellant casing</English>
+            <Czech>Čas, který zabere rozbalení 105mm minuce na minu a střelného prachu</Czech>
+            <Russian>Время нужно для распаковки 105мм тубуса на снаряд и заряд</Russian>
+        </Key>
         <Key ID="STR_TBD_MORTAR_LOADING">
             <English>Loading</English>
             <Czech>Nabíjení</Czech>
@@ -10,7 +60,16 @@
             <English>Loading aborted</English>
             <Czech>Nabíjení přerušeno</Czech>
             <Russian>Заряжание прорвано</Russian>
-
+        </Key>
+        <Key ID="STR_TBD_MORTAR_LOADING_TIME">
+            <English>Time to load</English>
+            <Czech>Délka nabíjení</Czech>
+            <Russian>Время зарядки</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_LOADING_TIME_DESC">
+            <English>Time that it takes to load a shell</English>
+            <Czech>Čas jak dlouho trvá nabití miny</Czech>
+            <Russian>Время нужно для зарядки мины</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_NO_SHELL">
             <English>No shells found</English>
@@ -22,26 +81,14 @@
             <Czech>Mina už není nabitá</Czech>
             <Russian>Мина уже не заряжена</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTAR_UNLOADING_ABORTED">
-            <English>Unloading aborted</English>
-            <Czech>Vybíjení přerušeno</Czech>
-            <Russian>Разряжание прорвано</Russian>
-        </Key>
         <Key ID="STR_TBD_MORTAR_UNLOADING">
             <English>Unloading</English>
             <Czech>Vybíjení</Czech>
         </Key>
-         <Key ID="STR_TBD_MORTAR_LOADING_TIME">
-            <English>Time to load</English>
-            <Czech>Délka nabíjení</Czech>
-            <Russian>Время зарядки</Russian>
-
-        </Key>
-        <Key ID="STR_TBD_MORTAR_LOADING_TIME_DESC">
-            <English>Time that it takes to load a shell</English>
-            <Czech>Čas jak dlouho trvá nabití miny</Czech>
-            <Russian>Время нужно для зарядки мины</Russian>
-
+        <Key ID="STR_TBD_MORTAR_UNLOADING_ABORTED">
+            <English>Unloading aborted</English>
+            <Czech>Vybíjení přerušeno</Czech>
+            <Russian>Разряжание прорвано</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_UNLOADING_TIME">
             <English>Time to unload</English>
@@ -62,57 +109,6 @@
             <English>Will disable the artillery computer in all mortars that are supported by the addon</English>
             <Czech>Vypne balistický počítač ve všech mortarech které jsou tímto addonem podporovány</Czech>
             <Russian>Отклюит баллистический компютер у всех миномётов поддерживаных этим аддоном</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME">
-            <English>Time it takes to change charges</English>
-            <Czech>Čas, který zabere změna střelného prachu</Czech>
-            <Russian>Время нужно для изменения заряда</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_CHARGE_CHANGE_TIME_DESC">
-            <English>How long it takes to change the number of propelant rings on a shell</English>
-            <Czech>Čas, který zabere změnit množství střelného prachu v na minách</Czech>
-            <Russian>Время нужно для изменения заряда в минах</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_UNPACK_105_TIME">
-            <English>Time it takes to unpack 105mm tube</English>
-            <Czech>Čas, který zabere rozbalení 105mm munice</Czech>
-            <Russian>Время нужно для распаковки 105мм тубусов</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_UNPACK_105_TIME_DESC">
-            <English>How long it takes to unpack the 105mm tube into a shell and propellant casing</English>
-            <Czech>Čas, který zabere rozbalení 105mm minuce na minu a střelného prachu</Czech>
-            <Russian>Время нужно для распаковки 105мм тубуса на снаряд и заряд</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_PACK_105_TIME">
-            <English>Time it takes to pack 105mm tube</English>
-            <Czech>Čas, který zabere zabalení 105mm munice</Czech>
-            <Russian>Время нужно для упаковки 105мм тубусов</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_PACK_105_TIME_DESC">
-            <English>How long it takes to pack the 105mm shell and propellant casing into a tube</English>
-            <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do trubice</Czech>
-            <Russian>Время нужно для упаковки 105мм снаряда и заряда в тубус</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_ASSEMBLE_105_TIME">
-            <English>Time it takes to assemble 105mm shell</English>
-            <Czech>Čas, který zabere spojení 105mm munice</Czech>
-            <Russian>Время нужно для соединения 105мм снаряда и заряда</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_ASSEMBLE_105_TIME_DESC">
-            <English>How long it takes to assemble the 105mm shell and propellant casing into a live shell</English>
-            <Czech>Čas, který zabere zabalení 105mm miny a střelného prachu do ostré minice</Czech>
-            <Russian>Время нужно для соединения 105мм снаряда и заряда</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_DISASSEMBLE_105_TIME">
-            <English>Time it takes to disassemble 105mm shell</English>
-            <Czech>Čas, který zabere rozspojení 105mm munice</Czech>
-            <Russian>Время нужно для разделения 105мм снаряда и заряда</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_MAIN_DISASSEMBLE_105_TIME_DESC">
-            <English>How long it takes to disassemble the 105mm a live shell into propellant casing and shell</English>
-            <Czech>Čas, který zabere rozpojení 105mm ostré minice do miny a střelného prachu</Czech>
-            <Russian>Время нужно для разделения 105мм снаряда и заряда</Russian>
-
         </Key>
     </Package>
 </Project>

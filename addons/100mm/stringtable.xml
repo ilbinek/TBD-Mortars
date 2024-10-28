@@ -1,57 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="tbd_mortars_100mm">
     <Package name="Translation">
-        
         <Key ID="STR_TBD_MORTARS_100mm_BOX_AP">
             <English>100mm APFSDS box</English>
             <Czech>Bedna s 100mm APFSDS</Czech>
             <Russian>Ящик с 100мм БПС снарядами</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_ROUND_AP">
-            <English>100mm APFSDS</English>
-            <Czech>100mm APFSDS</Czech>
-            <Russian>100мм БПС</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_BOX_HE">
-            <English>100mm HE box</English>
-            <Czech>Bedna s 100mm HE</Czech>
-            <Russian>Ящик с 100мм ОФС снарядами</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_ROUND_HE">
-            <English>100mm HE</English>
-            <Czech>100mm HE</Czech>
-            <Russian>100мм ОФС</Russian>
-        </Key>
-
-        <Key ID="STR_TBD_MORTARS_100mm_BOX_HEAT">
-            <English>100mm HEAT box</English>
-            <Czech>Bedna s 100mm HEAT</Czech>
-            <Russian>Ящик с 100мм КС снарядами</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_ROUND_HEAT">
-            <English>100mm HEAT</English>
-            <Czech>100mm HEAT</Czech>
-            <Russian>100мм КС</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_BOX_STAL">
-            <English>100mm Stalinium APFSDS box</English>
-            <Czech>Bedna s 100mm Stalinium</Czech>
-            <Russian>Ящик с 100мм БПС снарядами из Сталиния</Russian>
-        </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_ROUND_STAL">
-            <English>100mm Stalinium APFSDS</English>
-            <Czech>100mm Stalinium</Czech>
-            <Russian>Золотый 100мм БПС</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_BOX_ATGM">
             <English>100mm ATGM 9M117 box</English>
             <Czech>Bedna s 100mm ATGM</Czech>
             <Russian>Ящик с 100мм ПТУР 9М117</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_ROUND_ATGM">
-            <English>100mm 9M117</English>
-            <Czech>100mm ATGM</Czech>
-            <Russian>100мм 9М117</Russian>
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_HE">
+            <English>100mm HE box</English>
+            <Czech>Bedna s 100mm HE</Czech>
+            <Russian>Ящик с 100мм ОФС снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_HEAT">
+            <English>100mm HEAT box</English>
+            <Czech>Bedna s 100mm HEAT</Czech>
+            <Russian>Ящик с 100мм КС снарядами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_BOX_STAL">
+            <English>100mm Stalinium APFSDS box</English>
+            <Czech>Bedna s 100mm Stalinium</Czech>
+            <Russian>Ящик с 100мм БПС снарядами из Сталиния</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_100mm_CASING">
             <English>A spent 100mm casing</English>
@@ -68,15 +41,40 @@
             <Czech>Otevřít</Czech>
             <Russian>Открыть</Russian>
         </Key>
-        <Key ID="STR_TBD_MORTARS_100mm_TAKE">
-            <English>Take</English>
-            <Czech>Vzít</Czech>
-            <Russian>Взять</Russian>
-        </Key>
         <Key ID="STR_TBD_MORTARS_100mm_PUT">
             <English>Return</English>
             <Czech>Schovat</Czech>
             <Russian>Вернуть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_AP">
+            <English>100mm APFSDS</English>
+            <Czech>100mm APFSDS</Czech>
+            <Russian>100мм БПС</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_ATGM">
+            <English>100mm 9M117</English>
+            <Czech>100mm ATGM</Czech>
+            <Russian>100мм 9М117</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_HE">
+            <English>100mm HE</English>
+            <Czech>100mm HE</Czech>
+            <Russian>100мм ОФС</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_HEAT">
+            <English>100mm HEAT</English>
+            <Czech>100mm HEAT</Czech>
+            <Russian>100мм КС</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_ROUND_STAL">
+            <English>100mm Stalinium APFSDS</English>
+            <Czech>100mm Stalinium</Czech>
+            <Russian>Золотый 100мм БПС</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_100mm_TAKE">
+            <English>Take</English>
+            <Czech>Vzít</Czech>
+            <Russian>Взять</Russian>
         </Key>
     </Package>
 </Project>

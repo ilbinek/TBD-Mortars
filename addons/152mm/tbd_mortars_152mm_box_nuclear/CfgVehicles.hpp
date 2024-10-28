@@ -5,7 +5,7 @@ class CfgVehicles {
     };
 
     class TBD_MORTARS_152MM_BOX_NUCLEAR : NATO_Box_Base {
-        scope = 2;
+        scope = 0;
 		author = "TBD Team";
         displayName = CSTRING(BOX_NUCLEAR);
         model = QPATHTOF(TBD_MORTARS_152MM_BOX_NUCLEAR\TBD_MORTARS_152MM_BOX_NUCLEAR);

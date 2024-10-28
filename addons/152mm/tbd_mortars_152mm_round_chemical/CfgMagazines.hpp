@@ -2,7 +2,7 @@ class CfgMagazines {
 	class 8Rnd_120mm_HE_shells;
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL: 8Rnd_120mm_HE_shells {
-		scope = 2;
+		scope = 0;
 		scopeArsenal = 2;
 		scopeCurator = 2;
 		author = "TBD Team";
@@ -20,29 +20,36 @@ class CfgMagazines {
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_1: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 74;
+		displayName = CSTRING(ROUND_CHEMICAL1);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_2: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 117;
+		displayName = CSTRING(ROUND_CHEMICAL2);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_3: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 160;
+		displayName = CSTRING(ROUND_CHEMICAL3);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_4: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 203;
+		displayName = CSTRING(ROUND_CHEMICAL4);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_5: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 246;
+		displayName = CSTRING(ROUND_CHEMICAL5);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_6: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 289;
+		displayName = CSTRING(ROUND_CHEMICAL6);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_CHEMICAL_CH_7: TBD_MORTARS_152MM_ROUND_CHEMICAL {
 		initSpeed = 340;
+		displayName = CSTRING(ROUND_CHEMICAL7);
 	};
 };

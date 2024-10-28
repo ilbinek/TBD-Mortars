@@ -2,7 +2,7 @@ class CfgMagazines {
 	class 8Rnd_120mm_HE_shells;
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR: 8Rnd_120mm_HE_shells {
-		scope = 2;
+		scope = 0;
 		scopeArsenal = 2;
 		scopeCurator = 2;
 		author = "TBD Team";
@@ -20,29 +20,36 @@ class CfgMagazines {
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_1: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 74;
+		displayName = CSTRING(ROUND_NUCLEAR1);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_2: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 117;
+		displayName = CSTRING(ROUND_NUCLEAR2);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_3: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 160;
+		displayName = CSTRING(ROUND_NUCLEAR3);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_4: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 203;
+		displayName = CSTRING(ROUND_NUCLEAR4);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_5: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 246;
+		displayName = CSTRING(ROUND_NUCLEAR5);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_6: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 289;
+		displayName = CSTRING(ROUND_NUCLEAR6);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_NUCLEAR_CH_7: TBD_MORTARS_152MM_ROUND_NUCLEAR {
 		initSpeed = 340;
+		displayName = CSTRING(ROUND_NUCLEAR7);
 	};
 };
