@@ -19,37 +19,44 @@ class CfgMagazines {
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_1: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 74;
+		initSpeed = 120;
 		displayName = CSTRING(ROUND_DPICM1);
+		displayNameShort = CSTRING(ROUND_DPICM1);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_2: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 117;
+		initSpeed = 170;
 		displayName = CSTRING(ROUND_DPICM2);
+		displayNameShort = CSTRING(ROUND_DPICM2);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_3: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 160;
+		initSpeed = 220;
 		displayName = CSTRING(ROUND_DPICM3);
+		displayNameShort = CSTRING(ROUND_DPICM3);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_4: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 203;
+		initSpeed = 270;
 		displayName = CSTRING(ROUND_DPICM4);
+		displayNameShort = CSTRING(ROUND_DPICM4);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_5: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 246;
+		initSpeed = 320;
 		displayName = CSTRING(ROUND_DPICM5);
+		displayNameShort = CSTRING(ROUND_DPICM5);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_6: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 289;
+		initSpeed = 370;
 		displayName = CSTRING(ROUND_DPICM6);
+		displayNameShort = CSTRING(ROUND_DPICM6);
 	};
 
 	class TBD_MORTARS_152MM_ROUND_DPICM_CH_7: TBD_MORTARS_152MM_ROUND_DPICM {
-		initSpeed = 340;
+		initSpeed = 414;
 		displayName = CSTRING(ROUND_DPICM7);
+		displayNameShort = CSTRING(ROUND_DPICM7);
 	};
 };

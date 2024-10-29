@@ -23,9 +23,10 @@ workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
     "2369477168", # Advanced Developer Tools
-    "541888371", # CUP Vehicles
-    "497661914", # CUP Units
-    "497660133", # CUP Weapons
+    #"541888371", # CUP Vehicles
+    #"497661914", # CUP Units
+    #"497660133", # CUP Weapons
+    "3356373534", # D-20
 ]
 
 mission = "mortartest.Stratis"
