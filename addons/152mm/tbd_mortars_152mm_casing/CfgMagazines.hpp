@@ -2,9 +2,9 @@ class CfgMagazines {
 	class 8Rnd_120mm_HE_shells;
 	
 	class TBD_MORTARS_152MM_CASING: 8Rnd_120mm_HE_shells {
-		scope = 2;
-		scopeArsenal = 2;
-		scopeCurator = 2;
+		scope = 1;
+		scopeArsenal = 1;
+		scopeCurator = 1;
 		author = "TBD Team";
         displayName = CSTRING(CASING);
 		displayNameShort = CSTRING(CASING);
@@ -17,6 +17,9 @@ class CfgMagazines {
 	};
 
 	#define CASING(var1) class DOUBLES(TBD_MORTARS_152MM_CASING_CH,var1): TBD_MORTARS_152MM_CASING {\
+		scope = 2;\
+		scopeArsenal = 2;\
+		scopeCurator = 2;\
 		displayName = CSTRING(DOUBLES(CASING,var1));\
 		displayNameShort = CSTRING(DOUBLES(CASING,var1));\
 		descriptionShort = CSTRING(DOUBLES(CASING,var1));\
