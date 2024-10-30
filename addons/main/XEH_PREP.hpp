@@ -9,3 +9,4 @@ PREP(remoteUnloadID);
 PREP(addNearbyShell);
 PREP(isMineNearby);
 PREP(removeNearbyShell);
+PREP(devProjectileCam);
