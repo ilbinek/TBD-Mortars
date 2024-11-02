@@ -1,0 +1,10 @@
+PREP(canCLose);
+PREP(canOpen);
+PREP(open);
+PREP(close);
+PREP(init);
+PREP(canTake);
+PREP(takeMine);
+PREP(canPut);
+PREP(putMine);
+PREP(addInventoryActions);

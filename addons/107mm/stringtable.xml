@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="tbd_mortars_107mm">
+    <Package name="Translation">
+        
+        <Key ID="STR_TBD_MORTARS_107MM_ROUND_HE">
+            <English>107mm HE rocket</English>
+            <Czech>107mm tříštivá raketa</Czech>
+            <Russian>107мм ОФ ракета</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_107mm_BOX_HE">
+            <English>107mm HE rockets box</English>
+            <Czech>Bedna s 107mm tříštivými raketami</Czech>
+            <Russian>Ящик с 107мм ОФ ракетами</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_107mm_CLOSE">
+            <English>Close</English>
+            <Czech>Zavřít</Czech>
+            <Russian>Закрыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_107mm_OPEN">
+            <English>Open</English>
+            <Czech>Otevřít</Czech>
+            <Russian>Открыть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_107mm_PUT">
+            <English>Return</English>
+            <Czech>Schovat</Czech>
+            <Russian>Вернуть</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTARS_107mm_TAKE">
+            <English>Take</English>
+            <Czech>Vzít</Czech>
+            <Russian>Взять</Russian>
+        </Key>
+    </Package>
+</Project>
