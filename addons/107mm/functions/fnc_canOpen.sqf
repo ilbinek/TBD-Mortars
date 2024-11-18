@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_canOpen.sqf
 
-	Name: tbd_mortars_100mm_fnc_canOpen
+	Name: tbd_mortars_107mm_fnc_canOpen
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		bool	- True if the lid can be opened
 
 	Examples:
-		> [_this, 5] call tbd_mortars_100mm_fnc_canOpen;
+		> [_this] call tbd_mortars_107mm_fnc_canOpen;
 
 	Public:
 		No

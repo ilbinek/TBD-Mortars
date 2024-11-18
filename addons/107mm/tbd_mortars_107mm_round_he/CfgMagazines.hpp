@@ -17,6 +17,4 @@ class CfgMagazines {
 		type = 256;
 		initSpeed = 660;
 	};
-
-
 };

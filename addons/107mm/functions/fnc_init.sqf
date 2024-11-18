@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_init.sqf
 
-	Name: tbd_mortars_100_fnc_init
+	Name: tbd_mortars_107mm_fnc_init
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this] call tbd_mortars_100_fnc_init;
+		> [_this] call tbd_mortars_107mm_fnc_init;
 
 	Public:
 		No

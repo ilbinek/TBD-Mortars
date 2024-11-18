@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_close.sqf
 
-	Name: tbd_mortars_100mm_fnc_close
+	Name: tbd_mortars_107mm_fnc_close
 
 	Author(s):
 		ilbinek
@@ -16,7 +16,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5] call tbd_mortars_100mm_fnc_close;
+		> [_this] call tbd_mortars_107mm_fnc_close;
 
 	Public:
 		No

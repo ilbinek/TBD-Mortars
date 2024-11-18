@@ -1,7 +1,7 @@
 /*
 	FILE: fnc_takeMine.sqf
 
-	Name: tbd_mortars_100mm_fnc_takeMine
+	Name: tbd_mortars_107mm_fnc_takeMine
 
 	Author(s):
 		ilbinek
@@ -18,7 +18,7 @@
 		Nothing
 
 	Examples:
-		> [_this, 5, tbd_mortars_100mm_round_AP] call tbd_mortars_100mm_fnc_takeMine;
+		> [_this, 5, "tbd_mortars_107mm_round_he"] call tbd_mortars_107mm_fnc_takeMine;
 
 	Public:
 		No
