@@ -1,7 +1,7 @@
 class CfgMagazines {
-	class 8Rnd_120mm_HE_shells;
+	class 32Rnd_155mm_Mo_shells;
 
-	class TBD_MORTARS_107MM_ROUND_HE: 8Rnd_120mm_HE_shells {
+	class TBD_MORTARS_107MM_ROUND_HE: 32Rnd_155mm_Mo_shells {
 		scope = 2;
 		scopeArsenal = 2;
 		scopeCurator = 2;
@@ -12,9 +12,10 @@ class CfgMagazines {
 		picture = QPATHTOF(TBD_MORTARS_107MM_ROUND_HE\data\he.paa);
 		descriptionShort = CSTRING(ROUND_HE);
         mass = 120;
-		count = 1;
+		count = 12;
 		ammo = QUOTE(TBD_MORTARS_107MM_ROUND_AMMO_HE);
 		type = 256;
-		initSpeed = 660;
+		initSpeed = 290;
+		muzzleImpulseFactor[] = {0,0};
 	};
 };
