@@ -10,7 +10,7 @@ exclude=[".vscode/**/*"]
 [version]
 major=0
 minor=6
-patch=7
+patch=8
 
 git_hash=0
 
@@ -27,9 +27,10 @@ workshop = [
     #"497661914", # CUP Units
     #"497660133", # CUP Weapons
     "3356373534", # D-20
+    "3233638297", # M119 
 ]
 
-mission = "mortartest.Stratis"
+mission = "mortars.VR"
 
 parameters = [
     "-skipIntro",           # These parameters are passed to the Arma 3 executable
