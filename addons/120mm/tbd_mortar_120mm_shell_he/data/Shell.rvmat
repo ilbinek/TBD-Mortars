@@ -7,14 +7,14 @@
 #define _ARMA_
 
 //Class armor_f_gamma : MBT_01\Data\MBT_01_body.rvmat{
-ambient[] = {0.7,0.7,0.7,0.7};
-diffuse[] = {0.7,0.7,0.7,0.7};
-forcedDiffuse[] = {0,0,0,1};
-emmisive[] = {0,0,0,1};
-specular[] = {1,1,1,1};
-specularPower = 50;
-PixelShaderID = "Super";
-VertexShaderID = "Super";
+ambient[]={0.9,0.9,0.9,0.9};
+diffuse[]={0.9,0.9,0.9,0.9};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.5,0.5,0.5,0.5};
+specularPower=50;
+PixelShaderID="Super";
+VertexShaderID="Super";
 
 
 

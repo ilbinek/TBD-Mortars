@@ -6,14 +6,14 @@
 
 #define _ARMA_
 
-ambient[] = { 0.7, 0.7, 0.7, 0.7 };
-diffuse[] = { 0.7, 0.7, 0.7, 0.7  };
-forcedDiffuse[] = { 0, 0, 0, 1 };
-emmisive[] = { 0, 0, 0, 1 };
-specular[] = { 0.7, 0.7, 0.7, 0.7 };
-specularPower = 30;
-PixelShaderID = "Super";
-VertexShaderID = "Super";
+ambient[]={0.9,0.9,0.9,0.9};
+diffuse[]={0.9,0.9,0.9,0.9};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0.3,0.3,0.3,0.3};
+specularPower=30;
+PixelShaderID="Super";
+VertexShaderID="Super";
 class Stage1
 {
 	texture="x\tbd_mortars\addons\120mm\tbd_mortar_120mm_box\data\Box_nohq.paa";
