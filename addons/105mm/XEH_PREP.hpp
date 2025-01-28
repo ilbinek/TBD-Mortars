@@ -10,3 +10,4 @@ PREP(putMine);
 PREP(addInventoryActions);
 PREP(disassemble);
 PREP(timerHandler);
+PREP(codeHandler);
