@@ -11,7 +11,7 @@ class CfgMagazines {
 		author = "TBD Team";
 		displayName = QUOTE($STR_TBD_MORTAR_82MM_HE_SHELL_CHARGE1);
 		displayNameShort = CSTRING(HE_SHORT);
-		model = QPATHTOF(shell_he\tbd_mortar_82mm_shell_he_charge1);
+		model = QPATHTOF(shell_he\shell_he_charge1);
 		picture = QPATHTOF(shell_he\data\icon.paa);
 		descriptionShort = QUOTE($STR_TBD_MORTAR_82MM_HE_SHELL_DESC);
 		initSpeed = 70;
@@ -27,7 +27,7 @@ class CfgMagazines {
 		author = "TBD Team";
 		displayName = QUOTE($STR_TBD_MORTAR_82MM_HE_SHELL_CHARGE2);
 		displayNameShort = CSTRING(HE_SHORT);
-		model = QPATHTOF(shell_he\tbd_mortar_82mm_shell_he_charge2);
+		model = QPATHTOF(shell_he\shell_he_charge2);
 		picture = QPATHTOF(shell_he\data\icon.paa);
 		descriptionShort = QUOTE($STR_TBD_MORTAR_82MM_HE_SHELL_DESC);
 		initSpeed = 140;
@@ -43,7 +43,7 @@ class CfgMagazines {
 		author = "TBD Team";
 		displayName = QUOTE($STR_TBD_MORTAR_82MM_HE_SHELL_CHARGE3);
 		displayNameShort = CSTRING(HE_SHORT);
-		model = QPATHTOF(shell_he\tbd_mortar_82mm_shell_he_charge3);
+		model = QPATHTOF(shell_he\shell_he_charge3);
 		picture = QPATHTOF(shell_he\data\icon.paa);
 		descriptionShort = QUOTE($STR_TBD_MORTAR_82MM_HE_SHELL_DESC);
 		initSpeed = 211;

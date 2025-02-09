@@ -57,14 +57,44 @@
             <Russian>82мм ОФ мина заряд 1</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL_CHARGE2">
-            <English>82mm HE-Frag shell charge 3</English>
+            <English>82mm HE-Frag shell charge 2</English>
             <Czech>82mm TŘÍSTIVÁ mina</Czech>
-            <Russian>82мм ОФ мина заряд 3</Russian>
+            <Russian>82мм ОФ мина заряд 2</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL_CHARGE3">
             <English>82mm HE-Frag shell charge 3</English>
             <Czech>82mm TŘÍSTIVÁ mina</Czech>
             <Russian>82мм ОФ мина заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_SMOKE_SHELL_CHARGE1">
+            <English>82mm Smoke shell charge 1</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм дымовая мина заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_SMOKE_SHELL_CHARGE2">
+            <English>82mm Smoke shell charge 2</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм дымовая мина заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_SMOKE_SHELL_CHARGE3">
+            <English>82mm Smoke shell charge 3</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм дымовая мина заряд 3</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_ILLUM_SHELL_CHARGE1">
+            <English>82mm Illumination shell charge 1</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм осветитеьная мина заряд 1</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_ILLUM_SHELL_CHARGE2">
+            <English>82mm Illumination shell charge 2</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм осветитеьная мина заряд 2</Russian>
+        </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_ILLUM_SHELL_CHARGE3">
+            <English>82mm Illumination shell charge 3</English>
+            <Czech>82mm TŘÍSTIVÁ mina</Czech>
+            <Russian>82мм осветитеьная мина заряд 3</Russian>
         </Key>
         <Key ID="STR_TBD_MORTAR_82MM_HE_SHELL_DESC">
             <English>HE-Frag shell used in 82mm mortar</English>
