@@ -6,8 +6,8 @@
 
 #define _ARMA_
 
-ambient[]={0.9,0.9,0.9,0.9};
-diffuse[]={0.9,0.9,0.9,0.9};
+ambient[] = { 1, 1, 1, 1 };
+diffuse[] = { 1, 1, 1, 1 };
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
 specular[]={0.3,0.3,0.3,0.3};

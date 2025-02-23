@@ -15,6 +15,8 @@ class CfgMagazines {
 		count = 1;
 		ammo = QUOTE(TBD_MORTARS_100MM_ROUND_AMMO_HE);
 		type = 256;
-		initSpeed = 500;
+		initSpeed = 667;
+		tracersEvery = 1;
+		
 	};
 };

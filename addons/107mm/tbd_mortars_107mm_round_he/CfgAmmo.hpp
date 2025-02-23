@@ -19,6 +19,7 @@ class CfgAmmo {
 		soundfly[] = {"A3\Sounds_F\weapons\Rockets\rocket_fly_2",1,1.5,700};
 		soundHit[] = {"A3\Sounds_F\weapons\Rockets\explosion_missile_02",2.51189,1,2500};
 		whistleOnFire = 1;
-		whistleDist = 150;
+		whistleDist = 300;
+		effectFly = "Missile0";
 	};
 };
