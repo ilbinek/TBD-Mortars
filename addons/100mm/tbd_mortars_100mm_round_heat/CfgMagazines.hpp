@@ -16,10 +16,7 @@ class CfgMagazines {
 		ammo = QUOTE(TBD_MORTARS_100mm_ROUND_AMMO_HEAT);
 		type = 256;
 		initSpeed = 975;
-<<<<<<< Updated upstream
-=======
 		tracersEvery = 1;
 		muzzleImpulseFactor [] = {0,0}; 
->>>>>>> Stashed changes
 };
 };

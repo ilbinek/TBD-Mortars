@@ -9,9 +9,9 @@ class CfgAmmo {
 		submunitionAutoleveling = 1;
 		submunitionConeAngle[] = {120,220};
 		submunitionConeAngleHorizontal = 720;
-		submunitionConeType[] = {"randomupcone",20};
-		submunitionInitialOffset[] = {0,0,-7};
-		submunitionInitSpeed = 14;
+		submunitionConeType[] = {"randomUpCone",20};
+		submunitionInitialOffset[] = {0,0,-20};
+		submunitionInitSpeed = 15;
 		submunitionParentSpeedCoef = 0;
 		triggerOnImpact = 1;
 		triggerDistance = -1;
