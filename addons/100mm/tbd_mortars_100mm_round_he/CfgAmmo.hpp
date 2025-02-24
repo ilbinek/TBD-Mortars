@@ -6,8 +6,13 @@ class CfgAmmo {
 		hit = 220;
 		indirectHit = 100;
 		indirectHitRange = 20;
+<<<<<<< Updated upstream
 		typicalSpeed = 500;
 		airFriction = 0;
+=======
+		typicalSpeed = 667;
+		airFriction = -0.0001;
+>>>>>>> Stashed changes
 		timeToLive = 25;
 	};
 };

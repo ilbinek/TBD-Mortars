@@ -14,6 +14,7 @@ class CfgMagazines {
         mass = 120;
 		count = 1;
 		ammo = QUOTE(TBD_MORTARS_100MM_ROUND_AMMO_AP);
+		muzzleImpulseFactor [] = {0,0}; 
 		type = 256;
 		initSpeed = 1575;
 	};
