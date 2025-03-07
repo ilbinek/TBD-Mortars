@@ -2,7 +2,6 @@ class CfgAmmo {
 	class Sh_155mm_AMOS;
 
 	class TBD_MORTARS_107MM_ROUND_AMMO_HE: Sh_155mm_AMOS {
-		model = QPATHTOF(TBD_MORTARS_107MM_ROUND_HE\TBD_MORTARS_107MM_ROUND_HE);
 		hit = 180;
 		indirectHit = 65;
 		indirectHitRange = 25;
@@ -21,5 +20,7 @@ class CfgAmmo {
 		whistleOnFire = 1;
 		whistleDist = 300;
 		effectFly = "Missile0";
+		model = "\A3\Weapons_F\Ammo\Rocket_230mm_F";
+		airFriction = -0.002;
 	};
 };
