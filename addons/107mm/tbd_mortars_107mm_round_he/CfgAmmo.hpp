@@ -21,6 +21,5 @@ class CfgAmmo {
 		whistleDist = 300;
 		effectFly = "Missile0";
 		model = "\A3\Weapons_F\Ammo\Rocket_230mm_F";
-		airFriction = -0.002;
 	};
 };

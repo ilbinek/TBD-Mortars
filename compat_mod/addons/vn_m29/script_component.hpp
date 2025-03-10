@@ -1,6 +1,6 @@
-#define PREFIX TBD_MORTARS
-#define COMPONENT 81mm
-#include "\x\tbd_mortars\addons\main\script_mod.hpp"
+#define PREFIX tbd_mortars_comp
+#define COMPONENT vn_m29
+#include "\x\cba\addons\main\script_macros_common.hpp"
 
 #ifdef DISABLE_COMPILE_CACHE
     #undef PREP
@@ -11,10 +11,9 @@
 #endif
 
 #define PREP_SUB(subfolder,fncName) [QPATHTOF(functions\subfolder\DOUBLES(fnc,fncName).sqf), QUOTE(DFUNC(DOUBLES(subfolder,fncName)))] call CBA_fnc_compileFunction
+#define TBD_MORT(cmp,fncName) tbd_mortars##_##cmp##_##fnc##_##fncName
+#define QPATHMORT(cmp,fileName) QUOTE(x\tbd_mortars\addons\##cmp\##fileName)
 
-#define TBD_MORTAR_81mm_BOX_HE tbd_mortar_81mm_box_he
-#define TBD_MORTAR_81mm_BOX_SMOKE tbd_mortar_81mm_box_smoke
-#define TBD_MORTAR_81mm_BOX_ILLUM tbd_mortar_81mm_box_illum
 
 #define TBD_MORTAR_81mm_HE tbd_mortar_81mm_shell_he
 #define TBD_MORTAR_81mm_SMOKE tbd_mortar_81mm_shell_smoke

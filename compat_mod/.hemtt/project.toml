@@ -1,0 +1,47 @@
+name = "TBD Mortars - Compatibility AiO"
+author = "TBD Team"
+prefix = "tbd_mortars_comp"
+mainprefix = "x"
+
+[files]
+include=["mod.cpp"]
+exclude=[".vscode/**/*"]
+
+[version]
+major=0
+minor=0
+patch=1
+
+git_hash=0
+
+[hemtt.release]
+sign   =true
+archive=false
+
+[hemtt.launch.default]
+workshop = [
+    "450814997", # CBA_A3
+    "463939057", # ACE
+    "2369477168", # Advanced Developer Tools
+    "3058335345", # TBD Mortars
+    "541888371", # CUP Vehicles
+    "497661914", # CUP Units
+    "497660133", # CUP Weapons
+    "843577117", # RHSUSAF
+    "843425103", # RHSAFRF
+]
+
+mission = "mortars.VR"
+
+parameters = [
+    "-skipIntro",           # These parameters are passed to the Arma 3 executable
+    "-noSplash",            # They do not need to be added to your list
+    "-showScriptErrors",    # You can add additional parameters here
+    "-debug",
+]
+
+[hemtt.launch.vn]
+extends = "default"
+dlc = [
+    "S.O.G. Prairie Fire",
+]
