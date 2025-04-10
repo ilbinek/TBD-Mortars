@@ -28,7 +28,7 @@ class CfgVehicles {
         ace_artillerytables_showGunLaying = 1;  // "fix" rangetables not showing up
 
         class ACE_Actions: ACE_Actions {
-            class ACE_LoadRound {
+            class TBD_LoadRound {
                 selection = "usti hlavne";
                 distance = 2.5;
                 condition = "alive _target";
@@ -37,7 +37,7 @@ class CfgVehicles {
                 displayName = "$STR_TBD_MORTAR_81MM_LOAD";
                 icon = QPATHMORT(main,data\load.paa);
 
-                class ACE_LoadRound_HE {
+                class TBD_LoadRound_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";
                     icon = QPATHMORT(81mm,TBD_MORTAR_81mm_HE\data\icon.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call TBD_MORT(main,checkCanLoadShell));
@@ -45,7 +45,7 @@ class CfgVehicles {
                     showDisabled = 0;
                 };
 
-				class ACE_LoadRound_SMOKE {
+				class TBD_LoadRound_SMOKE {
                     displayName = "$STR_TBD_MORTAR_81MM_SMOKE_SHELL";
                     icon = QPATHMORT(81mm,TBD_MORTAR_81mm_SMOKE\data\icon.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call TBD_MORT(main,checkCanLoadShell));
@@ -53,7 +53,7 @@ class CfgVehicles {
                     showDisabled = 0;
                 };
 
-				class ACE_LoadRound_ILLUM {
+				class TBD_LoadRound_ILLUM {
                     displayName = "$STR_TBD_MORTAR_81MM_ILLUM_SHELL";
                     icon = QPATHMORT(81mm,TBD_MORTAR_81mm_ILLUM\data\icon.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call TBD_MORT(main,checkCanLoadShell));
@@ -62,7 +62,7 @@ class CfgVehicles {
                 };
             };
 
-            class ACE_UnloadRound {
+            class TBD_UnloadRound {
                 selection = "usti hlavne";
                 distance = 2.5;
                 condition = "alive _target";
@@ -71,7 +71,7 @@ class CfgVehicles {
                 displayName = "$STR_TBD_MORTAR_81MM_UNLOAD";
                 icon = QPATHMORT(main,data\unload.paa);
 
-                class ACE_UnloadRound_HE {
+                class TBD_UnloadRound_HE {
                     displayName = "$STR_TBD_MORTAR_81MM_HE_SHELL";
                     icon = QPATHMORT(81mm,TBD_MORTAR_81mm_HE\data\icon.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_HE)))] call TBD_MORT(main,checkCanUnloadShell));
@@ -79,7 +79,7 @@ class CfgVehicles {
                     showDisabled = 0;
                 };
 
-				class ACE_UnloadRound_SMOKE {
+				class TBD_UnloadRound_SMOKE {
                     displayName = "$STR_TBD_MORTAR_81MM_SMOKE_SHELL";
                     icon = QPATHMORT(81mm,TBD_MORTAR_81mm_SMOKE\data\icon.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_SMOKE)))] call TBD_MORT(main,checkCanUnloadShell));
@@ -87,7 +87,7 @@ class CfgVehicles {
                     showDisabled = 0;
                 };
 
-				class ACE_UnloadRound_ILLUM {
+				class TBD_UnloadRound_ILLUM {
                     displayName = "$STR_TBD_MORTAR_81MM_ILLUM_SHELL";
                     icon = QPATHMORT(81mm,TBD_MORTAR_81mm_ILLUM\data\icon.paa);
                     condition = QUOTE([ARR_3(_target,0,QUOTE(QUOTE(TBD_MORTAR_81mm_ILLUM)))] call TBD_MORT(main,checkCanUnloadShell));
