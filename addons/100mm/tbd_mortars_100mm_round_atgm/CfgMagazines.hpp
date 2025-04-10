@@ -14,7 +14,11 @@ class CfgMagazines {
         mass = 120;
 		count = 1;
 		initSpeed = 300;
+		maxLeadSpeed = 300;
+
 		ammo = QUOTE(TBD_MORTARS_100MM_ROUND_AMMO_ATGM);
+		//ammo = "tbd_ammo_kornet_tandem";
+		
 		type = 256;
 		muzzleImpulseFactor [] = {0,0}; 
 	};
