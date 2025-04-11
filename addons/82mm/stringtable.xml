@@ -181,5 +181,10 @@
             <Czech>Vyndat minu</Czech>
             <Russian>Разрядить мину</Russian>
         </Key>
+        <Key ID="STR_TBD_MORTAR_82MM_ARTILLERY_POLE">
+            <English>Artillery pole</English>
+            <Czech>Netuším ako sa to povie po česky, prelož si to</Czech>
+            <Russian>Вешка</Russian>
+        </Key>
     </Package>
 </Project>

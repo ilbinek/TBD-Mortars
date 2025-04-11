@@ -12,6 +12,8 @@
 
 #define PREP_SUB(subfolder,fncName) [QPATHTOF(functions\subfolder\DOUBLES(fnc,fncName).sqf), QUOTE(DFUNC(DOUBLES(subfolder,fncName)))] call CBA_fnc_compileFunction
 
+#define TBD_MORTAR_82mm_ARTILLERY_POLE tbd_mortar_82mm_artillery_pole
+
 #define TBD_MORTAR_82mm_BOX_HE tbd_mortar_82mm_box_he
 #define TBD_MORTAR_82mm_BOX_SMOKE tbd_mortar_82mm_box_smoke
 #define TBD_MORTAR_82mm_BOX_ILLUM tbd_mortar_82mm_box_illum
