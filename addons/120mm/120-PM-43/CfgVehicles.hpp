@@ -1,13 +1,28 @@
-class CfgVehicles {
-    class LandVehicle;
-    class StaticWeapon : LandVehicle {
-        class Turrets;
-    };
-    class StaticMortar : StaticWeapon {
-        class Turrets {
-            class MainTurret;
-        };
+class CfgVehicles
+{
+	class All;
+	class Strategic;
+	class Land;
+	class LandVehicle: Land
+	{
+		class ViewPilot;
+		class NewTurret;
+	};
+	class StaticWeapon: LandVehicle {
+
         class ACE_Actions;
+        class Turrets {
+            class MainTurret: NewTurret {
+                class ViewOptics;
+            };
+        };
+    };
+
+    class StaticMortar : StaticWeapon {
+
+        class ACE_Actions: ACE_Actions {
+            class ACE_MainActions;
+        };
     };
 
     class TBD_120mm_PM_43 : StaticMortar {

@@ -1,11 +1,5 @@
 class CfgWeapons {
-	class CannonCore {
-		class player;
-		class close;
-		class short;
-		class medium;
-		class far;
-	};
+	class CannonCore;
 
 	class mortar_82mm: CannonCore {};
 
