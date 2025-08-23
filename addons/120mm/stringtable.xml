@@ -57,9 +57,9 @@
             <Russian>120mm ОФ-5 мина - заряд 1</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 1 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 1 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 1</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 1 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 1 kroužkem střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 1. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH1_SHORT">
             <English>120mm HE Ch. 1</English>
@@ -72,9 +72,9 @@
             <Russian>120mm ОФ-5 мина - заряд 2</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 2 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 2 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 2</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 2 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 2 kroužky střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 2. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH2_SHORT">
             <English>120mm HE Ch. 2</English>
@@ -87,9 +87,9 @@
             <Russian>120mm ОФ-5 мина - заряд 3</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 3 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 3 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 3</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 3 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 3 kroužky střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 3. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH3_SHORT">
             <English>120mm HE Ch. 3</English>
@@ -102,9 +102,9 @@
             <Russian>120mm ОФ-5 мина - заряд 4</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 4 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 4 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 4</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 4 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 4 kroužky střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 4. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH4_SHORT">
             <English>120mm HE Ch. 4</English>
@@ -117,9 +117,9 @@
             <Russian>120mm ОФ-5 мина - заряд 5</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 5 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 5 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 5</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 5 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 5 kroužky střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 5. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH5_SHORT">
             <English>120mm HE Ch. 5</English>
@@ -132,9 +132,9 @@
             <Russian>120mm ОФ-5 мина - заряд 6</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 6 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 6 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 6</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 6 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 6 kroužky střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 6. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH6_SHORT">
             <English>120mm HE Ch. 6</English>
@@ -147,9 +147,9 @@
             <Russian>120mm ОФ-5 мина - заряд 7</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_DESC">
-            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 7 properlant charges</English>
-            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 7 kroužky střelného prachu</Czech>
-            <Russian>120mm ОФ mina для миномётов как 120-ПМ-43 и 2Б11. У этот мины заряд 7</Russian>
+            <English>120mm High Explosive shell used in 120mm russian mortar such as PM-43 and 2B11. This shell is loaded with 7 properlant charges. Double left click to change the charge</English>
+            <Czech>120mm Tříštivá mina použita v ruských minometech jako PM-43 a 2B11. Tato mina je připravená s 7 kroužky střelného prachu. Dvojítým kliknutím levým tlačítkem lze počet kroužků změnit</Czech>
+            <Russian>120мм ОФ мина для миномётов типа 120-ПМ-43 и 2Б11. У этот мины сейчас заряд 7. Нажмите 2х ЛКМ чтобы изменить заряд</Russian>
         </Key>
         <Key ID="STR_TBD_MORTARS_120mm_HE_CH7_SHORT">
             <English>120mm HE Ch. 7</English>
