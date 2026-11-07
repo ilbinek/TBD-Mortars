@@ -31,6 +31,10 @@
 
 params ["_box"];
 
+// Init EH fires on every machine (incl. JIP clients) - only the server may set the initial state,
+// otherwise every JIP resets all boxes for everyone.
+if (!isServer) exitWith {};
+
 // set all 12 lids to closed
 for "_i" from 1 to 12 do {
     private _str = format ["cap_%1", _i];

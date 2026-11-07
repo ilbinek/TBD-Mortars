@@ -10,7 +10,7 @@ exclude=[".vscode/**/*"]
 [version]
 major=0
 minor=6
-patch=11
+patch=12
 
 git_hash=0
 
@@ -22,16 +22,16 @@ archive=false
 workshop = [
     "450814997", # CBA_A3
     "463939057", # ACE
-    "2369477168", # Advanced Developer Tools
+    "3499977893", # Advanced Developer Tools
     #"541888371", # CUP Vehicles
     #"497661914", # CUP Units
     #"497660133", # CUP Weapons
-    "3356373534", # D-20
-    "3233638297", # M119 
-    "3251627825", # M119 
-    "843577117", # USAF 
-    "3442089083", # compat 
-    "3058335345", # mortars
+    #"3356373534", # D-20
+    #"3233638297", # M119 
+    #"3251627825", # M119 
+    #"843577117", # USAF 
+    #"3442089083", # compat 
+    #"3058335345", # mortars
 
 
 

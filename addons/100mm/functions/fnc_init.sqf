@@ -26,6 +26,10 @@
 
 params ["_box"];
 
+// Init EH fires on every machine (incl. JIP clients) - only the server may set the initial state,
+// otherwise every JIP resets all boxes for everyone.
+if (!isServer) exitWith {};
+
 _box setVariable ["opened", false, true];
 _box animateSource ["cover_source", 0];
 
